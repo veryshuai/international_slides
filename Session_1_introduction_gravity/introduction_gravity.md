@@ -10,17 +10,19 @@ Basic course structure:
 
 The textbook:
     - International Economics: Theory and Policy, Krugman, Obstfeld, and Melitz, 10th edition.
+    - Two semesters recommended
     - Online myeconlab
 
 ------------------------------
 
 Course evaluation:
-    - A four-hour, closed-book  written examination
+    - 23 October: A four-hour, closed-book  written examination
     - Based on
-        1. Homework exercises
-        2. Class notes
-    - Date to be announced on e-campus
-    - Administrative questions? Anne Suhr, aws.eco@cbs.dk
+        - Problem sets 
+        - Lecture content
+        - Textbook
+    - Everything from class, homework, or textbook is fair game
+    - Administrative questions? Tina Østergaard, toe.stu@cbs.dk
 
 ------------------------------
 
@@ -56,6 +58,8 @@ Why should you care about international economics?
 3. Politically: News articles often incomplete 
 
 --------------------------------
+
+
 
 
 
