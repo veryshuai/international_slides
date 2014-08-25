@@ -1,71 +1,210 @@
-\begin{frame}
+\documentclass[ignorenonframetext,]{beamer}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
 
-Basic course structure: - Weeks 1-4, trade - Weeks 5-7, international
-finance
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
 
-\end{frame}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
 
-\begin{frame}
+\title{BA-PIEC International Economics}
+\author{Instructer: David Jinkins}
+\date{Date: Sept. 2, 2014}
 
-The textbook: - International Economics: Theory and Policy, Krugman,
-Obstfeld, and Melitz, 10th edition. - Two semesters recommended - Online
-myeconlab
-
-\end{frame}
-
-\begin{frame}
-
-Course evaluation: - 23 October: A four-hour, closed-book written
-examination - Based on - Problem sets - Lecture content - Textbook -
-Everything from class, homework, or textbook is fair game -
-Administrative questions? Tina Østergaard, toe.stu@cbs.dk
-
-\end{frame}
-
-\begin{frame}
-
-Problem sets: - Once per week - Some textbook problems, others my own -
-I will not typeset solutions
-
-\end{frame}
-
-\begin{frame}
-
-Email policy: - Don't send me emails -(unless absolutely necessary) -
-Instead\ldots
-
-\end{frame}
-
-\begin{frame}
-
-Course wiki: - link at davidjinkins.com - other class-related stuff
-there - it's my first time with wiki
-
-\end{frame}
-
-\begin{frame}
-
-End of administration section
-
-\end{frame}
+\begin{document}
+\frame{\titlepage}
 
 \begin{frame}
 
-Why should you care about international economics?
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
+\begin{itemize}
 \itemsep1pt\parskip0pt\parsep0pt
 \item
-  Personally: Denmark is a small, open economy
+  Basic course structure:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Weeks 1-4, trade
+  \item
+    Weeks 5-7, international finance
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
 \item
-  Intellectually: Many puzzles remain
+  The textbook:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    International Economics: Theory and Policy, Krugman, Obstfeld, and
+    Melitz, 10th edition.
+  \item
+    Two semesters recommended
+  \item
+    Online myeconlab
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
 \item
-  Politically: News articles often incomplete
-\end{enumerate}
+  Course evaluation:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    23 October: A four-hour, closed-book written examination
+  \item
+    Based on
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+    \item
+      Problem sets
+    \item
+      Lecture content
+    \item
+      Textbook
+    \end{itemize}
+  \item
+    Everything from class, homework, or textbook is fair game
+  \item
+    Administrative questions? Tina Østergaard, toe.stu@cbs.dk
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Problem sets:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Once per week
+  \item
+    Some textbook problems, others my own
+  \item
+    I will not typeset solutions
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Email policy:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Don't send me emails -(unless absolutely necessary)
+  \item
+    Instead\ldots
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Course wiki:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    link at davidjinkins.com
+  \item
+    other class-related stuff there
+  \item
+    it's my first time with wiki
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  End of administration section
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Why should you care about international economics?
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Personally: Denmark is a small, open economy
+  \item
+    Intellectually: Many puzzles remain
+  \item
+    Politically: News articles often incomplete
+  \end{itemize}
+\end{itemize}
 
 \end{frame}
 
 \begin{frame}
 
 \end{frame}
+
+\end{document}
