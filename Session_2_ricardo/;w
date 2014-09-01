@@ -1,0 +1,188 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+%Set up notes
+\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{The Ricardian (Comparative Advantage) Model of International Trade}
+\author{Instructer: David Jinkins}
+\date{Date: Sept. 4, 2014}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+        Introduction to Ricardo
+  \item
+        The parable of my RA's
+  \item
+        Who makes what?
+  \item
+        Common misunderstandings
+  \item
+        Distance costs 
+  \item
+        The data speak
+  \item 
+        Many goods -- and problems for Ricardo
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{David Ricardo}
+
+    \begin{center}
+    \includegraphics[scale=0.27]{Ricardo_portrait.jpg}
+    \end{center}
+
+    {\tiny source: http://en.wikipedia.org/wiki/David\_Ricardo}
+    \note{Ricardo 
+    
+        1. died at 49 years old in 1823, 
+
+        2. Richest theoretical economist in history, 
+
+        3. Not an academic, he was a stockbroker, made his fortune manipulating the market at time of Waterloo, 
+
+        4. Bought himself a seat in the house of commons. 
+
+        5. Still had time to become the first modern economist}
+
+\end{frame}
+
+\begin{frame}{The Ricardian model}
+
+    \begin{itemize}
+        \item Reason for trade 'technology' differences
+        \item Countries \emph{can} make more by specializing (to some degree)
+        \item Countries \emph{will} specialize if allowed to trade freely
+        \item Free trade benefits all participants (relative to autarchy) \emph{even if some countries are terrible at everything.}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The RA Parable}
+
+    \begin{center}
+        \includegraphics[scale=0.4]{latte.jpg}
+    \end{center}
+
+    {\tiny source: http://en.wikipedia.org/wiki/Latte}
+
+\end{frame}
+
+\begin{frame}{The RA Parable}
+
+    \begin{itemize}
+        \item What have we learned:
+        \begin{enumerate}
+            \item We can produce more by specializing
+            \item Even terrible partner can help, by doing what he is less terrible at.
+        \end{enumerate}
+        \item It is \emph{possible} to increase production through specialization
+        \item Will this happen in the free market?
+        \item If so, which country gains from free trade?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Ricardian Model}
+
+    \begin{itemize}
+        \item Simplest model able to examine these issues.
+        \item Two countries - Home and Foreign
+        \item Two goods - wine and cheese
+        \item Only input is labor 
+        \item Competitive markets
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Ricardian Model}
+
+    \begin{itemize}
+        \item Simplest model able to examine these issues.
+        \item Environment:
+        \begin{itemize}
+            \item Two countries
+            \begin{enumerate}
+                \item Home has $L$ hours of labor
+                \item Foreign has $L^*$ hours of labor
+            \item Two goods - wine and cheese
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Ricardian Model}
+
+    \begin{itemize}
+        \item Production:
+        \begin{itemize}
+            \item Only input to wine and cheese production is labor
+            \item Home
+            \begin{itemize}
+                \item One unit of wine takes $a_w$ hours
+                \item One unit of cheese takes $a_c$ hours
+            \end{itemize}
+                \item Foreign has $L^*$ hours of labor
+            \item Two goods - wine and cheese
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\end{document}
+
+
+
