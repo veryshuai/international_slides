@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  2 SEP 2014 15:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  8 SEP 2014 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ricardo_jinkins.tex
-(./ricardo_jinkins.tex
+**specific_factors.tex
+(./specific_factors.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
@@ -1014,8 +1014,8 @@ Now handling font encoding PD1 ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(./ricardo_jinkins.aux)
-\openout1 = `ricardo_jinkins.aux'.
+(./specific_factors.aux)
+\openout1 = `specific_factors.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
 LaTeX Font Info:    ... okay on input line 52.
@@ -1110,9 +1110,9 @@ LaTeX Info: Redefining \ref on input line 52.
 LaTeX Info: Redefining \pageref on input line 52.
 LaTeX Info: Redefining \nameref on input line 52.
 
-(./ricardo_jinkins.out) (./ricardo_jinkins.out)
+(./specific_factors.out) (./specific_factors.out)
 \@outlinefile=\write5
-\openout5 = `ricardo_jinkins.out'.
+\openout5 = `specific_factors.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 52.
@@ -1182,10 +1182,10 @@ tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 LaTeX Info: Redefining \includegraphics on input line 52.
- (./ricardo_jinkins.nav)
+ (./specific_factors.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 53.
+(Font)              size <5> substituted on input line 54.
 
 [1
 
@@ -1203,50 +1203,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [3
 
-]
-<Ricardo_portrait.jpg, id=96, 622.325pt x 803.0pt>
-File: Ricardo_portrait.jpg Graphic file (type jpg)
- <use Ricardo_portrait.jpg>
-Package pdftex.def Info: Ricardo_portrait.jpg used on input line 127.
-(pdftex.def)             Requested size: 168.02998pt x 216.8129pt.
+] [4
 
-Overfull \vbox (3.63979pt too high) detected at line 127
- []
-
-[4
-
- <./Ricardo_portrait.jpg>] [5
-
-] [6
+] [5
 
 ]
-<latte.jpg, id=175, 602.25pt x 451.6875pt>
-File: latte.jpg Graphic file (type jpg)
- <use latte.jpg>
-Package pdftex.def Info: latte.jpg used on input line 154.
-(pdftex.def)             Requested size: 240.89572pt x 180.67178pt.
- [7
+[6
 
- <./latte.jpg>]
-[8
+] [7
+
+] [8
 
 ] [9
 
 ] [10
 
-] <PPF_pearson_snippet.pdf, id=282, page=1, 722.7pt x 542.025pt>
-File: PPF_pearson_snippet.pdf Graphic file (type pdf)
+] [11
 
-<use PPF_pearson_snippet.pdf, page 1>
-Package pdftex.def Info: PPF_pearson_snippet.pdf, page1 used on input line 208.
+] [12
 
-(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [11
-
- <./PPF_pearson_snippet.pdf>] [12
-
-]
-[13
+] [13
 
 ] [14
 
@@ -1254,222 +1230,251 @@ Package pdftex.def Info: PPF_pearson_snippet.pdf, page1 used on input line 208.
 
 ] [16
 
-] [17
-
-] [18
-
-] [19
-
 ]
-<low_prod_low_wage.png, id=542, 1345.025pt x 1001.7425pt>
-File: low_prod_low_wage.png Graphic file (type png)
+<cloth_prod.png, id=431, 1117.17375pt x 678.535pt>
+File: cloth_prod.png Graphic file (type png)
+ <use cloth_prod.png>
+Package pdftex.def Info: cloth_prod.png used on input line 282.
+(pdftex.def)             Requested size: 223.43079pt x 135.70459pt.
 
-<use low_prod_low_wage.png>
-Package pdftex.def Info: low_prod_low_wage.png used on input line 314.
-(pdftex.def)             Requested size: 336.25542pt x 250.43501pt.
+[17
 
-Overfull \hbox (28.96555pt too wide) in paragraph at lines 314--314
+ <./cloth_prod.png>] <cloth_mpl.png, id=458, 1053.9375pt x 770.88pt>
+File: cloth_mpl.png Graphic file (type png)
+
+<use cloth_mpl.png>
+Package pdftex.def Info: cloth_mpl.png used on input line 291.
+(pdftex.def)             Requested size: 210.78377pt x 154.17326pt.
+ [18
+
+ <./cloth_mpl.png>]
+<ppf.png, id=484, 1240.635pt x 915.42pt>
+File: ppf.png Graphic file (type png)
+ <use ppf.png>
+Package pdftex.def Info: ppf.png used on input line 297.
+(pdftex.def)             Requested size: 310.15799pt x 228.85443pt.
+
+Overfull \hbox (2.86812pt too wide) in paragraph at lines 297--297
 [][]  
  []
 
+[19
 
-Overfull \vbox (5.1619pt too high) detected at line 314
- []
+ <./ppf.png>] [20
 
-[20
-
- <./low_prod_low_wage.png>] [21
+] [21
 
 ] [22
 
-] [23
+]
+<aut_wage.png, id=589, 1086.0575pt x 779.91376pt>
+File: aut_wage.png Graphic file (type png)
+ <use aut_wage.png>
+Package pdftex.def Info: aut_wage.png used on input line 345.
+(pdftex.def)             Requested size: 271.5137pt x 194.97797pt.
+ [23
 
-] [24
+ <./aut_wage.png>] [24
 
-] [25
+] <ppf_equib.png, id=640, 966.61125pt x 947.54pt>
+File: ppf_equib.png Graphic file (type png)
 
-] [26
+<use ppf_equib.png>
+Package pdftex.def Info: ppf_equib.png used on input line 367.
+(pdftex.def)             Requested size: 241.65222pt x 236.88441pt.
+ [25
 
-] [27
+ <./ppf_equib.png>] [26
 
 ]
-<bangladesh_china_cpa.png, id=746, 1651.16875pt x 398.48875pt>
-File: bangladesh_china_cpa.png Graphic file (type png)
+<prop_price_change.png, id=693, 990.70125pt x 951.555pt>
+File: prop_price_change.png Graphic file (type png)
 
-<use bangladesh_china_cpa.png>
-Package pdftex.def Info: bangladesh_china_cpa.png used on input line 401.
-(pdftex.def)             Requested size: 247.66463pt x 59.77072pt.
- [28
+<use prop_price_change.png>
+Package pdftex.def Info: prop_price_change.png used on input line 396.
+(pdftex.def)             Requested size: 217.95494pt x 209.34274pt.
+ [27
 
- <./bangladesh_china_cpa.png>]
-<brit_us_exports.png, id=772, 1389.19pt x 967.615pt>
-File: brit_us_exports.png Graphic file (type png)
- <use brit_us_exports.png>
-Package pdftex.def Info: brit_us_exports.png used on input line 410.
-(pdftex.def)             Requested size: 277.83308pt x 193.51958pt.
+ <./prop_price_change.png>]
+File: ppf_equib.png Graphic file (type png)
+ <use ppf_equib.png>
+Package pdftex.def Info: ppf_equib.png used on input line 402.
+(pdftex.def)             Requested size: 241.65222pt x 236.88441pt.
 
-[29
+[28
 
- <./brit_us_exports.png>] [30
+] [29
 
-] [31
+] <rel_price_change.png, id=769, 993.7125pt x 734.745pt>
+File: rel_price_change.png Graphic file (type png)
 
-] [32
+<use rel_price_change.png>
+Package pdftex.def Info: rel_price_change.png used on input line 422.
+(pdftex.def)             Requested size: 248.4275pt x 183.68579pt.
+ [30
 
-] [33
+ <./rel_price_change.png>]
+<rel_price_ppf.png, id=796, 1089.06876pt x 964.60374pt>
+File: rel_price_ppf.png Graphic file (type png)
 
-] [34
+<use rel_price_ppf.png>
+Package pdftex.def Info: rel_price_ppf.png used on input line 428.
+(pdftex.def)             Requested size: 272.26653pt x 241.15034pt.
+ [31
+
+ <./rel_price_ppf.png>] [32
 
 ]
-<Numerical_example_pearson_snippet.pdf, id=926, page=1, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+<aut_equib_rel.png, id=851, 983.675pt x 747.79375pt>
+File: aut_equib_rel.png Graphic file (type png)
+ <use aut_equib_rel.png>
+Package pdftex.def Info: aut_equib_rel.png used on input line 464.
+(pdftex.def)             Requested size: 245.91815pt x 186.94797pt.
 
-<use Numerical_example_pearson_snippet.pdf, page 1>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page1 used on i
-nput line 497.
-(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [35
+[33
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1002, page=2, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+ <./aut_equib_rel.png>] <trade_equil.png, id=877, 977.6525pt x 954.56625pt>
+File: trade_equil.png Graphic file (type png)
 
-<use Numerical_example_pearson_snippet.pdf, page 2>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page2 used on i
-nput line 498.
-(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [36
+<use trade_equil.png>
+Package pdftex.def Info: trade_equil.png used on input line 473.
+(pdftex.def)             Requested size: 244.41252pt x 238.64098pt.
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1057, page=3, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+Overfull \vbox (32.69704pt too high) detected at line 473
+ []
 
-<use Numerical_example_pearson_snippet.pdf, page 3>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page3 used on i
-nput line 499.
-(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [37
+[34
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1112, page=4, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+ <./trade_equil.png>] [35
 
-<use Numerical_example_pearson_snippet.pdf, page 4>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page4 used on i
-nput line 500.
-(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [38
+] [36
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1167, page=5, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+] [37
 
-<use Numerical_example_pearson_snippet.pdf, page 5>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page5 used on i
-nput line 501.
-(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [39
+] [38
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1221, page=6, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+] [39
 
-<use Numerical_example_pearson_snippet.pdf, page 6>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page6 used on i
-nput line 502.
-(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [40
+] [40
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1268, page=7, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
-
-<use Numerical_example_pearson_snippet.pdf, page 7>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page7 used on i
-nput line 503.
-(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+]
+<labor_mig.png, id=1056, 937.5025pt x 947.54pt>
+File: labor_mig.png Graphic file (type png)
+ <use labor_mig.png>
+Package pdftex.def Info: labor_mig.png used on input line 564.
+(pdftex.def)             Requested size: 234.37505pt x 236.88441pt.
  [41
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1323, page=8, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+ <./labor_mig.png>] [42
 
-<use Numerical_example_pearson_snippet.pdf, page 8>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page8 used on i
-nput line 504.
+] <migration_wages.png, id=1107, 1610.015pt x 803.0pt>
+File: migration_wages.png Graphic file (type png)
+
+<use migration_wages.png>
+Package pdftex.def Info: migration_wages.png used on input line 581.
+(pdftex.def)             Requested size: 321.9973pt x 160.59715pt.
+
+Overfull \hbox (14.70743pt too wide) in paragraph at lines 581--581
+[][]  
+ []
+
+[43
+
+ <./migration_wages.png>] [44
+
+] [45
+
+]
+<Pearson_math_appendix.pdf, id=1183, page=1, 722.7pt x 542.025pt>
+File: Pearson_math_appendix.pdf Graphic file (type pdf)
+
+<use Pearson_math_appendix.pdf, page 1>
+Package pdftex.def Info: Pearson_math_appendix.pdf, page1 used on input line 62
+1.
 (pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [42
+ [46
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1370, page=9, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+ <./Pearson_math_appendix.pdf>]
+<Pearson_math_appendix.pdf, id=1232, page=2, 722.7pt x 542.025pt>
+File: Pearson_math_appendix.pdf Graphic file (type pdf)
 
-<use Numerical_example_pearson_snippet.pdf, page 9>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page9 used on i
-nput line 505.
+<use Pearson_math_appendix.pdf, page 2>
+Package pdftex.def Info: Pearson_math_appendix.pdf, page2 used on input line 62
+2.
 (pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [43
+ [47
 
- <./Numerical_example_pearson_snippet.pdf>]
-<Numerical_example_pearson_snippet.pdf, id=1424, page=10, 722.7pt x 542.025pt>
-File: Numerical_example_pearson_snippet.pdf Graphic file (type pdf)
+ <./Pearson_math_appendix.pdf>]
+<Pearson_math_appendix.pdf, id=1280, page=3, 722.7pt x 542.025pt>
+File: Pearson_math_appendix.pdf Graphic file (type pdf)
 
-<use Numerical_example_pearson_snippet.pdf, page 10>
-Package pdftex.def Info: Numerical_example_pearson_snippet.pdf, page10 used on 
-input line 506.
+<use Pearson_math_appendix.pdf, page 3>
+Package pdftex.def Info: Pearson_math_appendix.pdf, page3 used on input line 62
+3.
 (pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
- [44
+ [48
 
- <./Numerical_example_pearson_snippet.pdf>]
+ <./Pearson_math_appendix.pdf>]
+<Pearson_math_appendix.pdf, id=1331, page=4, 722.7pt x 542.025pt>
+File: Pearson_math_appendix.pdf Graphic file (type pdf)
+
+<use Pearson_math_appendix.pdf, page 4>
+Package pdftex.def Info: Pearson_math_appendix.pdf, page4 used on input line 62
+4.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [49
+
+ <./Pearson_math_appendix.pdf>]
 \tf@nav=\write6
-\openout6 = `ricardo_jinkins.nav'.
+\openout6 = `specific_factors.nav'.
 
 \tf@toc=\write7
-\openout7 = `ricardo_jinkins.toc'.
+\openout7 = `specific_factors.toc'.
 
 \tf@snm=\write8
-\openout8 = `ricardo_jinkins.snm'.
+\openout8 = `specific_factors.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 509.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 509.
- (./ricardo_jinkins.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 509.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 509.
-Package rerunfilecheck Info: File `ricardo_jinkins.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 626.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 626.
+
+(./specific_factors.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 626.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 626.
+Package rerunfilecheck Info: File `specific_factors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 509.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 626.
  ) 
 Here is how much of TeX's memory you used:
- 19041 strings out of 493304
- 355343 string characters out of 6139871
- 433357 words of memory out of 5000000
- 21949 multiletter control sequences out of 15000+600000
+ 19074 strings out of 493304
+ 355162 string characters out of 6139871
+ 435307 words of memory out of 5000000
+ 21960 multiletter control sequences out of 15000+600000
  15529 words of font info for 58 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,14n,55p,404b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,14n,55p,405b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pf
-b>
-Output written on ricardo_jinkins.pdf (44 pages, 1787508 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on specific_factors.pdf (49 pages, 2324984 bytes).
 PDF statistics:
- 1536 PDF objects out of 1728 (max. 8388607)
- 1300 compressed objects within 13 object streams
- 78 named destinations out of 1000 (max. 500000)
+ 1456 PDF objects out of 1728 (max. 8388607)
+ 1312 compressed objects within 14 object streams
+ 95 named destinations out of 1000 (max. 500000)
  123 words of extra memory for PDF output out of 10000 (max. 10000000)
 

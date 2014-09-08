@@ -1,0 +1,172 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+%Set up notes
+\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{pdfpages} %include beamer pdf slides from other presentations
+\usepackage{color}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{The Trade Workhorse: The Heckscher-Ohlin Model}
+\author{Instructor: David Jinkins}
+\date{Date: Sept. 11, 2014}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Last time
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item The specific factors model:
+      \begin{itemize}
+          \item Analyze trade and the income distribution
+          \item A short-run model: some factors can only be used to produce a single good
+          \item Trade can hurt owners of some factors
+          \item As trade ``grows the pie'', the right taxes can improve welfare for all
+      \end{itemize}
+      \item Political economy:
+      \begin{itemize}
+          \item Trade often unpopular as losses from trade are concentrated in an industry, while benefits are diffused
+      \end{itemize}
+  \item Migration:
+      \begin{itemize}
+          \item In the simplest model, migration hurts high wage labor
+          \item Again, the pie grows, so that taxes can compensate
+      \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today: The Heckscher-Ohlin Model
+  \begin{itemize}
+        \item Introduction
+        \item The point
+        \item The model
+        \begin{itemize}
+            \item Some assumptions
+            \item Production possibilities
+            \item Production and prices
+            \item Autarchy equilibrium
+            \item Trade equilibrium
+        \end{itemize}
+        \item The big four theorems
+        \item The problems 
+        \begin{itemize}
+            \item Assumptions
+            \item Evidence
+        \end{itemize}
+        \item Moving forward
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Heckscher-Ohlin: Rise of a theory}
+
+    \begin{itemize}
+        \item From a book by Ohlin published in 1933 
+        \item Original point $\rightarrow$ trade and long-run income distribution
+        \item Attractive model
+        \begin{itemize}
+            \item Intuitive and elegant: Can be analyzed graphically
+            \item Enough complexity to tackle many trade issues
+            \begin{itemize}
+                \item Effect of trade liberalization
+                \item Effect of tariffs
+                \item Effect of technological change on trade patterns
+                \item Effect of technological change on income distributions 
+            \end{itemize}
+            \item Clear, testable predictions
+            \item Developed and extended by famous economists
+            \begin{itemize}
+                \item Ohlin (Nobel 1979)
+                \item Samuelson (Nobel 1970)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Heckscher-Ohlin: Downfall}
+
+    \begin{itemize}
+        \item Some quotes: 
+            \begin{itemize}
+                \item \textcolor{red}{\dots \emph{the Heckscher-Ohlin model is hopelessly inadequate as an explanation for historical and modern trade patterns, unless we allow for technological differences across countries.} }
+
+-Robert Feenstra, Distinguished Professor of Economics at University of California, Davis, 2004
+                \item \textcolor{red}{\emph{It is time to declare Stolper-Samuelson [an important result of the HO model] dead. Stolper-Samuelson says that trade liberalization will raise the real income of the abundant (unskilled) labor in poor countries.  Stolper-Samuelson, qua theorem, is not wrong, of course. But if we use it, as we so often have, as if it provides a reliable answer to this question of real human significance, then it is worse than wrong - it is dangerous.} }
+
+-Donald Davis and Prachi Mishra, 2007
+            \end{itemize}
+            
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Heckscher-Ohlin: Why the hate?}
+
+    \begin{itemize}
+        \item Heckscher-Ohlin is a scientific theory: testable predictions
+        \item Predictions have often not been backed up by data
+        \item Assumptions also seem unusual in the modern world
+    \end{itemize}
+
+\end{frame}
+
+
+\end{document}
+
+
+
+

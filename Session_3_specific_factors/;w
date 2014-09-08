@@ -1,0 +1,178 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+%Set up notes
+\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{pdfpages} %include beamer pdf slides from other presentations
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Inequality and Trade: The Specific Factors Model}
+\author{Instructor: David Jinkins}
+\date{Date: Sept. 9, 2014}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Last week
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item Gravity model:
+      \begin{enumerate}
+          \item Derivation
+          \item Country-specific constant: remoteness
+      \end{enumerate}
+  \item Ricardian model:
+      \begin{enumerate}
+          \item Equilibrium wages different across countries
+          \item Labor migration determined by absolute advantage
+          \item Data: Countries export in relatively productive industries 
+          \item Institutions such as trust may cause differences in technology
+      \end{enumerate}
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today: Effect of trade on income distributions
+  \begin{itemize}
+        \item Specific factors Model
+        \begin{itemize}
+            \item Definition of specific factor
+            \item Simplest possible model
+            \item Production potential
+            \item Autarchy equilibrium and comparative statics
+            \item Trade equilibrium/Gains from Trade
+        \end{itemize}
+        \item Political economy: a preview
+        \item Labor migration
+        \begin{itemize}
+            \item Theory
+            \item Evidence
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Ricardo Redux}
+
+    \begin{itemize}
+        \item Reason for trade: technological differences (comp. adv.)
+        \item All countries \emph{weakly} gain from trade
+        \item All income goes to labor $/rightarrow$ all workers gain
+        \item Since everyone the same, income distribution is degenerate
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Sometimes trade hurts}
+
+    \begin{itemize}
+        \item Why might trade liberalization hurt some?
+        \begin{itemize}
+            \item Short run: adjustment costs like training or refitting machinery
+            \item Long run: some inputs no longer needed as much
+            \item Long run example from book: Japanese rice farming machinery 
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Specific factors}
+
+    \begin{itemize}
+        \item Today: Focus on the short run
+        \begin{itemize}
+            \item \emph{Specific factors} can only be used to make one good
+            \item Ex: Try to open a restaurant using a car manufacturing plant
+            \item Given enough time\dots
+        \end{itemize}
+        \item Evidence: American ``displaced'' workers suffer permanent 15\% (avg.) drop in wages 
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Simplest possible model for income distributions}
+
+    \begin{itemize}
+        \item Two countries: Home (H) and Foreign (G)
+        \item Two goods: Clothes (C) and Food (F)
+        \item \emph{Two} factors: Land (t) and Capital (k)
+        \item Different from textbook (three factors)!
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Two factor model}
+
+    \begin{itemize}
+        \item Specific factors
+        \begin{itemize}
+            \item Income dist.: different people own Land and Capital 
+            \item Capital is used \emph{only} to make clothes
+            \item Land is used \emph{only} to make food
+        \end{itemize}
+        \item Production technology
+        \begin{itemize}
+            \item Clothes: $f_C(k) = \frac{K}{a_k}$
+            \item Land: $f_F(k) = \frac{K}{a_k}$
+            \item Land is used \emph{only} to make food
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+
+\end{document}
+
+
+

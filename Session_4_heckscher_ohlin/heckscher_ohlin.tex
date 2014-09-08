@@ -1,0 +1,311 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+%Set up notes
+\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{pdfpages} %include beamer pdf slides from other presentations
+\usepackage{color}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{The Trade Workhorse: The Heckscher-Ohlin Model}
+\author{Instructor: David Jinkins}
+\date{Date: Sept. 11, 2014}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Last time
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item The specific factors model:
+      \begin{itemize}
+          \item Analyze trade and the income distribution
+          \item A short-run model: some factors can only be used to produce a single good
+          \item Trade can hurt owners of some factors
+          \item As trade ``grows the pie'', the right taxes can improve welfare for all
+      \end{itemize}
+      \item Political economy:
+      \begin{itemize}
+          \item Trade often unpopular as losses from trade are concentrated in an industry, while benefits are diffused
+      \end{itemize}
+  \item Migration:
+      \begin{itemize}
+          \item In the simplest model, migration hurts high wage labor
+          \item Again, the pie grows, so that taxes can compensate
+      \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today: The Heckscher-Ohlin Model
+  \begin{itemize}
+        \item Introduction
+        \item The point
+        \item The model
+        \begin{itemize}
+            \item Setup and assumptions
+            \item Production possibilities
+            \item Production and prices
+            \item Autarchy equilibrium
+            \item Trade equilibrium
+        \end{itemize}
+        \item The big four theorems
+        \item The problems 
+        \begin{itemize}
+            \item Assumptions
+            \item Evidence
+        \end{itemize}
+        \item Moving forward
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+    \item Quick note on this chapter of the textbook.
+\end{itemize}
+
+\end{frame}
+\begin{frame}{Heckscher-Ohlin: Rise of a theory}
+
+    \begin{itemize}
+        \item From a book by Ohlin published in 1933 
+        \item Original point $\rightarrow$ trade and long-run income distribution
+        \item Attractive model
+        \begin{itemize}
+            \item Elegant: Can be analyzed graphically
+            \item Enough complexity to tackle many trade issues
+            \begin{itemize}
+                \item Effect of trade liberalization
+                \item Effect of tariffs
+                \item Effect of technological change on trade patterns
+                \item Effect of technological change on income distributions 
+            \end{itemize}
+            \item Clear, testable predictions
+            \item Developed and extended by famous economists
+            \begin{itemize}
+                \item Ohlin (Nobel 1979)
+                \item Samuelson (Nobel 1970)
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Heckscher-Ohlin: Downfall}
+
+    \begin{itemize}
+        \item Some quotes: 
+            \begin{itemize}
+                \item \textcolor{blue}{\dots \emph{the Heckscher-Ohlin model is hopelessly inadequate as an explanation for historical and modern trade patterns, unless we allow for technological differences across countries.} }
+
+-Robert Feenstra, Distinguished Professor of Economics at University of California, Davis, 2004
+                \item \textcolor{blue}{\emph{It is time to declare Stolper-Samuelson [an important result of the HO model] dead. Stolper-Samuelson says that trade liberalization will raise the real income of the abundant (unskilled) labor in poor countries.  Stolper-Samuelson, qua theorem, is not wrong, of course. But if we use it, as we so often have, as if it provides a reliable answer to this question of real human significance, then it is worse than wrong - it is dangerous.} }
+
+-Donald Davis and Prachi Mishra, 2007
+            \end{itemize}
+            
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Heckscher-Ohlin: Why the hate?}
+
+    \begin{itemize}
+        \item Heckscher-Ohlin is a scientific theory: testable predictions
+        \item Predictions have often not been backed up by data
+        \item Assumptions also seem unusual in the modern world
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The point}
+
+    \begin{itemize}
+        \item Hecksher-Ohlin about long-run effects of trade
+        \item Embodied in the idea that all factors are costlessly mobile
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The point}
+
+    \begin{itemize}
+        \item Famous implications are the four theorems (paraphrase):
+        \begin{enumerate}
+            \item \emph{Heckscher-Ohlin}: \textcolor{blue}{Countries with more of a resource will export goods for which that resource is more useful in production} 
+
+\textcolor{red}{ex}: China exports labor intensive manufactured goods
+            \item \emph{Rybczynski}: \textcolor{blue}{If a country gets more of a resource, it will more than proportionally increase its production of goods for which that resource is more useful in production}
+
+\textcolor{red}{ex}: if Denmark got more labor, it would increase its production of textiles
+            \item \emph{Stolper-Samuelson}: \textcolor{blue}{A change in the price of a final good for which a particular resource is more useful in production will increase the payments to that resource}
+
+\textcolor{red}{ex}: if the price of textiles goes up, Chinese workers get higher wages
+            \item \emph{Factor-price equalization}: \textcolor{blue}{Trade should cause factor prices to converge}
+
+\textcolor{red}{ex}: Danish and Chinese workers should be paid the same wages
+        \end{enumerate}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Model - Plan of attack}
+
+        \begin{itemize}
+            \item Setup and assumptions
+            \item Production possibilities
+            \item Production and prices
+            \item Autarchy equilibrium
+            \item Trade equilibrium
+        \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Setup}
+
+        \begin{itemize}
+            \item Two countries: Home (H) and Foreign (G)
+            \item Two goods: Clothes (C) and Food (F)
+            \item Two factors: Labor (L) and Capital (K)
+            \item Sometimes called the 2 x 2 x 2 model
+        \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Setup}
+
+        \begin{itemize}
+            \item Clothes and Food can be produced with combinations of Labor and Capital
+            \item Both countries have the same production technology 
+            \item Production technologies are Constant Returns to Scale (double both inputs, double output)
+            \item Each country has a different endowment of Labor and Capital 
+            \item Labor and Capital cannot move between countries, even in the long run
+            \begin{itemize}
+                \item No shipping of machines allowed
+                \item No moving abroad
+            \end{itemize}
+            \item As before, competitive firms with zero profit
+        \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Production Possiblities Frontier}
+
+    \begin{itemize}
+        \item Recall:   Slope = take a bit of Labor from Food production and put it into Clothes production
+        \item Now also: Slope = take a bit of Capital from Food production and put it into Clothes production
+        \item In notation: Slope = $-\frac{MPL_F}{MPL_C} = -\frac{MPK_F}{MPK_C}$ (why must ratios equal?)
+        \item Why is the frontier concave?
+    \end{itemize}
+    \includegraphics[scale=0.15]{ppf.png}
+
+\end{frame}
+
+\begin{frame}{Input Possiblities}
+
+    \begin{itemize}
+        \item Fix the amount of, say, Food we want to produce 
+        \item Slope = if I produce a bit more Food with Labor, how much Capital is freed up? 
+        \item In notation: Slope = $-\frac{\frac{1}{MPK_F}}{\frac{1}{MPL_F}} = -\frac{MPL_F}{MPK_F}$ 
+        \item Why is the curve convex?
+    \end{itemize}
+    \includegraphics[scale=0.15]{input_poss.png}
+
+\end{frame}
+
+\begin{frame}{Pause}
+
+    \begin{itemize}
+        \item We have described the environment
+        \item We have described what it is possible to produce
+        \item Now what will be produced in equilibrium?
+        \item With what mix of factors?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Output price ratio and production}
+
+    \begin{itemize}
+        \item Suppose we have the price ratio $\frac{P_C}{P_F}$
+        \item Then $\frac{P_C}{P_F} = \frac{MPL_F}{MPL_C} = \frac{MPK_F}{MPK_C}$ (why?)
+        \item Production given by the point on the PPF tangent to $-\frac{P_C}{P_F}$
+    \end{itemize}
+    \includegraphics[scale=0.15]{ppf_equil.png}
+
+\end{frame}
+
+\begin{frame}{Input price ratio and production}
+
+    \begin{itemize}
+        \item Suppose we have the price ratio $\frac{w}{r}$
+        \item Then $\frac{w}{r} = \frac{MPL_F}{MPK_F} = \frac{MPL_C}{MPK_C}$ (why?)
+        \item Input bundle given by the point on the input possibilities curve tangent to $-\frac{w}{r}$
+    \end{itemize}
+    \includegraphics[scale=0.15]{input_cost.png}
+
+\end{frame}
+
+\begin{frame}{Input price change and production}
+
+    \includegraphics[scale=0.25]{factor_price_change.png}
+
+\end{frame}
+
+\end{document}
+
+
+
+
