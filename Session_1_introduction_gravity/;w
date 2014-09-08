@@ -1,0 +1,504 @@
+\documentclass[ignorenonframetext,]{beamer}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{BA-PIEC International Economics}
+\author{Instructer: David Jinkins}
+\date{Date: Sept. 2, 2014}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+        Administrative stuff
+  \item
+        Why you should care about international economics
+  \item
+        Lightning couse overview
+  \item
+        Some facts about world trade
+  \item
+        Trade and gravity
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Basic course structure:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Weeks 1-4, trade
+  \item
+    Weeks 5-7, international finance
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  The textbook:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    International Economics: Theory and Policy, Krugman, Obstfeld, and
+    Melitz, 10th edition.
+  \item
+    Two semesters recommended
+  \item
+    Online myeconlab
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Course evaluation:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    23 October: A four-hour, closed-book written examination
+  \item
+    Based on
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+    \item
+      Problem sets
+    \item
+      Lecture content
+    \item
+      Textbook
+    \end{itemize}
+  \item
+    Everything from class, homework, or textbook is fair game
+  \item
+    Administrative questions? Tina Østergaard, toe.stu@cbs.dk
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Problem sets:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Once per week
+  \item
+    Some textbook problems, others my own
+  \item
+    I will not typeset solutions
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Email policy:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Don't send me emails -(unless absolutely necessary)
+  \item
+    Instead\ldots
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Course wiki:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    link at davidjinkins.com
+  \item
+    other class-related stuff there
+  \item
+    it's my first time with wiki
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+    End administrative section
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+        \item
+        Section 2: Why should you care about international economics?
+        \begin{itemize}
+        \itemsep1pt\parskip0pt\parsep0pt
+            \item Personally: Denmark is a small, open economy
+            \item Politically: News articles often incomplete
+            \item Intellectually: Many puzzles, some without explanation
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+    \includegraphics[scale=0.3]{carlsberg_political.png}
+
+    {\tiny Source: http://www.bloomberg.com/news/2014-08-24/denmark-seen-cutting-growth-outlook-as-russia-dispute-weighs.html }
+
+\end{frame}
+
+\begin{frame}
+
+    \includegraphics[scale=0.3]{currency_manipulation.png}
+
+    {\tiny Source: http://triadnc.twcnews.com/content/news/711005/groups-call-for-tough-policy-on-foreign-currency-manipulation/}
+
+\end{frame}
+
+\begin{frame}
+
+    \includegraphics[scale=0.28]{Denmark_disaggregated_trade.png}
+    
+    {\tiny Source: http://atlas.media.mit.edu/explore/tree\_map/hs/import/dnk/all/show/2012/}
+
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \item Section 3: Lightning overview
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{tikzpicture}
+\tikzset{scale=0.75,grow'=right,level distance=70pt}
+\tikzset{execute at begin node=\strut}
+\tikzset{every tree node/.style={anchor=base west}}
+
+\Tree   [.Int\ Econ                     [.Trade     [.Theory    [.Comparative\ advantage ]
+                                                                [.Factor\ endowments ]
+                                                                [.Specific\ factors ]
+                                                                [.Scale\ economies ]
+                                                                [.Standard\ model ] ]
+                                                    [.Policy    [.Policy\ instruments ]
+                                                                [.Political\ economy ] ] ]
+                                        [.Finance   [.Theory    [.Terminology\ and\ principles ]
+                                                                [.Long-run\ exchange\ rates ] ]
+                                                    [.Policy    [.Short-run\ exchange\ rates ]
+                                                                [.Coordination\ and\ Currency\ unions ] ] ] ]
+\end{tikzpicture}
+
+\end{frame}
+
+\begin{frame}{Comparative Advantage}
+
+    \begin{itemize}
+        \item A country gains from trade, even if it is better at everything than all other countries
+        \item {\footnotesize\emph{To a trained economist, the basic [comparative advantage] model seems almost trivial. Two goods, two countries, one productive factor, perfect competition: what could be simpler? Indeed, one of the fierce joys of being an international trade economist is that so many seemingly sophisticated tracts can be revealed as nonsense, so many self-important men unmasked as poseurs, using such a minimalist framework. And yet if one tries to explain the basic model to a non-economist, it soon becomes clear that it really isn't that simple after all. -Paul Krugman http://web.mit.edu/krugman/www/ricardo.htm}}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Factor endowments}
+
+    \begin{itemize}
+        \item Obvious idea: China lots of labor $\implies$ textiles, Denmark lots of capital $\implies$ medical machinery
+        \item For a long time, this was \emph{the} economic trade model (Heckscher-Ohlin)
+        \item Question: How do trade patterns  change in response to technological changes?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Specific factors}
+
+    \begin{itemize}
+        \item Lesson of early trade models: trade is great! 
+        \item Great for who -- who is hurt by trade?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Specific factors}
+
+    \includegraphics[scale=0.3]{jobs_to_london.png}
+
+\end{frame}
+
+\begin{frame}{Scale economies}
+
+    \begin{itemize}
+        \item Specialization: Theme of introductory microecon.
+        \item Decreasing marginal costs of production.
+        \item Historical accident and the location of Silicon Valley.
+        \item Multiple equilibria in trade models.
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Policy instruments}
+
+    \begin{itemize}
+        \item tariffs, quotas, subsidies
+        \item product specifications
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Political economy}
+
+    \begin{itemize}
+        \item Can trade policy be good for a country?
+        \item Is trade policy good for a country?
+        \item How is trade policy made
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Finance: terms and principles}
+
+    \begin{itemize}
+        \item Basic issue:
+        \begin{itemize}
+            \item Exporters paid in dollars
+            \item Costs are in kroner
+        \end{itemize}
+        \item Exchange rates are critical
+        \item Terminology: balance of accounts, trade deficit, etc. 
+        \item More generally, international risk sharing
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Exchange rates}
+
+    \begin{itemize}
+        \item What determines exchange rates in the long-run.  PPP?
+        \item Short run: Is China a currency manipulator?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Currency Unions}
+
+    \begin{itemize}
+        \item Eliminate exchange rate uncertainty
+        \item Policy coordination critical
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    Section 4: Facts about international trade
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \itemsep1pt\parskip0pt\parsep0pt
+        \item `` In the early 21st century, nations are more closely linked than ever before through trade in goods and services\dots''
+    \end{itemize}
+   
+    \includegraphics[scale=0.25]{figure1-1.png}
+
+\end{frame}
+    
+\begin{frame}
+
+    \includegraphics[scale=0.25]{Text_fig_2_5.png}
+
+\end{frame}
+
+\begin{frame}
+
+    \includegraphics[scale=0.25]{Text_fig_2_5_tricky.png}
+
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \itemsep1pt\parskip0pt\parsep0pt
+        \item true, but\dots
+    \end{itemize}
+   
+    \includegraphics[scale=0.25]{trade_to_gdp_historical.png}
+
+    {\tiny Source: Feenstra (1998)}
+
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \item What do countries trade:
+        \begin{itemize}
+            \item Agricultural produce
+            \item Primary goods
+            \item Manufactures
+            \item Services
+        \end{itemize}
+        \item Composition of trade has changed over time
+        \item Manufactures as a fraction of non-service trade
+    \end{itemize}
+    
+    \includegraphics[scale=0.20]{us_uk_merchandise_trade.png}
+
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \item Developing countries trade composition 
+    \end{itemize}
+    
+    \includegraphics[scale=0.20]{developing_country_comp_adv.png}
+
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \item Service trade: Scary, because that is what developed countries do
+        \item Labor force by sector (ag/manuf/service)
+    \end{itemize}
+    
+    \includegraphics[scale=0.30]{sector_comp_of_labor_force.png}
+
+    {\tiny Source: http://en.wikipedia.org/wiki/List\_of\_countries\_by\_sector\_composition\_of\_the\_labor\_force}
+
+\end{frame}
+
+\begin{frame}
+
+   \begin{itemize}
+        \item But many service jobs are 'non-tradable'
+    \end{itemize}
+
+    \includegraphics[scale=0.20]{tradable_services.png}
+
+\end{frame}
+
+\begin{frame}
+
+   \begin{itemize}
+        \item But many service jobs are 'non-tradable'
+    \end{itemize}
+
+    \includegraphics[scale=0.20]{tradable_services_yikes.png}
+
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \item Section 5: Gravity and Trade
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    
+    \begin{itemize}
+        \item Gravity equation (gravity):
+        \begin{equation*}
+            F_{12} = g \frac{M_1 M_2}{d^2}
+        \end{equation*}
+        \item Gravity equation (trade):
+        \begin{equation*}
+            T_{12} = g \frac{\mbox{GDP}_1 \mbox{GDP}_2}{d^\theta}
+        \end{equation*}
+
+\end{frame}
+
+\end{document}

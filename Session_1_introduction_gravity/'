@@ -1,0 +1,341 @@
+\documentclass[ignorenonframetext,]{beamer}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\ifxetex
+  \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{BA-PIEC International Economics}
+\author{Instructer: David Jinkins}
+\date{Date: Sept. 2, 2014}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+        Administrative stuff
+  \item
+        Why you should care about international economics
+  \item
+        Lightning couse overview
+  \item
+        Some facts about world trade
+  \item
+        Trade and gravity
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Basic course structure:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Weeks 1-4, trade
+  \item
+    Weeks 5-7, international finance
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  The textbook:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    International Economics: Theory and Policy, Krugman, Obstfeld, and
+    Melitz, 10th edition.
+  \item
+    Two semesters recommended
+  \item
+    Online myeconlab
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Course evaluation:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    23 October: A four-hour, closed-book written examination
+  \item
+    Based on
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+    \item
+      Problem sets
+    \item
+      Lecture content
+    \item
+      Textbook
+    \end{itemize}
+  \item
+    Everything from class, homework, or textbook is fair game
+  \item
+    Administrative questions? Tina Østergaard, toe.stu@cbs.dk
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Problem sets:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Once per week
+  \item
+    Some textbook problems, others my own
+  \item
+    I will not typeset solutions
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Email policy:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    Don't send me emails -(unless absolutely necessary)
+  \item
+    Instead\ldots
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Course wiki:
+
+  \begin{itemize}
+  \itemsep1pt\parskip0pt\parsep0pt
+  \item
+    link at davidjinkins.com
+  \item
+    other class-related stuff there
+  \item
+    it's my first time with wiki
+  \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+    End administrative section
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+
+    \begin{itemize}
+    \itemsep1pt\parskip0pt\parsep0pt
+        \item
+        Section 2: Why should you care about international economics?
+        \begin{itemize}
+        \itemsep1pt\parskip0pt\parsep0pt
+            \item Personally: Denmark is a small, open economy
+            \item Politically: News articles often incomplete
+            \item Intellectually: Many puzzles, some without explanation
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+    \includegraphics[scale=0.3]{carlsberg_political.png}
+
+    {\tiny Source: http://www.bloomberg.com/news/2014-08-24/denmark-seen-cutting-growth-outlook-as-russia-dispute-weighs.html }
+
+\end{frame}
+
+\begin{frame}
+
+    \includegraphics[scale=0.3]{currency_manipulation.png}
+
+    {\tiny Source: http://triadnc.twcnews.com/content/news/711005/groups-call-for-tough-policy-on-foreign-currency-manipulation/}
+
+\end{frame}
+
+\begin{frame}
+
+    \includegraphics[scale=0.28]{Denmark_disaggregated_trade.png}
+    
+    {\tiny Source: http://atlas.media.mit.edu/explore/tree\_map/hs/import/dnk/all/show/2012/}
+
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \item Section 3: Lightning overview
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\begin{tikzpicture}
+\tikzset{scale=0.75,grow'=right,level distance=70pt}
+\tikzset{execute at begin node=\strut}
+\tikzset{every tree node/.style={anchor=base west}}
+
+\Tree   [.Int\ Econ                     [.Trade     [.Theory    [.Comparative\ advantage ]
+                                                                [.Factor\ endowments ]
+                                                                [.Specific\ factors ]
+                                                                [.Scale\ economies ]
+                                                                [.Standard\ model ] ]
+                                                    [.Policy    [.Policy\ instruments ]
+                                                                [.Political\ economy ] ] ]
+                                        [.Finance   [.Theory    [.Terminology\ and\ principles ]
+                                                                [.Long-run\ exchange\ rates ] ]
+                                                    [.Policy    [.Short-run\ exchange\ rates ]
+                                                                [.Coordination\ and\ Currency\ unions ] ] ] ]
+\end{tikzpicture}
+
+\end{frame}
+
+\begin{frame}{Comparative Advantage}
+
+    \begin{itemize}
+        \item A country gains from trade, even if it is better at everything than all other countries
+        \item {\footnotesize\emph{To a trained economist, the basic [comparative advantage] model seems almost trivial. Two goods, two countries, one productive factor, perfect competition: what could be simpler? Indeed, one of the fierce joys of being an international trade economist is that so many seemingly sophisticated tracts can be revealed as nonsense, so many self-important men unmasked as poseurs, using such a minimalist framework. And yet if one tries to explain the basic model to a non-economist, it soon becomes clear that it really isn't that simple after all. -Paul Krugman http://web.mit.edu/krugman/www/ricardo.htm}}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Factor endowments}
+
+    \begin{itemize}
+        \item Obvious idea: China lots of labor -> textiles, Denmark lots of capital -> medical machinery
+        \item For a long time, this was \emph{the} economic trade model (Heckshcer-Ohlin)
+        \item Question: How do trade patterns  change in response to technological changes?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Specific factors}
+
+    \begin{itemize}
+        \item Lesson of early trade models: trade is great! 
+        \item Great for who -- who is hurt by trade?
+        \item Danish carpenters, competition from China.
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Scale economies}
+
+    \begin{itemize}
+        \item 
+\begin{frame}
+
+    \begin{itemize}
+        \itemsep1pt\parskip0pt\parsep0pt
+        \item `` In the early 21st century, nations are more closely linked than ever before through trade in goods and services\dots''
+    \end{itemize}
+   
+    \includegraphics[scale=0.25]{figure1-1.png}
+
+\end{frame}
+    
+\begin{frame}
+
+    \begin{itemize}
+        \itemsep1pt\parskip0pt\parsep0pt
+        \item true, but\dots
+    \end{itemize}
+   
+    \includegraphics[scale=0.25]{trade_to_gdp_historical.png}
+
+    {\tiny Source: Feenstra (1998)}
+
+\end{frame}
+
+\end{document}
