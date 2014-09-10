@@ -11,8 +11,7 @@
 \usepackage{tikz-qtree}
 \usepackage{pdfpages} %include beamer pdf slides from other presentations
 \usepackage{color}
-\ifxetex
-  \usepackage{fontspec,xltxtra,xunicode}
+\ifxetex \usepackage{fontspec,xltxtra,xunicode}
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 \else
   \ifluatex
@@ -153,7 +152,7 @@
 -Robert Feenstra, Distinguished Professor of Economics at University of California, Davis, 2004
                 \item \textcolor{blue}{\emph{It is time to declare Stolper-Samuelson [an important result of the HO model] dead. Stolper-Samuelson says that trade liberalization will raise the real income of the abundant (unskilled) labor in poor countries.  Stolper-Samuelson, qua theorem, is not wrong, of course. But if we use it, as we so often have, as if it provides a reliable answer to this question of real human significance, then it is worse than wrong - it is dangerous.} }
 
--Donald Davis and Prachi Mishra, 2007
+-Donald Davis, Professor of Economics at Colombia University and Prachi Mishra, Senior Economist, IMF 2007
             \end{itemize}
             
     \end{itemize}
@@ -187,13 +186,13 @@
             \item \emph{Heckscher-Ohlin}: \textcolor{blue}{Countries with more of a resource will export goods for which that resource is more useful in production} 
 
 \textcolor{red}{ex}: China exports labor intensive manufactured goods
-            \item \emph{Rybczynski}: \textcolor{blue}{If a country gets more of a resource, it will more than proportionally increase its production of goods for which that resource is more useful in production}
+            \item \emph{Rybczynski}: \textcolor{blue}{If country gets more of a resource, then the output of the good that uses that resource intensively will rise while the output of the other good will fall.}
 
 \textcolor{red}{ex}: if Denmark got more labor, it would increase its production of textiles
             \item \emph{Stolper-Samuelson}: \textcolor{blue}{A change in the price of a final good for which a particular resource is more useful in production will increase the payments to that resource}
 
 \textcolor{red}{ex}: if the price of textiles goes up, Chinese workers get higher wages
-            \item \emph{Factor-price equalization}: \textcolor{blue}{Trade should cause factor prices to converge}
+            \item \emph{Factor-price equalization}: \textcolor{blue}{Trade should cause resource prices to converge}
 
 \textcolor{red}{ex}: Danish and Chinese workers should be paid the same wages
         \end{enumerate}
@@ -257,8 +256,9 @@
 
     \begin{itemize}
         \item Fix the amount of, say, Food we want to produce 
-        \item Slope = if I produce a bit more Food with Labor, how much Capital is freed up? 
-        \item In notation: Slope = $-\frac{\frac{1}{MPK_F}}{\frac{1}{MPL_F}} = -\frac{MPL_F}{MPK_F}$ 
+        \item Slope = if I want to use a bit more Labor, how much Capital is freed up? 
+        \item $\frac{dQ}{dK} = MPK_F$, $\frac{dK}{dQ} = \frac{1}{MPK_F}$
+        \item Slope = $-\frac{\frac{1}{MPK_F}}{\frac{1}{MPL_F}} = -\frac{MPL_F}{MPK_F}$ 
         \item Why is the curve convex?
     \end{itemize}
     \includegraphics[scale=0.15]{input_poss.png}
@@ -270,8 +270,8 @@
     \begin{itemize}
         \item We have described the environment
         \item We have described what it is possible to produce
-        \item Now what will be produced in equilibrium?
-        \item With what mix of factors?
+        \item Now how do output prices affect production?
+        \item How do input prices affect input choice?
     \end{itemize}
 
 \end{frame}
@@ -302,6 +302,121 @@
 
     \includegraphics[scale=0.25]{factor_price_change.png}
 
+\end{frame}
+
+\begin{frame}{Pause}
+
+    \begin{itemize}
+        \item We have now described what \emph{can} be produced
+        \item We have also described how output production is linked to output prices
+        \item We have also described how input choice is linked to input prices
+        \item Next we will heuristically describe how input and output prices are linked in equilbrium
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Input and Output Prices}
+
+    \begin{itemize}
+        \item Setup
+        \begin{itemize}
+            \item Draw input possibilities curves for both goods on the same chart 
+            \item Curves are for production of the same value of the two goods 
+            \item Assume that both goods are produced
+            \item Must be line tangent to both curves, with slope wage-rental ratio
+        \end{itemize}
+        \item Food industry is \emph{labor intensive}
+            \begin{itemize}
+        \item That is, for any wage-rental ratio, Food uses a higher proportion of Labor than Clothes
+            \end{itemize}
+        \item Suddenly the price of food rises
+        \begin{itemize}
+            \item If wage-rental ratio doesn't change, negative profits for making clothes, clothes industry closes
+            \item If both industries to remain open, wage-rental ratio must rise
+            \item Since firms hire less labor and more capital per unit produced, $MPL$ rises and $MPK$ falls
+            \begin{itemize}
+                \item Wages rise (clothes buy more food, and wages paid in clothes rise): $\frac{w}{P_C} = MPL_C = \frac{P_F}{P_C} MPL_F$.  
+                \item rent falls (food buys less clothes, and rent paid in food falls): $\frac{r}{P_F} = \frac{P_C}{P_F} MPK_C = MPK_F$.  
+            \end{itemize}
+        \end{itemize}
+
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Stolper-Samuelson Theorem}
+
+    \begin{itemize}
+            \item \emph{Stolper-Samuelson}: \textcolor{blue}{A change in the price of a final good for which a particular resource is more useful in production will increase the payments to that resource}
+            \item Owners of one input are always hurt by a price change in output goods.
+            \item Trade in outputs typically changes output prices, so some people are typically hurt by trade.
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Textbook discussion of Stolper-Samuelson}
+
+    \includegraphics[scale=0.2]{relative_input_prices.png}
+
+\end{frame}
+
+\begin{frame}{Textbook discussion of Stolper-Samuelson}
+
+    \begin{itemize}
+        \item Heuristic: Clothes use relatively more labor, so if price of labor relatively increases, $\frac{P_C}{P_F}$ increases.
+        \item How did we derive this relationship?
+    \end{itemize}
+    \includegraphics[scale=0.2]{rel_price_input_price.png}
+
+\end{frame}
+
+\begin{frame}{Textbook discussion of Stolper-Samuelson}
+
+    \includegraphics[scale=0.2]{sidebyside.png}
+
+\end{frame}
+
+\begin{frame}{Pause}
+
+    \begin{itemize}
+        \item We have now described what \emph{can} be produced
+        \item We have described how output production is linked to output prices
+        \item We have described how input choice is linked to input prices
+        \item We have described how input and output prices are linked (Stolper-Samuelson)
+        \item Next: How do changes in factor endowments affect production?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Factor endowment changes and production}
+
+    \begin{itemize}
+        \item Industry-level Labor-Capital ratios do not depend on aggregate Labor-Capital ratios 
+    \end{itemize}
+    \includegraphics[scale=0.2]{two_factor_choice.png}
+
+\end{frame}
+
+\begin{frame}{Factor endowment changes and production}
+
+    \begin{itemize}
+        \item We have the accounting identity:
+        \begin{align*}
+            \frac{L}{K} &= \frac{L_C}{K} + \frac{L_F}{K} \\
+            &= \frac{L_C}{K_C}\frac{K_C}{K} + \frac{L_F}{K_F} \frac{K_F}{K}
+        \end{align*}
+        \item Changes in aggregate $\frac{L}{K}$ do not affect $\frac{L_C}{K_C}$ and $\frac{L_F}{K_F}$
+        \item If $\frac{L}{K}$ increases, only way for the identity to hold is for Capital to move from the capital intensive industry to the labor intensive industry
+        \item If Capital moves, since industry Capital-Labor ratios don't change, Labor must move as well
+        \item That is, $\frac{L}{K}$ increases $\rightarrow$ more Labor-intensive good, less Capital-intensive good
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The Rybczynski Theorem}
+    \begin{itemize}
+            \item \emph{Rybczynski}: \textcolor{blue}{If country gets more of a factor, then the output of the good that uses that factor intensively will rise while the output of the other good will fall.}
+    \end{itemize}
 \end{frame}
 
 \end{document}

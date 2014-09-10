@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  8 SEP 2014 15:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  9 SEP 2014 09:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1231,7 +1231,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [16
 
 ]
-<cloth_prod.png, id=431, 1117.17375pt x 678.535pt>
+<cloth_prod.png, id=432, 1117.17375pt x 678.535pt>
 File: cloth_prod.png Graphic file (type png)
  <use cloth_prod.png>
 Package pdftex.def Info: cloth_prod.png used on input line 282.
@@ -1239,7 +1239,7 @@ Package pdftex.def Info: cloth_prod.png used on input line 282.
 
 [17
 
- <./cloth_prod.png>] <cloth_mpl.png, id=458, 1053.9375pt x 770.88pt>
+ <./cloth_prod.png>] <cloth_mpl.png, id=459, 1053.9375pt x 770.88pt>
 File: cloth_mpl.png Graphic file (type png)
 
 <use cloth_mpl.png>
@@ -1248,7 +1248,7 @@ Package pdftex.def Info: cloth_mpl.png used on input line 291.
  [18
 
  <./cloth_mpl.png>]
-<ppf.png, id=484, 1240.635pt x 915.42pt>
+<ppf.png, id=485, 1240.635pt x 915.42pt>
 File: ppf.png Graphic file (type png)
  <use ppf.png>
 Package pdftex.def Info: ppf.png used on input line 297.
@@ -1367,7 +1367,7 @@ Package pdftex.def Info: labor_mig.png used on input line 564.
 
  <./labor_mig.png>] [42
 
-] <migration_wages.png, id=1107, 1610.015pt x 803.0pt>
+] <migration_wages.png, id=1108, 1610.015pt x 803.0pt>
 File: migration_wages.png Graphic file (type png)
 
 <use migration_wages.png>
@@ -1385,42 +1385,42 @@ Overfull \hbox (14.70743pt too wide) in paragraph at lines 581--581
 ] [45
 
 ]
-<Pearson_math_appendix.pdf, id=1183, page=1, 722.7pt x 542.025pt>
+<Pearson_math_appendix.pdf, id=1185, page=1, 722.7pt x 542.025pt>
 File: Pearson_math_appendix.pdf Graphic file (type pdf)
 
 <use Pearson_math_appendix.pdf, page 1>
 Package pdftex.def Info: Pearson_math_appendix.pdf, page1 used on input line 62
-1.
+8.
 (pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
  [46
 
  <./Pearson_math_appendix.pdf>]
-<Pearson_math_appendix.pdf, id=1232, page=2, 722.7pt x 542.025pt>
+<Pearson_math_appendix.pdf, id=1234, page=2, 722.7pt x 542.025pt>
 File: Pearson_math_appendix.pdf Graphic file (type pdf)
 
 <use Pearson_math_appendix.pdf, page 2>
 Package pdftex.def Info: Pearson_math_appendix.pdf, page2 used on input line 62
-2.
+9.
 (pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
  [47
 
  <./Pearson_math_appendix.pdf>]
-<Pearson_math_appendix.pdf, id=1280, page=3, 722.7pt x 542.025pt>
+<Pearson_math_appendix.pdf, id=1282, page=3, 722.7pt x 542.025pt>
 File: Pearson_math_appendix.pdf Graphic file (type pdf)
 
 <use Pearson_math_appendix.pdf, page 3>
-Package pdftex.def Info: Pearson_math_appendix.pdf, page3 used on input line 62
-3.
+Package pdftex.def Info: Pearson_math_appendix.pdf, page3 used on input line 63
+0.
 (pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
  [48
 
  <./Pearson_math_appendix.pdf>]
-<Pearson_math_appendix.pdf, id=1331, page=4, 722.7pt x 542.025pt>
+<Pearson_math_appendix.pdf, id=1332, page=4, 722.7pt x 542.025pt>
 File: Pearson_math_appendix.pdf Graphic file (type pdf)
 
 <use Pearson_math_appendix.pdf, page 4>
-Package pdftex.def Info: Pearson_math_appendix.pdf, page4 used on input line 62
-4.
+Package pdftex.def Info: Pearson_math_appendix.pdf, page4 used on input line 63
+1.
 (pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
  [49
 
@@ -1434,12 +1434,12 @@ Package pdftex.def Info: Pearson_math_appendix.pdf, page4 used on input line 62
 \tf@snm=\write8
 \openout8 = `specific_factors.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 626.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 626.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 633.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 633.
 
 (./specific_factors.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 626.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 626.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 633.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 633.
 Package rerunfilecheck Info: File `specific_factors.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1447,13 +1447,13 @@ Package rerunfilecheck Info: File `specific_factors.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 626.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 633.
  ) 
 Here is how much of TeX's memory you used:
- 19074 strings out of 493304
- 355162 string characters out of 6139871
+ 19086 strings out of 493304
+ 355262 string characters out of 6139871
  435307 words of memory out of 5000000
- 21960 multiletter control sequences out of 15000+600000
+ 21972 multiletter control sequences out of 15000+600000
  15529 words of font info for 58 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,55p,405b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1471,7 +1471,7 @@ nts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
 usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on specific_factors.pdf (49 pages, 2324984 bytes).
+Output written on specific_factors.pdf (49 pages, 2325153 bytes).
 PDF statistics:
  1456 PDF objects out of 1728 (max. 8388607)
  1312 compressed objects within 14 object streams
