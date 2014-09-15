@@ -1,0 +1,282 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+%Set up notes
+\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{pdfpages} %include beamer pdf slides from other presentations
+\usepackage{color}
+\ifxetex \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Putting theory to work: The standard model}
+\author{Instructor: David Jinkins}
+\date{Date: Sept. 16, 2014}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Last time: The Heckscher-Ohlin Model
+  \begin{itemize}
+        \item Introduction
+        \item The point
+        \item The model
+        \begin{itemize}
+            \item Setup and assumptions
+            \item Production possibilities
+            \item Production and prices
+            \item Autarchy equilibrium
+            \item Trade equilibrium
+        \end{itemize}
+        \item The big four theorems
+        \item The problems 
+        \begin{itemize}
+            \item Assumptions
+            \item Evidence
+        \end{itemize}
+        \item Moving forward
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today: The Standard Model 
+  \begin{itemize}
+        \item Introduction
+        \item Model
+        \begin{itemize}
+            \item Setup and assumptions
+            \item Production possiblities 
+            \item Supply and Prices
+            \item Demand and Prices
+            \item Trade and Prices
+        \end{itemize}
+        \item Growth
+        \begin{itemize}
+            \item Production
+            \item Terms of Trade
+            \item International effects
+        \end{itemize}
+        \item Tariffs and subsidies
+        \item International lending
+    \end{itemize}
+    \item The location of production
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item But first a review!
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item Insert review here
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Chapter 6: The standard model}
+
+    \begin{itemize}
+        \item Best chapter yet 
+        \item Why do countries trade?
+        \begin{itemize}
+            \item Differences in technology?
+            \item Differences in factor endowments?
+        \end{itemize}
+        \item We just need different production possibilities
+        \item For much analysis \emph{it doesn't matter!}
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Laying out the model}
+
+    \begin{itemize}
+        \item Environment 
+        \item Supply and Prices
+        \item Demand, Welfare, and Prices
+        \item Equilibrium
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Environment}
+
+    \begin{itemize}
+        \item Two countries: Home (H), Foreign (G)
+        \item Two goods: Food (F), Clothes (C)
+        \item We aren't going to specify the factors
+        \begin{itemize}
+            \item Ricardo: Labor
+            \item Specific Factors: Land, Capital, Labor
+            \item Heckscher Ohlin: Capital, Labor
+        \end{itemize}
+        \item We aren't going to specify exact technology for converting factors into goods
+        \begin{itemize}
+            \item Ricardo: Unit Labor requirement
+            \item Specific Factors: $Q_C(K,L), Q_F(T,L)$
+            \item Heckscher Ohlin: $Q_C(K,L), Q_F(K,L)$
+        \end{itemize}
+
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \begin{itemize}
+        \item Each country is going to be given a production possibilities frontier
+        \item We don't ask where it came from
+        \item Book: Economy will produce at point on PPF which maximizes value
+        \item This result makes sense for a dictator (or social planner)
+        \item Will the market deliver that result?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \begin{itemize}
+        \item We know: 
+        \begin{enumerate}
+            \item Full employment of factors (and positive marginal product) means production on the PPF 
+            \item We have argued that slope of PPF is the negative ratio of marginal products
+            \item From wages/rental, in equlibrium: $\frac{P_F}{P_C} = \frac{MPL_C}{MPL_F}$
+        \end{enumerate}
+        \item Therefore: a line with negative slope of prices will be tangent to the PPF at the point of production
+        \item But what about the value of production?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The isovalue lines}
+
+    \begin{itemize}
+        \item What is the equation for the price line tangent to the PPF?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \begin{itemize}
+        \item We have shown that equilibrium production is at a point where production value is maximized
+        \item Follows from the equilibrium wage and rental equations, and therefore the no-profit condition
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \includegraphics[scale=0.25]{isovalue.png}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \includegraphics[scale=0.25]{price_supply.png}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \includegraphics[scale=0.25]{rprq.png}
+
+\end{frame}
+
+\begin{frame}{Demand}
+
+    \begin{itemize}
+        \item Until this class, demand has just been a curve
+        \item (ok, in a homework I made you plot a couple of them)
+        \item Today we want to analyze welfare 
+        \item We need to go a bit farther
+        \item In short -- today we skimp on the supply, but say more about demand
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Demand}
+
+    \begin{itemize}
+        \item We have just seen that the value produced is $P_C Q_C + P_F Q_F$.
+        \item Trade balance says that the value of consumption must equal value of production:
+        \begin{equation*}
+            P_C Q_C + P_F Q_F = P_C D_C + P_F D_F
+        \end{equation*}
+        \item What does this imply about the location of consumption on our PPF when trading?
+        \item What additional condition do we have in autarchy?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The indifference curve}
+
+    \begin{itemize}
+        \item The set of bundles of goods over which the consumer is indifferent 
+        \begin{itemize}
+        \item More of either good is better
+        \item Slope at any point in $(-\infty,0]$, that is, must compensate
+        \item If I have little of one good, you have to give me a lot of the other to compensate for further reduction. (decreasing marginal utility)
+        \end{itemize}
+        \item Results in convex curves emanating from the origin
+    \end{itemize}
+
+\end{frame}
+
+
+\end{document}
+
+
+
+
+
+

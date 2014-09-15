@@ -1,0 +1,720 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+%Set up notes
+\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{pdfpages} %include beamer pdf slides from other presentations
+\usepackage{color}
+\ifxetex \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Putting theory to work: The standard model}
+\author{Instructor: David Jinkins}
+\date{Date: Sept. 16, 2014}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Last time: The Heckscher-Ohlin Model
+  \begin{itemize}
+        \item Introduction
+        \item The point
+        \item The model
+        \begin{itemize}
+            \item Setup and assumptions
+            \item Production possibilities
+            \item Production and prices
+            \item Autarchy equilibrium
+            \item Trade equilibrium
+        \end{itemize}
+        \item The big four theorems
+        \item The problems 
+        \begin{itemize}
+            \item Assumptions
+            \item Evidence
+        \end{itemize}
+        \item Moving forward
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today: The Standard Model 
+  \begin{itemize}
+        \item Introduction
+        \item Model
+        \begin{itemize}
+            \item Setup and assumptions
+            \item Production possiblities 
+            \item Supply and Prices
+            \item Demand and Prices
+            \item Trade and Prices
+        \end{itemize}
+        \item Growth
+        \begin{itemize}
+            \item Production
+            \item Terms of Trade
+            \item International effects
+        \end{itemize}
+        \item Tariffs and subsidies
+        \item International lending
+    \end{itemize}
+    \item The location of production
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item But first a review!
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item Insert review here
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Chapter 6: The standard model}
+
+    \begin{itemize}
+        \item Best chapter yet 
+        \begin{itemize}
+            \item Probably a Krugman chapter
+            \item Lots of intuition, simple model, important questions
+        \end{itemize}
+        \item Why do countries trade?
+        \begin{itemize}
+            \item Differences in technology?
+            \item Differences in factor endowments?
+        \end{itemize}
+        \item We just need different production possibilities
+        \item For much analysis \emph{it doesn't matter!}
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Laying out the model}
+
+    \begin{itemize}
+        \item Environment 
+        \item Supply and Prices
+        \item Demand, Welfare, and Prices
+        \item Equilibrium
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Environment}
+
+    \begin{itemize}
+        \item Two countries: Home (H), Foreign (G)
+        \item Two goods: Food (F), Clothes (C)
+        \item We aren't going to specify the factors
+        \begin{itemize}
+            \item Ricardo: Labor
+            \item Specific Factors: Land, Capital, Labor
+            \item Heckscher Ohlin: Capital, Labor
+        \end{itemize}
+        \item We aren't going to specify exact technology for converting factors into goods
+        \begin{itemize}
+            \item Ricardo: Unit Labor requirement
+            \item Specific Factors: $Q_C(K,L), Q_F(T,L)$
+            \item Heckscher Ohlin: $Q_C(K,L), Q_F(K,L)$
+        \end{itemize}
+
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \begin{itemize}
+        \item Each country is going to be given a production possibilities frontier
+        \item We don't ask where it came from
+        \item Book: Economy will produce at point on PPF which maximizes value
+        \item This result makes sense for a dictator (or social planner)
+        \item Will the market deliver that result?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \begin{itemize}
+        \item We know: 
+        \begin{enumerate}
+            \item Full employment of factors (and positive marginal product) means production on the PPF 
+            \item We have argued that slope of PPF is the negative ratio of marginal products
+            \item From wages/rental, in equlibrium: $\frac{P_F}{P_C} = \frac{MPL_C}{MPL_F}$
+        \end{enumerate}
+        \item Therefore: a line with negative slope of prices will be tangent to the PPF at the point of production
+        \item But what about the value of production?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The isovalue lines}
+
+    \begin{itemize}
+        \item What is the equation for the price line tangent to the PPF?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \begin{itemize}
+        \item We have shown that equilibrium production is at a point where production value is maximized
+        \item Follows from the equilibrium wage and rental equations, and therefore the no-profit condition
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \includegraphics[scale=0.25]{isovalue.png}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \includegraphics[scale=0.25]{price_supply.png}
+
+\end{frame}
+
+\begin{frame}{Supply}
+
+    \includegraphics[scale=0.25]{rprq.png}
+
+\end{frame}
+
+\begin{frame}{Demand}
+
+    \begin{itemize}
+        \item Until this class, demand has just been a curve
+        \item (ok, in a homework I made you plot a couple of them)
+        \item Today we want to analyze welfare 
+        \item We need to go a bit farther
+        \item In short -- today we skimp on the supply, but say more about demand
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Demand}
+
+    \begin{itemize}
+        \item We have just seen that the value produced is $P_C Q_C + P_F Q_F$.
+        \item Trade balance says that the value of consumption must equal value of production:
+        \begin{equation*}
+            P_C Q_C + P_F Q_F = P_C D_C + P_F D_F
+        \end{equation*}
+        \item What does this imply about the location of consumption on our PPF when trading?
+        \item What additional condition do we have in autarchy?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{The indifference curve}
+
+    \begin{itemize}
+        \item The set of bundles of goods over which the consumer is indifferent 
+        \begin{itemize}
+        \item More of either good is better
+        \item Slope at any point in $(-\infty,0]$, that is, must compensate
+        \item If I have little of one good, you have to give me a lot of the other to compensate for further reduction. (decreasing marginal utility)
+        \end{itemize}
+        \item Results in convex curves emanating from the origin
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Demand}
+    \begin{itemize}
+        \item Where would autarchy consumption be?
+    \end{itemize}
+    \includegraphics[scale=0.25]{ind_curves.png}
+
+\end{frame}
+
+\begin{frame}{Price changes and welfare}
+
+    \begin{itemize}
+        \item Suppose my country sells clothes to buy food
+        \item If the relative price of clothes goes up:
+        \begin{itemize}
+            \item I become richer -- Foreign has to give me more food for my clothes (\emph{income effect})
+            \item I change my consumption bundle to relatively more food (\emph{income effect})
+            \item What happens to production at Home?
+            \item What happens to production at Foreign?
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Price changes and welfare}
+
+    \begin{itemize}
+        \item See income and substitution effects in chart
+    \end{itemize}
+    \includegraphics[scale=0.25]{price_change_demand.png}
+
+\end{frame}
+
+\begin{frame}{Price changes and welfare}
+
+    \includegraphics[scale=0.25]{rs_rd.png}
+    \begin{itemize}
+        \item Which good does Home export?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Price changes and welfare}
+
+    \begin{itemize}
+        \item How would Home consumption change if the relative price of Clothes fell?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Price changes and welfare}
+
+    \begin{itemize}
+        \item \emph{Terms of trade}
+        \item Defined as the price of the exported good divided by the price of the imported good
+        \item Welfare increases if terms of trade rise (or improve)
+        \item Welfare decreases if terms of trade fall (or worsen)
+        \item A worsening of the terms of trade can never make welfare fall below autarchy level (why?)
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Equilibrium Trade}
+
+    \includegraphics[scale=0.25]{rs_world.png}
+    \begin{itemize}
+        \item Are $RS$ and $RS^*$ the autarchy supplies?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Equilibrium Trade}
+
+    \includegraphics[scale=0.25]{trade_flows.png}
+    \begin{itemize}
+        \item What is wrong with these pictures (under the assumptions we have typically been making?)
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{End model development}
+
+    \begin{itemize}
+        \item We have now presented the model
+        \item Simpler than the others we developed 
+        \item Countries have PPFs
+        \item Countries have demand
+        \item Prices affect both production and consumption 
+        \item Improvement in terms of trade helps
+        \item Worsening of terms of trade hurts
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Some analysis}
+
+    \begin{itemize}
+        \item Is growth in other countries good or bad for us?
+        \item If other countries will not respond, should we impose tariffs?
+        \item How will Danish current account surplus affect future Danish consumption? 
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Growth}
+
+    \begin{itemize}
+        \item Question 1: Is China's growth good for Denmark?
+        \item Question 2: Is Danish growth better or worse thanks to international trade?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Growth} 
+
+    \begin{itemize}
+        \item Claim in book (pg. 158):
+
+            \emph{The international trade effects of growth result from the fact that such growth typically has a bias.}
+
+        \item I suspect that unbiased growth still affects trade
+        \item come back to this point
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \begin{itemize}
+        \item Growth that expands the production possibilities more towards one good
+        \item Growth that, for any fixed price, always causes relatively more of one good to be produced
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \includegraphics[scale=0.25]{biased_growth.png}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \begin{itemize}
+        \item Suppose equilibrium trade prices didn't change
+        \item Foreign supplies same good mix
+        \item Home supplies relatively more of one good 
+        \item This will affect the world relative supply 
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \includegraphics[scale=0.25]{biased_growth_rs.png}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \begin{itemize}
+        \item Of course, going to affect equilibrium price
+    \end{itemize}
+    \includegraphics[scale=0.25]{biased_growth_rs.png}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \includegraphics[scale=0.25]{cloth_growth.png}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \includegraphics[scale=0.25]{food_growth.png}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \begin{itemize}
+        \item Effect on price depends upon which good gets the biased growth
+        \item Effect on price does not depend upon which country grows
+        \item If Home exports cloth, does growth in Foreign in Food help or hurt Home? Why?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \begin{itemize}
+        \item Export-biased growth is bad for terms of trade
+        \item Import-biased growth is good for terms of trade
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Biased growth}
+
+    \begin{itemize}
+        \item Columbia Economist Jagdish Baghwati showed as a graduate student that growth at home can actually reduce welfare
+        \item But productivity growth usually increases income, even if it worsens terms of trade
+        \item Growth of other countries in Home's export industry does not increase income 
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Unbiased Growth}
+
+    \begin{itemize}
+        \item I think it also affects trade and production
+        \item Effect similar to export-orientated biased growth (bad)
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Case study from book}
+
+    \begin{itemize}
+        \item Should we expect growth in developing countries to hurt developed world consumers?
+        \item Depends in which industry their growth happens
+        \item Case: Chinese productivity growth in manufacturing -- China's export industry
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Case study from book}
+
+    \begin{itemize}
+        \item China-US terms of trade
+    \end{itemize}
+    \includegraphics[scale=0.20]{china_us_tot.png}
+    \begin{itemize}
+        \item What the book isn't saying\dots
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Tariffs and Export Subsidies}
+
+    \begin{itemize}
+        \item What are they?
+        \begin{itemize}
+            \item \emph{Tariffs} are taxes levied on imports
+            \item \emph{Export subsidies} are payments given to domestic producers who sell abroad
+        \end{itemize}
+        \item Scope - effect on terms of trade
+        \begin{itemize}
+            \item Tariffs are not usually motivated by terms of trade
+            \item They do have terms of trade effects
+        \end{itemize}
+        \item Questions
+        \begin{itemize}
+            \item Do tariffs help or hurt Home consumers?
+            \item Do export subsidies help or hurt Home consumers?
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Tariffs}
+    
+    \begin{itemize}
+        \item Tariffs are a tax applied in some places, not others
+        \item Different relative prices faced by people in different countries
+        \item We defined terms of trade as export good pr. / import good pr.
+        \item But now we have two sets of rel. prices -- \emph{internal} and \emph{external}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Tariffs}
+    
+    \begin{itemize}
+        \item Tariffs are a tax applied in some places, not others
+        \item Different relative prices faced by people in different countries
+        \item We defined terms of trade as export good pr. / import good pr.
+        \item But now we have two sets of rel. prices -- \emph{internal} and \emph{external}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Tariffs}
+    
+    \begin{itemize}
+        \item We are going to call \emph{external} prices the terms of trade
+        \begin{itemize}
+            \item External prices govern the value of Home's exports in terms of Foreign's exports
+            \item Internal prices govern the choices of production and consumption at Home
+        \end{itemize}
+        \item Suppose Home puts a tariff on Food
+        \item Suppose external prices do not change
+        \begin{itemize}
+            \item What happends to production of Food at home?
+            \item What happends to consumption of Food at home?
+            \item If Food were Labor-intensive, which factor benefits?
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Tariffs}
+    
+    \begin{itemize}
+        \item We are going to call \emph{external} prices the terms of trade
+        \begin{itemize}
+            \item External prices govern the value of Home's exports in terms of Foreign's exports
+            \item Internal prices govern the choices of production and consumption at Home
+        \end{itemize}
+        \item Suppose Home, Clothes exporter, puts a tariff on Food
+        \item Suppose external prices do not change
+        \begin{itemize}
+            \item What happends to production of Food at home?
+            \item What happends to consumption of Food at home?
+            \item If Food were Labor-intensive, which factor benefits?
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{External Price (TOT) Effect of Home Tariff on Food}
+
+    \includegraphics[scale=0.25]{tariff_tot.png}
+
+\end{frame}
+
+\begin{frame}{External Price (TOT) Effect of Home Tariff on Food}
+
+    \begin{itemize}
+        \item Terms of Trade for Home improved
+        \item Now Home can afford more Food for the same production of Clothes
+        \item Great, right! But wait, let's think about this again
+        \item Domestically, a Tariff is initially like a worsening of terms of trade!
+        \item We need the External Price TOT Effect to dominate 
+        \item There is an optimal tariff
+        \begin{itemize}
+            \item Typically small for small countries, large for large countries.  Why?
+            \item Talk more about this in a later chapter
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Export subsidy}
+
+    \begin{itemize}
+        \item In a similar fashion, will reduce external TOT
+        \item Domestically, however, will increase the internal price of the export good
+    \end{itemize}
+
+    \includegraphics[scale=0.20]{export_subsidy_tot.png}
+
+\end{frame}
+
+\begin{frame}{Trade Policy Discussion}
+
+    \begin{itemize}
+        \item Export subsidy and tariff seem very similar
+        \item That is because we are missing something really important \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Trade Policy Discussion}
+
+    \begin{itemize}
+        \item Financing! 
+        \begin{itemize}
+            \item Tariffs are financed by Foreign
+            \item Export Subsidies are financed by Home
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Trade Policy Discussion}
+
+    \begin{itemize}
+        \item Is it good for Denmark if China subsidizes its exports?
+        \item The (Stiglitz, I think) new car example
+        \item Good for who again?
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Intertemporal Trade}
+
+    \begin{itemize}
+        \item Dipping into 2nd half of the course -- International Finance
+        \item Why? Because analysis is similar to current model
+        \item Setup:
+        \begin{itemize}
+            \item Two countries: Home (H), Foreign (G)
+            \item Two goods: Cheese today, and Cheese tomorrow
+            \item Countries have different technology for converting today Cheese into tomorrow Cheese.
+            \item Maybe only Home has refrigerators
+        \end{itemize}
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Intertemporal Trade}
+
+    \begin{itemize}
+        \item More serious motivation:
+        \begin{itemize}
+            \item One country might have better investment opportunities
+            \item One country may have found oil, but it will run out tomorrow
+        \end{itemize}
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Intertemporal PPF}
+
+    \includegraphics[scale=0.25]{intertemporal_ppf.png}
+
+\end{frame}
+
+\begin{frame}{Price of Future Consumption}
+
+    \begin{itemize}
+        \item Just like bank loan, you have to pay for current consumption 
+        \item Suppose that you have to pay $1+r$ units of future cheese for one unit of current cheese
+        \item How much current cheese to I have to give up for one unit of future cheese?
+        \item That is the relative price of future cheese in terms of current cheese
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Intertemporal Cheese equilibrium}
+
+    \includegraphics[scale=0.25]{intertemporal_cheese.png}
+
+\end{frame}
+
+\end{document}
+
+
+
+
+
+

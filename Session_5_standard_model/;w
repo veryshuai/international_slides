@@ -1,0 +1,166 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+%Set up notes
+\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{pdfpages} %include beamer pdf slides from other presentations
+\usepackage{color}
+\ifxetex \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Putting theory to work: The standard model}
+\author{Instructor: David Jinkins}
+\date{Date: Sept. 16, 2014}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Last time: The Heckscher-Ohlin Model
+  \begin{itemize}
+        \item Introduction
+        \item The point
+        \item The model
+        \begin{itemize}
+            \item Setup and assumptions
+            \item Production possibilities
+            \item Production and prices
+            \item Autarchy equilibrium
+            \item Trade equilibrium
+        \end{itemize}
+        \item The big four theorems
+        \item The problems 
+        \begin{itemize}
+            \item Assumptions
+            \item Evidence
+        \end{itemize}
+        \item Moving forward
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Today: The Standard Model 
+  \begin{itemize}
+        \item Introduction
+        \item Model
+        \begin{itemize}
+            \item Setup and assumptions
+            \item Production possiblities 
+            \item Supply and Prices
+            \item Demand and Prices
+            \item Trade and Prices
+        \end{itemize}
+        \item Growth
+        \begin{itemize}
+            \item Production
+            \item Terms of Trade
+            \item International effects
+        \end{itemize}
+        \item Tariffs and subsidies
+        \item International lending
+    \end{itemize}
+    \item The location of production
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item But first a review!
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item Insert review here
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Chapter 6: The standard model}
+
+    \begin{itemize}
+        \item Best chapter yet 
+        \item Why do countries trade?
+        \begin{itemize}
+            \item Differences in technology?
+            \item Differences in factor endowments?
+        \end{itemize}
+        \item We just need different production possibilities
+        \item For much analysis \emph{it doesn't matter!}
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Laying out the model}
+
+    \begin{itemize}
+        \item Environment 
+        \item Supply and Prices
+        \item Demand, Welfare, and Prices
+        \item Equilibrium
+        \begin{itemize}
+            \item Differences in technology?
+            \item Differences in factor endowments?
+        \end{itemize}
+        \item We just need different production possibilities
+        \item For much analysis \emph{it doesn't matter!}
+    \end{itemize}
+            
+\end{frame}
+
+
+
+
+\end{document}
+
+
+
+
+
+

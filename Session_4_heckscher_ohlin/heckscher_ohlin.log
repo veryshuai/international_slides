@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  10 SEP 2014 11:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  10 SEP 2014 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,121 +1205,458 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [4
 
-] [5
-
 ]
-[6
+<review.pdf, id=121, page=1, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
-] [7
+<use review.pdf, page 1>
+Package pdftex.def Info: review.pdf, page1 used on input line 119.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [5
 
-] [8
+ <./review.pdf>]
+<review.pdf, id=173, page=2, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
-] [9
+<use review.pdf, page 2>
+Package pdftex.def Info: review.pdf, page2 used on input line 120.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [6
 
-] [10
+ <./review.pdf>]
+<review.pdf, id=221, page=3, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
-] [11
+<use review.pdf, page 3>
+Package pdftex.def Info: review.pdf, page3 used on input line 121.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [7
 
-] [12
+ <./review.pdf>]
+<review.pdf, id=252, page=4, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
-] <ppf.png, id=326, 1315.91624pt x 893.3375pt>
-File: ppf.png Graphic file (type png)
+<use review.pdf, page 4>
+Package pdftex.def Info: review.pdf, page4 used on input line 122.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [8
 
-<use ppf.png>
-Package pdftex.def Info: ppf.png used on input line 253.
-(pdftex.def)             Requested size: 197.37892pt x 133.99484pt.
+ <./review.pdf>]
+<review.pdf, id=293, page=5, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
+
+<use review.pdf, page 5>
+Package pdftex.def Info: review.pdf, page5 used on input line 123.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [9
+
+ <./review.pdf>]
+<review.pdf, id=328, page=6, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
+
+<use review.pdf, page 6>
+Package pdftex.def Info: review.pdf, page6 used on input line 124.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [10
+
+ <./review.pdf>]
+<review.pdf, id=377, page=7, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
+
+<use review.pdf, page 7>
+Package pdftex.def Info: review.pdf, page7 used on input line 125.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [11
+
+ <./review.pdf>]
+<review.pdf, id=416, page=8, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
+
+<use review.pdf, page 8>
+Package pdftex.def Info: review.pdf, page8 used on input line 126.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [12
+
+ <./review.pdf>]
+<review.pdf, id=455, page=9, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
+
+<use review.pdf, page 9>
+Package pdftex.def Info: review.pdf, page9 used on input line 127.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [13
 
- <./ppf.png>]
-<input_poss.png, id=355, 1004.75375pt x 951.555pt>
-File: input_poss.png Graphic file (type png)
- <use input_poss.png>
-Package pdftex.def Info: input_poss.png used on input line 266.
-(pdftex.def)             Requested size: 150.70656pt x 142.72708pt.
+ <./review.pdf>]
+<review.pdf, id=487, page=10, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
-Overfull \vbox (4.97937pt too high) detected at line 266
- []
+<use review.pdf, page 10>
+Package pdftex.def Info: review.pdf, page10 used on input line 128.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [14
 
-[14
+ <./review.pdf>]
+<review.pdf, id=523, page=11, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
- <./input_poss.png>] [15
+<use review.pdf, page 11>
+Package pdftex.def Info: review.pdf, page11 used on input line 129.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [15
 
-]
-<ppf_equil.png, id=407, 1360.08125pt x 913.4125pt>
-File: ppf_equil.png Graphic file (type png)
- <use ppf_equil.png>
-Package pdftex.def Info: ppf_equil.png used on input line 288.
-(pdftex.def)             Requested size: 204.00339pt x 137.00597pt.
+ <./review.pdf>]
+<review.pdf, id=561, page=12, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
+
+<use review.pdf, page 12>
+Package pdftex.def Info: review.pdf, page12 used on input line 130.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [16
 
- <./ppf_equil.png>] <input_cost.png, id=433, 890.32625pt x 977.6525pt>
-File: input_cost.png Graphic file (type png)
+ <./review.pdf>]
+<review.pdf, id=598, page=13, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
-<use input_cost.png>
-Package pdftex.def Info: input_cost.png used on input line 299.
-(pdftex.def)             Requested size: 133.54317pt x 146.64154pt.
+<use review.pdf, page 13>
+Package pdftex.def Info: review.pdf, page13 used on input line 131.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [17
 
- <./input_cost.png>]
-<factor_price_change.png, id=460, 1079.03125pt x 990.70125pt>
-File: factor_price_change.png Graphic file (type png)
+ <./review.pdf>]
+<review.pdf, id=662, page=14, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
-<use factor_price_change.png>
-Package pdftex.def Info: factor_price_change.png used on input line 305.
-(pdftex.def)             Requested size: 269.75716pt x 247.6747pt.
+<use review.pdf, page 14>
+Package pdftex.def Info: review.pdf, page14 used on input line 132.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [18
 
-Overfull \vbox (2.40158pt too high) detected at line 305
- []
+ <./review.pdf>]
+<review.pdf, id=699, page=15, 364.19562pt x 273.14648pt>
+File: review.pdf Graphic file (type pdf)
 
-[18
+<use review.pdf, page 15>
+Package pdftex.def Info: review.pdf, page15 used on input line 133.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [19
 
- <./factor_price_change.png>] [19
-
-] [20
+ <./review.pdf>] [20
 
 ] [21
 
+] [22
+
+] [23
+
+] [24
+
+] [25
+
 ]
-<relative_input_prices.png, id=564, 1228.59pt x 921.4425pt>
-File: relative_input_prices.png Graphic file (type png)
+[26
 
-<use relative_input_prices.png>
-Package pdftex.def Info: relative_input_prices.png used on input line 361.
-(pdftex.def)             Requested size: 245.71364pt x 184.28523pt.
- [22
-
- <./relative_input_prices.png>]
-<rel_price_input_price.png, id=590, 1225.57875pt x 944.52875pt>
-File: rel_price_input_price.png Graphic file (type png)
-
-<use rel_price_input_price.png>
-Package pdftex.def Info: rel_price_input_price.png used on input line 371.
-(pdftex.def)             Requested size: 245.1114pt x 188.9024pt.
- [23
-
- <./rel_price_input_price.png>]
-<sidebyside.png, id=616, 1536.74126pt x 963.6pt>
-File: sidebyside.png Graphic file (type png)
- <use sidebyside.png>
-Package pdftex.def Info: sidebyside.png used on input line 377.
-(pdftex.def)             Requested size: 307.3428pt x 192.71658pt.
- [24
-
- <./sidebyside.png>] [25
-
-] <two_factor_choice.png, id=669, 1296.845pt x 930.47626pt>
-File: two_factor_choice.png Graphic file (type png)
-
-<use two_factor_choice.png>
-Package pdftex.def Info: two_factor_choice.png used on input line 398.
-(pdftex.def)             Requested size: 259.36441pt x 186.09195pt.
- [26
-
- <./two_factor_choice.png>] [27
+] [27
 
 ] [28
 
+] <relative_input_prices.png, id=960, 1228.59pt x 921.4425pt>
+File: relative_input_prices.png Graphic file (type png)
+
+<use relative_input_prices.png>
+Package pdftex.def Info: relative_input_prices.png used on input line 264.
+(pdftex.def)             Requested size: 221.13666pt x 165.8525pt.
+
+Overfull \vbox (4.52382pt too high) detected at line 264
+ []
+
+[29
+
+ <./relative_input_prices.png>] [30
+
 ]
+<ppf.png, id=1014, 1315.91624pt x 893.3375pt>
+File: ppf.png Graphic file (type png)
+ <use ppf.png>
+Package pdftex.def Info: ppf.png used on input line 292.
+(pdftex.def)             Requested size: 197.37892pt x 133.99484pt.
+ [31
+
+ <./ppf.png>]
+<input_poss.png, id=1042, 1004.75375pt x 951.555pt>
+File: input_poss.png Graphic file (type png)
+ <use input_poss.png>
+Package pdftex.def Info: input_poss.png used on input line 305.
+(pdftex.def)             Requested size: 150.70656pt x 142.72708pt.
+
+Overfull \vbox (4.97937pt too high) detected at line 305
+ []
+
+[32
+
+ <./input_poss.png>] [33
+
+]
+<ppf_equil.png, id=1094, 1360.08125pt x 913.4125pt>
+File: ppf_equil.png Graphic file (type png)
+ <use ppf_equil.png>
+Package pdftex.def Info: ppf_equil.png used on input line 327.
+(pdftex.def)             Requested size: 204.00339pt x 137.00597pt.
+
+[34
+
+ <./ppf_equil.png>] <input_cost.png, id=1120, 890.32625pt x 977.6525pt>
+File: input_cost.png Graphic file (type png)
+
+<use input_cost.png>
+Package pdftex.def Info: input_cost.png used on input line 337.
+(pdftex.def)             Requested size: 133.54317pt x 146.64154pt.
+ [35
+
+ <./input_cost.png>]
+<factor_price_change.png, id=1147, 1079.03125pt x 990.70125pt>
+File: factor_price_change.png Graphic file (type png)
+
+<use factor_price_change.png>
+Package pdftex.def Info: factor_price_change.png used on input line 343.
+(pdftex.def)             Requested size: 269.75716pt x 247.6747pt.
+
+Overfull \vbox (2.40158pt too high) detected at line 343
+ []
+
+[36
+
+ <./factor_price_change.png>] [37
+
+] [38
+
+] [39
+
+]
+File: relative_input_prices.png Graphic file (type png)
+
+<use relative_input_prices.png>
+Package pdftex.def Info: relative_input_prices.png used on input line 399.
+(pdftex.def)             Requested size: 245.71364pt x 184.28523pt.
+ [40
+
+]
+<rel_price_input_price.png, id=1276, 1225.57875pt x 944.52875pt>
+File: rel_price_input_price.png Graphic file (type png)
+
+<use rel_price_input_price.png>
+Package pdftex.def Info: rel_price_input_price.png used on input line 409.
+(pdftex.def)             Requested size: 245.1114pt x 188.9024pt.
+ [41
+
+ <./rel_price_input_price.png>]
+<sidebyside.png, id=1302, 1536.74126pt x 963.6pt>
+File: sidebyside.png Graphic file (type png)
+ <use sidebyside.png>
+Package pdftex.def Info: sidebyside.png used on input line 415.
+(pdftex.def)             Requested size: 307.3428pt x 192.71658pt.
+ [42
+
+ <./sidebyside.png>] [43
+
+]
+<two_factor_choice.png, id=1355, 1296.845pt x 930.47626pt>
+File: two_factor_choice.png Graphic file (type png)
+
+<use two_factor_choice.png>
+Package pdftex.def Info: two_factor_choice.png used on input line 435.
+(pdftex.def)             Requested size: 259.36441pt x 186.09195pt.
+ [44
+
+ <./two_factor_choice.png>] [45
+
+] [46
+
+] [47
+
+]
+[48
+
+] [49
+
+] <trade_price_convergence.png, id=1510, 1102.1175pt x 949.5475pt>
+File: trade_price_convergence.png Graphic file (type png)
+
+<use trade_price_convergence.png>
+Package pdftex.def Info: trade_price_convergence.png used on input line 503.
+(pdftex.def)             Requested size: 220.41959pt x 189.90613pt.
+
+Overfull \vbox (9.03304pt too high) detected at line 503
+ []
+
+[50
+
+ <./trade_price_convergence.png>] [51
+
+] [52
+
+] [53
+
+] [54
+
+] [55
+
+]
+<factor_price_differences.png, id=1663, 1509.64pt x 774.895pt>
+File: factor_price_differences.png Graphic file (type png)
+
+<use factor_price_differences.png>
+Package pdftex.def Info: factor_price_differences.png used on input line 584.
+(pdftex.def)             Requested size: 301.92265pt x 154.97626pt.
+ [56
+
+ <./factor_price_differences.png>]
+[57
+
+] <LWang_CER_2012.png, id=1715, 1214.5375pt x 392.46625pt>
+File: LWang_CER_2012.png Graphic file (type png)
+
+<use LWang_CER_2012.png>
+Package pdftex.def Info: LWang_CER_2012.png used on input line 604.
+(pdftex.def)             Requested size: 303.63364pt x 98.11632pt.
+
+Overfull \hbox (15.97945pt too wide) in paragraph at lines 604--604
+[][]\OT1/cmss/m/n/6 Source: 
+ []
+
+[58
+
+ <./LWang_CER_2012.png>]
+<US_college_premium.png, id=1741, 926.46124pt x 665.48625pt>
+File: US_college_premium.png Graphic file (type png)
+
+<use US_college_premium.png>
+Package pdftex.def Info: US_college_premium.png used on input line 613.
+(pdftex.def)             Requested size: 231.61473pt x 166.37115pt.
+ [59
+
+ <./US_college_premium.png>] [60
+
+] [61
+
+]
+<davidweinstein.png, id=1819, 1594.95876pt x 526.96875pt>
+File: davidweinstein.png Graphic file (type png)
+
+<use davidweinstein.png>
+Package pdftex.def Info: davidweinstein.png used on input line 649.
+(pdftex.def)             Requested size: 318.9861pt x 105.39188pt.
+
+Overfull \hbox (11.69623pt too wide) in paragraph at lines 649--649
+[][]  
+ []
+
+[62
+
+ <./davidweinstein.png>] [63
+
+]
+<schott1.png, id=1870, 1254.6875pt x 980.66376pt>
+File: schott1.png Graphic file (type png)
+ <use schott1.png>
+Package pdftex.def Info: schott1.png used on input line 668.
+(pdftex.def)             Requested size: 250.93306pt x 196.12927pt.
+ [64
+
+ <./schott1.png>] <china_schott.png, id=1897, 1209.51875pt x 947.54pt>
+File: china_schott.png Graphic file (type png)
+
+<use china_schott.png>
+Package pdftex.def Info: china_schott.png used on input line 674.
+(pdftex.def)             Requested size: 278.18346pt x 217.92961pt.
+ [65
+
+ <./china_schott.png>] [66
+
+] [67
+
+] [68
+
+]
+<Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, id=2000, page=1, 722.7pt x 542
+.025pt>
+File: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf Graphic file (type pdf)
+ <use Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page 1>
+Package pdftex.def Info: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page1 
+used on input line 712.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [69
+
+ <./Session_4_Heckscher_Ohlin_Pearson_appendix.pdf>]
+<Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, id=2043, page=2, 722.7pt x 542
+.025pt>
+File: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf Graphic file (type pdf)
+ <use Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page 2>
+Package pdftex.def Info: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page2 
+used on input line 713.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [70
+
+ <./Session_4_Heckscher_Ohlin_Pearson_appendix.pdf>]
+<Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, id=2086, page=3, 722.7pt x 542
+.025pt>
+File: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf Graphic file (type pdf)
+ <use Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page 3>
+Package pdftex.def Info: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page3 
+used on input line 714.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [71
+
+ <./Session_4_Heckscher_Ohlin_Pearson_appendix.pdf>]
+<Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, id=2130, page=4, 722.7pt x 542
+.025pt>
+File: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf Graphic file (type pdf)
+ <use Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page 4>
+Package pdftex.def Info: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page4 
+used on input line 715.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [72
+
+ <./Session_4_Heckscher_Ohlin_Pearson_appendix.pdf>]
+<Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, id=2173, page=5, 722.7pt x 542
+.025pt>
+File: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf Graphic file (type pdf)
+ <use Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page 5>
+Package pdftex.def Info: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page5 
+used on input line 716.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [73
+
+ <./Session_4_Heckscher_Ohlin_Pearson_appendix.pdf>]
+<Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, id=2224, page=6, 722.7pt x 542
+.025pt>
+File: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf Graphic file (type pdf)
+ <use Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page 6>
+Package pdftex.def Info: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page6 
+used on input line 717.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [74
+
+ <./Session_4_Heckscher_Ohlin_Pearson_appendix.pdf>]
+<Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, id=2267, page=7, 722.7pt x 542
+.025pt>
+File: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf Graphic file (type pdf)
+ <use Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page 7>
+Package pdftex.def Info: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page7 
+used on input line 718.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [75
+
+ <./Session_4_Heckscher_Ohlin_Pearson_appendix.pdf>]
+<Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, id=2307, page=8, 722.7pt x 542
+.025pt>
+File: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf Graphic file (type pdf)
+ <use Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page 8>
+Package pdftex.def Info: Session_4_Heckscher_Ohlin_Pearson_appendix.pdf, page8 
+used on input line 719.
+(pdftex.def)             Requested size: 307.28987pt x 230.46922pt.
+ [76
+
+ <./Session_4_Heckscher_Ohlin_Pearson_appendix.pdf>]
 \tf@nav=\write6
 \openout6 = `heckscher_ohlin.nav'.
 
@@ -1329,12 +1666,11 @@ Package pdftex.def Info: two_factor_choice.png used on input line 398.
 \tf@snm=\write8
 \openout8 = `heckscher_ohlin.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 422.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 422.
-
-(./heckscher_ohlin.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 422.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 422.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 721.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 721.
+ (./heckscher_ohlin.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 721.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 721.
 Package rerunfilecheck Info: File `heckscher_ohlin.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1342,30 +1678,35 @@ Package rerunfilecheck Info: File `heckscher_ohlin.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 422.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 721.
  ) 
 Here is how much of TeX's memory you used:
- 18961 strings out of 493304
- 353355 string characters out of 6139871
+ 19245 strings out of 493304
+ 358335 string characters out of 6139871
  435297 words of memory out of 5000000
- 21889 multiletter control sequences out of 15000+600000
+ 22091 multiletter control sequences out of 15000+600000
  15529 words of font info for 58 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,55p,507b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msam7.pfb>
-Output written on heckscher_ohlin.pdf (28 pages, 1349249 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on heckscher_ohlin.pdf (76 pages, 4349944 bytes).
 PDF statistics:
- 791 PDF objects out of 1000 (max. 8388607)
- 728 compressed objects within 8 object streams
- 57 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2419 PDF objects out of 2487 (max. 8388607)
+ 2185 compressed objects within 22 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 
