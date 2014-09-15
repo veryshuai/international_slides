@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  15 SEP 2014 11:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  15 SEP 2014 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,107 +1205,191 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [4
 
-] [5
-
 ]
-[6
+<heckscher_ohlin.pdf, id=121, page=28, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-] [7
+<use heckscher_ohlin.pdf, page 28>
+Package pdftex.def Info: heckscher_ohlin.pdf, page28 used on input line 120.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [5
 
-] [8
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=163, page=29, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-] [9
+<use heckscher_ohlin.pdf, page 29>
+Package pdftex.def Info: heckscher_ohlin.pdf, page29 used on input line 121.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [6
 
-] [10
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=224, page=30, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-] [11
+<use heckscher_ohlin.pdf, page 30>
+Package pdftex.def Info: heckscher_ohlin.pdf, page30 used on input line 122.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [7
 
-] [12
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=264, page=31, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-] <isovalue.png, id=327, 973.6375pt x 710.655pt>
-File: isovalue.png Graphic file (type png)
+<use heckscher_ohlin.pdf, page 31>
+Package pdftex.def Info: heckscher_ohlin.pdf, page31 used on input line 123.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [8
 
-<use isovalue.png>
-Package pdftex.def Info: isovalue.png used on input line 225.
-(pdftex.def)             Requested size: 243.40877pt x 177.66331pt.
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=308, page=32, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 32>
+Package pdftex.def Info: heckscher_ohlin.pdf, page32 used on input line 124.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [9
+
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=358, page=34, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 34>
+Package pdftex.def Info: heckscher_ohlin.pdf, page34 used on input line 125.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [10
+
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=401, page=35, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 35>
+Package pdftex.def Info: heckscher_ohlin.pdf, page35 used on input line 126.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [11
+
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=443, page=38, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 38>
+Package pdftex.def Info: heckscher_ohlin.pdf, page38 used on input line 127.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [12
+
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=498, page=39, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 39>
+Package pdftex.def Info: heckscher_ohlin.pdf, page39 used on input line 128.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [13
 
- <./isovalue.png>]
-<price_supply.png, id=355, 934.49126pt x 686.565pt>
-File: price_supply.png Graphic file (type png)
- <use price_supply.png>
-Package pdftex.def Info: price_supply.png used on input line 231.
-(pdftex.def)             Requested size: 233.62224pt x 171.64082pt.
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=537, page=44, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-[14
+<use heckscher_ohlin.pdf, page 44>
+Package pdftex.def Info: heckscher_ohlin.pdf, page44 used on input line 129.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [14
 
- <./price_supply.png>] <rprq.png, id=381, 865.2325pt x 839.135pt>
-File: rprq.png Graphic file (type png)
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=573, page=45, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-<use rprq.png>
-Package pdftex.def Info: rprq.png used on input line 237.
-(pdftex.def)             Requested size: 216.30759pt x 209.78323pt.
+<use heckscher_ohlin.pdf, page 45>
+Package pdftex.def Info: heckscher_ohlin.pdf, page45 used on input line 130.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [15
 
- <./rprq.png>] [16
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=618, page=46, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-] [17
+<use heckscher_ohlin.pdf, page 46>
+Package pdftex.def Info: heckscher_ohlin.pdf, page46 used on input line 131.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [16
 
-] [18
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=656, page=48, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-]
-<ind_curves.png, id=484, 931.48pt x 819.06pt>
-File: ind_curves.png Graphic file (type png)
- <use ind_curves.png>
-Package pdftex.def Info: ind_curves.png used on input line 285.
-(pdftex.def)             Requested size: 232.86943pt x 204.7645pt.
+<use heckscher_ohlin.pdf, page 48>
+Package pdftex.def Info: heckscher_ohlin.pdf, page48 used on input line 132.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [17
+
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=714, page=49, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 49>
+Package pdftex.def Info: heckscher_ohlin.pdf, page49 used on input line 133.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [18
+
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=752, page=53, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 53>
+Package pdftex.def Info: heckscher_ohlin.pdf, page53 used on input line 134.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [19
 
- <./ind_curves.png>] [20
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=801, page=54, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-] <price_change_demand.png, id=536, 700.6175pt x 763.85374pt>
-File: price_change_demand.png Graphic file (type png)
+<use heckscher_ohlin.pdf, page 54>
+Package pdftex.def Info: heckscher_ohlin.pdf, page54 used on input line 135.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [20
 
-<use price_change_demand.png>
-Package pdftex.def Info: price_change_demand.png used on input line 309.
-(pdftex.def)             Requested size: 175.15395pt x 190.96297pt.
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=839, page=55, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 55>
+Package pdftex.def Info: heckscher_ohlin.pdf, page55 used on input line 136.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [21
 
- <./price_change_demand.png>]
-<rs_rd.png, id=563, 604.2575pt x 758.835pt>
-File: rs_rd.png Graphic file (type png)
- <use rs_rd.png>
-Package pdftex.def Info: rs_rd.png used on input line 318.
-(pdftex.def)             Requested size: 151.064pt x 189.70828pt.
+ <./heckscher_ohlin.pdf>]
+<heckscher_ohlin.pdf, id=874, page=56, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
+
+<use heckscher_ohlin.pdf, page 56>
+Package pdftex.def Info: heckscher_ohlin.pdf, page56 used on input line 137.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [22
 
- <./rs_rd.png>]
-[23
+ <./heckscher_ohlin.pdf>]
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-] [24
+<use heckscher_ohlin.pdf, page 56>
+Package pdftex.def Info: heckscher_ohlin.pdf, page56 used on input line 138.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [23
 
-] <rs_world.png, id=639, 959.585pt x 751.80875pt>
-File: rs_world.png Graphic file (type png)
- <use rs_world.png>
-Package pdftex.def Info: rs_world.png used on input line 347.
-(pdftex.def)             Requested size: 239.89566pt x 187.95172pt.
+]
+<heckscher_ohlin.pdf, id=935, page=67, 364.19562pt x 273.14648pt>
+File: heckscher_ohlin.pdf Graphic file (type pdf)
 
-[25
+<use heckscher_ohlin.pdf, page 67>
+Package pdftex.def Info: heckscher_ohlin.pdf, page67 used on input line 139.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [24
 
- <./rs_world.png>] <trade_flows.png, id=668, 1344.02126pt x 684.5575pt>
-File: trade_flows.png Graphic file (type png)
+ <./heckscher_ohlin.pdf>] [25
 
-<use trade_flows.png>
-Package pdftex.def Info: trade_flows.png used on input line 356.
-(pdftex.def)             Requested size: 336.00449pt x 171.13895pt.
+] [26
 
-Overfull \hbox (28.71461pt too wide) in paragraph at lines 356--356
-[][][]  
- []
-
-[26
-
- <./trade_flows.png>] [27
+]
+[27
 
 ] [28
 
@@ -1315,136 +1399,234 @@ Overfull \hbox (28.71461pt too wide) in paragraph at lines 356--356
 
 ] [31
 
+] [32
+
+] <isovalue.png, id=1177, 973.6375pt x 710.655pt>
+File: isovalue.png Graphic file (type png)
+
+<use isovalue.png>
+Package pdftex.def Info: isovalue.png used on input line 247.
+(pdftex.def)             Requested size: 243.40877pt x 177.66331pt.
+ [33
+
+ <./isovalue.png>]
+<price_supply.png, id=1203, 934.49126pt x 686.565pt>
+File: price_supply.png Graphic file (type png)
+ <use price_supply.png>
+Package pdftex.def Info: price_supply.png used on input line 253.
+(pdftex.def)             Requested size: 233.62224pt x 171.64082pt.
+
+[34
+
+ <./price_supply.png>] <rprq.png, id=1230, 865.2325pt x 839.135pt>
+File: rprq.png Graphic file (type png)
+
+<use rprq.png>
+Package pdftex.def Info: rprq.png used on input line 259.
+(pdftex.def)             Requested size: 216.30759pt x 209.78323pt.
+ [35
+
+ <./rprq.png>] [36
+
+] [37
+
+] [38
+
 ]
-<biased_growth.png, id=821, 1277.77374pt x 779.91376pt>
+<ind_curves.png, id=1333, 931.48pt x 819.06pt>
+File: ind_curves.png Graphic file (type png)
+ <use ind_curves.png>
+Package pdftex.def Info: ind_curves.png used on input line 307.
+(pdftex.def)             Requested size: 232.86943pt x 204.7645pt.
+ [39
+
+ <./ind_curves.png>] [40
+
+] <price_change_demand.png, id=1385, 700.6175pt x 763.85374pt>
+File: price_change_demand.png Graphic file (type png)
+
+<use price_change_demand.png>
+Package pdftex.def Info: price_change_demand.png used on input line 331.
+(pdftex.def)             Requested size: 175.15395pt x 190.96297pt.
+ [41
+
+ <./price_change_demand.png>]
+<rs_rd.png, id=1411, 604.2575pt x 758.835pt>
+File: rs_rd.png Graphic file (type png)
+ <use rs_rd.png>
+Package pdftex.def Info: rs_rd.png used on input line 340.
+(pdftex.def)             Requested size: 151.064pt x 189.70828pt.
+ [42
+
+ <./rs_rd.png>] [43
+
+] [44
+
+] <rs_world.png, id=1489, 959.585pt x 751.80875pt>
+File: rs_world.png Graphic file (type png)
+ <use rs_world.png>
+Package pdftex.def Info: rs_world.png used on input line 369.
+(pdftex.def)             Requested size: 239.89566pt x 187.95172pt.
+
+[45
+
+ <./rs_world.png>] <trade_flows.png, id=1516, 1344.02126pt x 684.5575pt>
+File: trade_flows.png Graphic file (type png)
+
+<use trade_flows.png>
+Package pdftex.def Info: trade_flows.png used on input line 378.
+(pdftex.def)             Requested size: 336.00449pt x 171.13895pt.
+
+Overfull \hbox (28.71461pt too wide) in paragraph at lines 378--378
+[][][]  
+ []
+
+[46
+
+ <./trade_flows.png>] [47
+
+] [48
+
+] [49
+
+] [50
+
+] [51
+
+]
+<biased_growth.png, id=1670, 1277.77374pt x 779.91376pt>
 File: biased_growth.png Graphic file (type png)
 
 <use biased_growth.png>
-Package pdftex.def Info: biased_growth.png used on input line 417.
+Package pdftex.def Info: biased_growth.png used on input line 439.
 (pdftex.def)             Requested size: 319.44266pt x 194.97797pt.
 
-Overfull \hbox (12.15279pt too wide) in paragraph at lines 417--417
+Overfull \hbox (12.15279pt too wide) in paragraph at lines 439--439
 [][]  
  []
 
-[32
+[52
 
- <./biased_growth.png>] [33
+ <./biased_growth.png>] [53
 
 ]
-<biased_growth_rs.png, id=872, 936.49875pt x 794.97pt>
+<biased_growth_rs.png, id=1721, 936.49875pt x 794.97pt>
 File: biased_growth_rs.png Graphic file (type png)
 
 <use biased_growth_rs.png>
-Package pdftex.def Info: biased_growth_rs.png used on input line 434.
+Package pdftex.def Info: biased_growth_rs.png used on input line 456.
 (pdftex.def)             Requested size: 234.12411pt x 198.742pt.
- [34
+ [54
 
  <./biased_growth_rs.png>]
 File: biased_growth_rs.png Graphic file (type png)
 
 <use biased_growth_rs.png>
-Package pdftex.def Info: biased_growth_rs.png used on input line 443.
+Package pdftex.def Info: biased_growth_rs.png used on input line 465.
 (pdftex.def)             Requested size: 234.12411pt x 198.742pt.
- [35
+ [55
 
 ]
-<cloth_growth.png, id=924, 1067.99pt x 804.00375pt>
+<cloth_growth.png, id=1774, 1067.99pt x 804.00375pt>
 File: cloth_growth.png Graphic file (type png)
  <use cloth_growth.png>
-Package pdftex.def Info: cloth_growth.png used on input line 449.
+Package pdftex.def Info: cloth_growth.png used on input line 471.
 (pdftex.def)             Requested size: 266.99684pt x 201.00044pt.
 
-[36
+[56
 
- <./cloth_growth.png>] <food_growth.png, id=950, 921.4425pt x 837.1275pt>
+ <./cloth_growth.png>] <food_growth.png, id=1800, 921.4425pt x 837.1275pt>
 File: food_growth.png Graphic file (type png)
 
 <use food_growth.png>
-Package pdftex.def Info: food_growth.png used on input line 455.
+Package pdftex.def Info: food_growth.png used on input line 477.
 (pdftex.def)             Requested size: 230.36006pt x 209.28136pt.
- [37
+ [57
 
- <./food_growth.png>] [38
+ <./food_growth.png>] [58
 
-] [39
+] [59
 
-] [40
+] [60
 
-] [41
+] [61
 
-] [42
+] [62
 
 ]
-<china_us_tot.png, id=1104, 1093.08376pt x 779.91376pt>
+<china_us_tot.png, id=1951, 1093.08376pt x 779.91376pt>
 File: china_us_tot.png Graphic file (type png)
  <use china_us_tot.png>
-Package pdftex.def Info: china_us_tot.png used on input line 515.
+Package pdftex.def Info: china_us_tot.png used on input line 537.
 (pdftex.def)             Requested size: 218.61287pt x 155.97998pt.
 
-[43
+[63
 
- <./china_us_tot.png>] [44
+ <./china_us_tot.png>] [64
 
-] [45
+] [65
 
-] [46
+] [66
 
-] [47
+] [67
 
-] [48
+] [68
 
 ]
-<tariff_tot.png, id=1256, 1023.825pt x 788.9475pt>
+<tariff_tot.png, id=2105, 1023.825pt x 788.9475pt>
 File: tariff_tot.png Graphic file (type png)
  <use tariff_tot.png>
-Package pdftex.def Info: tariff_tot.png used on input line 603.
+Package pdftex.def Info: tariff_tot.png used on input line 625.
 (pdftex.def)             Requested size: 255.95561pt x 197.23639pt.
 
-[49
+[69
 
- <./tariff_tot.png>] [50
+ <./tariff_tot.png>] [70
 
 ]
-<export_subsidy_tot.png, id=1308, 1066.98625pt x 768.8725pt>
+<export_subsidy_tot.png, id=2156, 1066.98625pt x 768.8725pt>
 File: export_subsidy_tot.png Graphic file (type png)
 
 <use export_subsidy_tot.png>
-Package pdftex.def Info: export_subsidy_tot.png used on input line 631.
+Package pdftex.def Info: export_subsidy_tot.png used on input line 653.
 (pdftex.def)             Requested size: 213.39346pt x 153.77177pt.
- [51
+ [71
 
- <./export_subsidy_tot.png>] [52
+ <./export_subsidy_tot.png>] [72
 
-] [53
+] [73
 
-] [54
+] [74
 
 ]
-[55
+[75
 
-] [56
+] [76
 
-] <intertemporal_ppf.png, id=1461, 1125.20375pt x 813.0375pt>
+] <intertemporal_ppf.png, id=2310, 1125.20375pt x 813.0375pt>
 File: intertemporal_ppf.png Graphic file (type png)
 
 <use intertemporal_ppf.png>
-Package pdftex.def Info: intertemporal_ppf.png used on input line 695.
+Package pdftex.def Info: intertemporal_ppf.png used on input line 717.
 (pdftex.def)             Requested size: 281.30025pt x 203.25888pt.
- [57
+ [77
 
- <./intertemporal_ppf.png>] [58
+ <./intertemporal_ppf.png>] [78
 
 ]
-<intertemporal_cheese.png, id=1512, 1007.765pt x 743.77875pt>
+<intertemporal_cheese.png, id=2361, 1007.765pt x 743.77875pt>
 File: intertemporal_cheese.png Graphic file (type png)
 
 <use intertemporal_cheese.png>
-Package pdftex.def Info: intertemporal_cheese.png used on input line 712.
+Package pdftex.def Info: intertemporal_cheese.png used on input line 734.
 (pdftex.def)             Requested size: 251.94063pt x 185.94423pt.
- [59
+ [79
 
- <./intertemporal_cheese.png>]
+ <./intertemporal_cheese.png>] [80
+
+] [81
+
+]
 \tf@nav=\write6
 \openout6 = `standard_model.nav'.
 
@@ -1454,12 +1636,12 @@ Package pdftex.def Info: intertemporal_cheese.png used on input line 712.
 \tf@snm=\write8
 \openout8 = `standard_model.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 714.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 714.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 778.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 778.
 
 (./standard_model.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 714.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 714.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 778.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 778.
 Package rerunfilecheck Info: File `standard_model.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1467,30 +1649,34 @@ Package rerunfilecheck Info: File `standard_model.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 714.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 778.
  ) 
 Here is how much of TeX's memory you used:
- 19095 strings out of 493304
- 354911 string characters out of 6139871
+ 19198 strings out of 493304
+ 357084 string characters out of 6139871
  433279 words of memory out of 5000000
- 21957 multiletter control sequences out of 15000+600000
+ 22035 multiletter control sequences out of 15000+600000
  13926 words of font info for 52 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,55p,403b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/symbols/msam7.pfb>
-Output written on standard_model.pdf (59 pages, 2023507 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pf
+b>
+Output written on standard_model.pdf (81 pages, 3176109 bytes).
 PDF statistics:
- 1600 PDF objects out of 1728 (max. 8388607)
- 1491 compressed objects within 15 object streams
- 119 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2500 PDF objects out of 2984 (max. 8388607)
+ 2330 compressed objects within 24 object streams
+ 143 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
