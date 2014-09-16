@@ -1,0 +1,203 @@
+\documentclass[ignorenonframetext,]{beamer}
+
+%Set up notes
+\setbeamertemplate{note page}[plain]
+\setbeameroption{hide notes}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{pdfpages} %include beamer pdf slides from other presentations \usepackage{color}
+\ifxetex \usepackage{fontspec,xltxtra,xunicode}
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+\else
+  \ifluatex
+    \usepackage{fontspec}
+    \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \else
+    \usepackage[utf8]{inputenc}
+  \fi
+\fi
+
+% Comment these out if you don't want a slide with just the
+% part/section/subsection/subsubsection title:
+\AtBeginPart{
+  \let\insertpartnumber\relax
+  \let\partname\relax
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \let\insertsectionnumber\relax
+  \let\sectionname\relax
+  \frame{\sectionpage}
+}
+\AtBeginSubsection{
+  \let\insertsubsectionnumber\relax
+  \let\subsectionname\relax
+  \frame{\subsectionpage}
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Bigger is better: Increasing Returns to Scale and Trade}
+\author{Instructor: David Jinkins}
+\date{Date: Sept. 18, 2014}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  Last Time: The Standard Model 
+  \begin{itemize}
+        \item Model
+        \begin{itemize}
+            \item Focus on PPF and Demand
+            \item Leave production details unspecified
+            \item More careful about Demand
+        \end{itemize}
+        \item Growth
+        \begin{itemize}
+            \item Export-biased growth is bad
+            \item Import-biased growth is good
+            \item Theoretically possible to be hurt by growth
+        \end{itemize}
+        \item Tariffs and subsidies
+        \begin{itemize}
+            \item Tariffs on import good improve terms of trade
+            \item Export subsidy worsens terms of trade
+            \item Effect on welfare qualified
+        \end{itemize}
+        \item International lending
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\begin{itemize}
+\itemsep1pt\parskip0pt\parsep0pt
+\item
+  This time: Increasing Returns to Scale
+  \begin{itemize}
+        \item Krugman: External Economies 
+        \begin{itemize}
+            \item Larger industries have lower cost
+            \item Drives industries to concentrate
+            \item A reason for trade
+        \end{itemize}
+        \item Implications of external economies 
+        \begin{itemize}
+            \item Historical Accident
+            \item Money on the table
+            \item Infant industries
+        \end{itemize}
+        \item Melitz and Krugman: Internal Economies
+        \begin{itemize}
+            \item Larger firms have lower cost 
+            \item Each firm a different product or variety
+            \item Consumers like a mix
+            \item Reason for trade: more (and cheaper) varieties
+        \end{itemize}
+        \item Applications
+        \begin{itemize}
+            \item Dumping
+            \item Outsourcing
+            \item FDI
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item But first a review!
+    \end{itemize}
+\end{frame}
+
+
+% \frame[plain]{\includegraphics[page=28,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=29,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=30,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=31,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=32,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=34,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=35,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=38,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=39,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=44,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=45,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=46,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=48,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=49,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=53,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=54,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=55,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=56,width=\textwidth]{heckscher_ohlin.pdf}}
+% \frame[plain]{\includegraphics[page=67,width=\textwidth]{heckscher_ohlin.pdf}}
+
+\begin{frame}
+    \begin{itemize}
+        \item End review!
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Chapter 7: External Economies}
+
+    \begin{itemize}
+        \item Krugman: famous research in this area
+        \begin{itemize}
+            \item Decoupling trade from comparative advantage 
+            \item Intuitively appealing
+        \end{itemize}
+        \item Larger industries have lower costs
+        \begin{itemize}
+            \item For example: knowledge spillovers due to informal interaction
+            \item Explains why most 
+        \end{itemize}
+        \item Room for helpful government policy 
+        \begin{itemize}
+            \item Historical accident: Industries can be in the 'wrong' country 
+            \item There can be equilibrium losses from trade!
+            \item 'Infant' Industries may need early protection from competition
+        \end{itemize}
+    \end{itemize}
+            
+\end{frame}
+
+\begin{frame}{Returns to Scale}
+
+    \begin{itemize}
+        \item IKEA furniture
+        \begin{itemize}
+            \item One person: All day to assemble a complicated dresser
+            \item Two people: A couple of hours for a dresser
+            \item Ten people: Can assemble 10 dressers in an hour 
+            \item Factory: Can assemble 10 dressers in an hour 
+
+
+\begin{frame}{Decreasing marginal product of labor?}
+
+    \begin{itemize}
+        \item Specific factors, HO -- increase labor, fix capital, decreasing returns to labor
+        \item Now we want increasing returns -- what is the argument?
+    \end{itemize}
+
+\end{frame}
+
+\end{document}
+
+
+
+
+
+
