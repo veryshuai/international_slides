@@ -1,0 +1,774 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{xcolor,mathrsfs,url}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ifthen}
+
+\usepackage{metricsbeamer} % using the metric beamer style
+
+% The command to define a subsection is '\subsec{}' and NOT '\subsection'.
+% This code generates the bar. Don't edit.
+\newcommand{\midbarnew}{}
+\newcommand{\subsec}[1]
+{
+  \ifthenelse{\equal{#1}{}}
+  {\renewcommand{\midbarnew}{} \subsection{}}
+  {\renewcommand{\midbarnew}{ $\mid$ } \subsection{#1}}
+}
+
+% change the pictures here, if necessary. logobig and logosmall are the internal names
+% for the pictures: do not modify them, just change "hulogo" and "logo". Pictures must be 
+% supplied as JPEG, PNG or PDF
+%########################################
+
+% \pgfdeclareimage[height=2cm]{logobig}{logo} % use hucase instead for the Humboldt-Case Logo
+% \pgfdeclareimage[height=1cm]{logosmall}{logo}
+
+% use this number to modify the scaling of the headline on titlepage
+
+\title{Trade Policy: Part One}
+\author{Instructor: David Jinkins\thanks{I wish to acknowledge Battista Severgnini for providing last year's slides to me. His generosity saved me much time, and these slides are partially based on his. Any errors are of course my own.}}
+\date{Date: Sept. 23, 2014}
+
+%Start of the document
+\begin{document}
+
+
+\frame[plain]{% create the titleslide, layout controlled in metricsbeamer
+	\titlepage
+}
+
+\Section{Plan for Today}
+
+\frame{% how to print
+\frametitle{Plan for Today}
+Chapter 8:
+\begin{itemize}
+\item Review: Monopoly
+\item Review: Monopolistic competition
+\item New: Trade costs
+\item New: Dumping
+\item New: Multinationals
+\end{itemize}
+Chapter 9 : 
+\begin{itemize}
+\item Tariffs
+\item Consumer \& Producer Surplus
+\item Export Subsidies
+\end{itemize}
+}
+
+\Section{Chapter 8. Marginal Revenue and Price}
+
+\Section{Chapter 8. Monopoly}
+\frame{
+\frametitle{A Review of Monopoly (1)}
+\begin{itemize}
+\item A \textbf{monopoly} is an industry with only one firm
+\item An \textbf{oligopoly} is an industry with only a few firms
+\item A \textbf{competitive industry} is an industry with many small firms
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Fig. 8-1: Monopolistic Pricing and Production Decisions}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{61b.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{A Review of Monopoly (2)}
+\begin{itemize}
+\item \textbf{Average cost} ($AC$): cost of production ($C$) divided by the total quantity of production ($Q$):
+\begin{center}
+$AC=\frac{C}{Q}$
+\end{center}
+\item \textbf{Marginal cost} is the cost of producing an additional unit of output.
+\end{itemize}
+}
+
+
+\frame{% how to print
+\frametitle{Fig. 8-2: Average Versus Marginal Cost}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{avcost.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{A Review of Monopoly (3)}
+Assume costs are represented by 
+\begin{center}
+$C = \underbrace{F}_{Fixed\ Cost}+ \underbrace{c}_{Constant\ Marginal\ Cost}Q$
+\end{center}
+\begin{center}
+$\Rightarrow AC=\frac{F}{Q}+c$
+\end{center}
+Internal economies of scale: if $Q \Uparrow\Rightarrow AC\Downarrow$
+
+}
+
+
+\frame{% how to print
+\frametitle{Marginal Revenue and Price (1)}
+Marginal revenue and price:\\
+If the monopolist sells one more unit
+the marginal revenue is equal to the price
+minus the cut in price for all other units
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{unobis.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\frame{% how to print
+\frametitle{Marginal Revenue and Price (2)}
+Assume a linear demand:
+\begin{center}
+$Q=A-BP \Rightarrow P= \frac{A}{B}-–\frac{Q}{B}$
+\end{center}
+\begin{itemize}
+\item How does $P$ change when $Q$ increases by one unit?
+\begin{center}
+$\Delta P = –- \frac{\Delta Q}{B} = -\frac{1}{B}$
+\end{center}
+\item How do revenues change when $Q$ increases by one unit?
+\begin{center}
+$R = PQ= \frac{\left(A-Q\right)Q}{B}=\frac{AQ-Q^{2}}{B}$
+\end{center}
+\item The marginal revenue will be 
+\begin{center}
+$MR=\frac{\partial R}{\partial Q}$
+\end{center}
+\begin{center}
+$=\frac{A}{B}-\frac{2Q}{B}$
+\end{center}
+\begin{center}
+$=P-\frac{Q}{B}$
+\end{center}
+\end{itemize}
+}
+
+
+\frame{% how to print
+\frametitle{Marginal Revenue and Price (3)}
+The slope of $MR$ is twice as steep as $D$:
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{unobis.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\Section{Section 8. Profit Maximizing Behavior}
+\frame{% how to print
+\frametitle{Marginal Revenue and Price (3)}
+Profit are maximized when $MR=MC$
+\begin{itemize}
+\item If $MR > MC$: increase $Q$ with one unit profits $\Uparrow$ because the extra revenue 
+exceeds the extra cost
+\item If $MR < MC$: increase $Q$ with one unit profits $\Downarrow$ because the extra revenue 
+is lower than the extra cost
+\end{itemize}
+}
+
+\frame{% how to print
+\frametitle{Combining the Equations}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{61b.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\Section{Section 8. Monopolistic Competition}
+\frame{% how to print
+\frametitle{Monopolistic Competition (1)}
+\begin{itemize}
+\item \textbf{Oligopoly}: more than one firm.
+[In general, oligopoly is very hard to model in general because of interdependence in pricing behavior]
+\item \textbf{Monopolistic competition}: Many firms producing differentiated products (goods that are not exactly the same but are substitutes for one another)
+\end{itemize}
+}
+
+\frame{% how to print
+\frametitle{Monopolistic Competition (2)}
+Demand function:
+\begin{center}
+$Q = S\left[\frac{1}{n} –- b\left(P - \bar{P}\right)\right]$
+\end{center}
+\begin{itemize}
+\item $Q$ is an individual firm’s sales
+\item $S$ is the total sales of the industry
+\item $n$ is the number of firms in the industry
+\item $b$ is a constant term representing the responsiveness of a firm’s sales to its price
+\item $P$ is the price charged by the firm itself
+\item $\bar{P}$ is the average price charged by its competitors     
+\end{itemize}
+}
+
+
+
+\frame{% how to print
+\frametitle{Monopolistic Competition (3)}
+Determination of $n$ and $\bar{P}$.\\
+Three steps:
+\begin{enumerate}
+\item Number of firms and the average cost
+\item Relationship between $n$ and $P =\bar{P}$
+\item Equilibrium
+\end{enumerate}
+}
+
+
+\frame{% how to print
+\frametitle{Monopolistic Competition (4)}
+First step: number of firms and the average cost. 
+Assumptions: 
+\begin{itemize}
+\item all firms face the same demand functions and have the same cost functions ($P=\bar{P}$)
+\item in equilibrium:
+\begin{itemize}
+\item $Q =\frac{S}{n} + 0$
+\item $AC = \frac{C}{Q}= \frac{F}{Q} + c = F\left(\frac{n}{S}\right) + c$ (CC)
+\end{itemize}
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.50\textwidth]{tre.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\frame[plain]{% how to print
+\frametitle{Monopolistic Competition (5)}
+Second step: $n$ and $P$
+A firm takes prices of other firms as given
+\begin{center}
+$Q = \underbrace{\frac{S}{n}+ Sb\bar{P}}_{A} -– \underbrace{Sb}_{B}P$
+\end{center}
+Using the same method as for the monopolist
+\begin{center}
+$MR = P –- \frac{Q}{B} = P- – \frac{Q}{(Sb)}$
+\end{center}
+\begin{footnotesize}
+Profit maximizing behavior:
+\begin{center}
+$MR = MC$
+\end{center}
+\begin{itemize}
+\item $ \Rightarrow P -–\frac{Q}{(Sb)} = c$
+\item $\Rightarrow P = c +\frac{Q}{(Sb)}$
+\end{itemize}
+We know that $Q = \frac{S}{n} \Rightarrow P = c + \frac{1}{(nb)}$ (PP)
+\end{footnotesize}
+}
+
+
+\frame{% how to print
+\frametitle{Monopolistic Competition (4)}
+First step: number of firms and the average cost
+Assumption: 
+\begin{itemize}
+\item all firms face the same demand functions and have the same cost functions $P=\bar{P}$
+\item in equilibrium:
+\begin{itemize}
+\item $Q =\frac{S}{n} + 0$
+\item $AC = \frac{C}{Q}= \frac{F}{Q} + c = F\left(\frac{n}{S}\right) + c$ (CC)
+\end{itemize}
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.50\textwidth]{tre.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{% how to print
+\frametitle{Fig. 8-3: Equilibrium in a Monopolistically Competitive Market}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{63.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{% how to print
+\frametitle{Monopolistic Competition (5)}
+Limitations:
+\begin{itemize}
+\item \textbf{Collusive behavior}: e.g., OPEC
+\item \textbf{Strategic behavior}: e.g., firms lower prices to deter entry
+\end{itemize}
+}
+
+\Section{Chapter 8. Monopolistic Competition and Trade}
+\frame{
+\frametitle{Monopolistic Competition and International Trade}
+Trade increases market size $S$ increases which affects
+\begin{center}
+$Q = S\left[\frac{1}{n} –- b\left(P - \bar{P}\right)\right]$
+\end{center}
+\begin{itemize}
+\item CC shifts down: $AC=F\left(\frac{n}{S}\right) + c$
+\item PP is not affected: $P = c + \frac{1}{(nb)}$
+\end{itemize}
+As a result of trade, the number of firms in a new international industry is predicted to increase relative to each national market (but we do not know where)
+}
+
+
+\frame{% how to print
+\frametitle{Fig. 8-4: Effects of a Larger Market}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{64.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{% how to print
+\frametitle{Takehome Exercise: A Numerical Example}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{tab.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\frame{% how to print
+\frametitle{Intra-Industry Trade}
+\begin{itemize}
+\item With product differentiation: each country produces different types of cloth.
+\item economies of scale makes large markets are desirable: the foreign country exports some cloth and the domestic country exports some cloth.
+\end{itemize}}
+
+\frame{% how to print
+\frametitle{Trade in a World with Constant Returns to Scale: Inter-Industry Trade}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{66.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{% how to print
+\frametitle{Fig. 8-7: Trade with Increasing Returns and Monopolistic Competition}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{67.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{% how to print
+\frametitle{Gains from Trade}
+\begin{enumerate}
+\item inter-industry trade $\Rightarrow$ comparative advantage
+\item intra-industry trade $\Rightarrow$ economies of scale (lower costs) and wider consumer choices
+\end{enumerate}
+}
+\Section{Chapter 9. Tariffs}
+\frame{% how to print
+\frametitle{}
+\begin{center}
+\textcolor{blue}{\Huge{\textbf{Chapter 8: The Instruments of Trade Policy}}}
+\end{center}
+}
+
+\frame{
+\frametitle{Chapter 9-11}
+\begin{itemize}
+\item First 8 chapters: \textit{Why do countries trade?}
+\item Chapters 9-12: \textit{What should a nation's trade policy
+be?}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Purpose of Trade Policy}
+Governments use instruments of trade policy to protect domestic industries that would result from
+import competition.
+}
+
+\frame{
+\frametitle{Purpose of Trade Policy}
+President George W. Bush
+\begin{itemize}
+\item \textbf{March 5th, 2002, announcing new "safeguards" tariffs on imported steel:} \textit{I take this action to give our domestic steel industry an opportunity to adjust to surges in foreign imports, recognizing the harm from 50 years of foreign government intervention in the global steel market.}
+\item \textbf{December 4th, 2003, announcing the removal of the "safeguards" tariffs on imported steel:} \textit{I took action to give the industry a chance to adjust to the surge in foreign imports and to give relief to the workers and communities that depend on steel for their jobs and livelihoods. The safeguard measures have now achieved their purpose, and a result of changed economic circumstances, it is time to lift them.}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Tariffs (1)}
+Two types of tariffs:
+\begin{enumerate}
+\item \textbf{specific tariff:} fixed charge for each \textit{unit} of imported goods (e.g., 1 DKK per kg of cheese)
+\begin{center}
+$P=P^{*}+t$
+\end{center}
+\item \textbf{\textit{ad valorem} tariff:} fraction of the \textit{value} of imported goods (e.g., 25\% tariff on the value of imported cars) 
+\begin{center}
+$P=P^{*}\left(1+\tau\right)$
+\end{center}
+\end{enumerate}
+}
+
+\frame{
+\frametitle{Tariffs (2): A Model}
+How does a tariff affect a single market?
+\begin{itemize}
+\item \textit{partial equilibrium framework} (reasonable for understanding trade policies towards one sector)
+\item assumption: $P^{WHEAT}>P^{*WHEAT}$
+\item with trade: $P^{WHEAT}>P>P^{*WHEAT}\Rightarrow$ H imports the good, while F
+exports it.
+\end{itemize}
+}
+
+\frame{
+\frametitle{Import Demand Curve}
+The import demand curve for H (MD) is the difference between the quantity that domestic consumers demand minus the quantity that domestic producers supply, at each price.
+}
+
+
+\frame{
+\frametitle{Fig. 9-1: Deriving Home's Import Demand Curve}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{81.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Export Supply Curve}
+The export supply curve for F (XS) is the difference between the quantity that foreign producers supply minus the quantity that foreign consumers demand, at each price.
+}
+
+\frame{
+\frametitle{Fig. 9-2: Deriving Foreign’s Export Supply Curve}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{82.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{World Market Equilibrium}
+Combine XS and MD curves: equilibrium price and quantity at
+the world market.
+In equilibrium
+\begin{itemize}
+\item import demand = export supply
+\item domestic demand -– domestic supply =foreign supply -– foreign demand ($D-S=S^{*}-D^{*}$)
+\item world demand = world supply ($D+D^{*}=S^{*}-S$)
+\end{itemize}
+}
+
+\frame{
+\frametitle{Fig. 9-3: World Equilibrium}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{83.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{The Effects of a Tariff}
+\begin{itemize}
+\item A tariff can be viewed as an added cost of transportation, making sellers unwilling to ship goods unless the price difference between the domestic and foreign markets exceeds the tariff.
+\item Introduce a tariff $t$
+\begin{center}
+$P_{T} = P^{*}_{T} + t \Rightarrow P^{*}_{T} =P_{T} -– t$
+\end{center}
+\item Only part of the tariff is past on to H consumers:
+\begin{enumerate}
+\item $t\Uparrow\Rightarrow P_{T}\Uparrow: S\Uparrow, D\Downarrow\Rightarrow MD \Downarrow$
+\item $t\Uparrow\Rightarrow P^{*}_{T}\Downarrow: S\Downarrow, D\Uparrow\Rightarrow XS \Downarrow$
+\end{enumerate}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Fig. 9-4: Effects of a Tariff}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{84.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{The Effects of a Tariff in a Small Country}
+\begin{itemize}
+\item When a country is \textit{small}, tariff $t$ has no effect on the foreign (world) price of a good, because its demand of the good is an insignificant part of world demand.
+\item the full tariff is passed
+on to consumers.
+\end{itemize}
+}
+
+\frame{
+\frametitle{Fig. 9-5: A Tariff in a Small Country}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{85.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Costs and Benefits of Tariffs}
+\begin{itemize}
+\item A tariff raises the price of a good in the importing country, so we expect it to hurt consumers and benefit producers there.
+\item In addition, the government gains tariff revenue from a tariff.
+\end{itemize}
+}
+
+\Section{Chapter 9. Consumer \& Producer Surplus}
+
+\frame{
+\frametitle{Consumer Surplus (1)}
+Consumer surplus measures the amount that consumers gain from purchases by the difference in the price that each pays from the maximum price each would be willing to pay.
+}
+
+\frame{
+\frametitle{Consumer Surplus (2)}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{cs1.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Producer Surplus}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{ps1.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{How is Welfare affected by $t$?}
+\begin{itemize}
+\item Gains to domestic producers
+\begin{center}
+$\Delta PS=a$
+\end{center}
+\item Loss to domestic consumers:
+\begin{center}
+$\Delta CS=\left(a+b+c+d\right)$
+\end{center}
+\item Government revenue:
+\begin{center}
+$\Delta R=\left(c+e\right)$
+\end{center}
+\item Total net loss (can be positive or negative):
+\begin{center}
+$\Delta PS-\Delta CS-\Delta R\right$=
+\end{center}
+\begin{center}
+$\left(a+b+c+d\right)-a-\left(c+e\right)$=
+\end{center}
+\begin{center}
+$=b+d-e$
+\end{center}
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Fig. 9-9: Costs and Benefits of a Tariff for the Importing Country}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{85bis.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\frame{
+\frametitle{Measures $b$, $d$ and $e$}
+\begin{itemize}
+\item $b$ production distortion, $d$ consumption
+distortion $\Rightarrow$ efficiency loss
+\item $t$ distorts incentives of both consumers and
+producers by inducing them to act as if
+imports were more expensive that it actually
+are.
+\item produces extra units of the good that could
+be produced cheaper abroad
+\item consumes less units of the good that could
+be bought cheaper abroad
+\item $e$ terms of trade gain
+\end{itemize}
+}
+\frame{
+\frametitle{Fig. 9-10: Net Welfare Effects of a Tariff}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{86.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Costs and Benefits of Tariffs (1)}
+\begin{itemize}
+\item The triangles $b$ and $d$ represent the efficiency loss
+\item The rectangle $e$ represents the terms of trade gain. 
+\end{itemize}
+}
+
+\end{document}
+\Section{Chapter 9. Export Subsidies}
+\frame{
+\frametitle{Export Subsidies (1)}
+Two types of export subsides:
+\begin{enumerate}
+\item \textbf{specific subsudy:} a payment per unit exported.
+\item \textbf{\textit{ad valorem} subsidy:} payment as a proportion of the value exported. 
+\end{enumerate}
+}
+
+\frame{
+\frametitle{Export Subsidies (2)}
+\begin{itemize}
+\item An export subsidy raises the price of a good in the exporting country, while lowering it in foreign countries.
+\item In contrast to a tariff, an export subsidy worsens the terms of trade by lowering the price of domestic products in world markets.
+\end{itemize}
+}
+
+\frame{
+\frametitle{Export Subsidies (3)}
+\begin{itemize}
+\item Gain to domestic producers:
+\begin{center}
+$\Delta PS=a+b+c$
+\end{center}
+\item Loss to domestic producers:
+\begin{center}
+$\Delta CS=-\left(a+b\right)$
+\end{center}
+\item Government revenue:
+\begin{center}
+$\Delta R=-\left(b+c+d+e+f+g\right)$
+\end{center}
+\item Total net loss (always):
+\begin{center}
+$\Delta PS-\Delta CS-\Delta R=-(b+d+e+f+g)$
+\end{center}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Fig. 9-11: Effects of an Export Subsidy}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{87.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Fig. 9-12: Europe’s Common Agricultural Program}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{88.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\Section{Chapter 9. Import Quota}
+\frame{
+\frametitle{Import Quota (1)}
+\begin{itemize}
+\item An import quota is a restriction on the quantity of a good that may be imported.
+\item This restriction is usually enforced by issuing licenses to domestic firms that import, or in some cases to foreign governments of exporting countries.
+\item A binding import quota will push up the price of the import because the quantity demanded will exceed the quantity supplied by domestic producers and from imports.
+\end{itemize}
+}
+
+\frame{
+\frametitle{Import Quota (2)}
+\begin{itemize}
+\item Import quota has the same effect as a
+tariff on prices and production under
+perfect competition
+\item But revenue is collected by those who
+have the license
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Fig. 9-13: Effects of the U.S. Import Quota on Sugar }
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{89.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\Section{Chapter 9. Voluntary Export Restraint}
+\frame{
+\frametitle{Voluntary Export Restraint}
+\begin{itemize}
+\item A voluntary export restraint works like an import quota, except that the quota is imposed by the exporting country rather than the importing country.
+\item However, these restraints are usually requested by the importing country.
+\item The profits or rents from this policy are earned by foreign governments or foreign producers.
+\end{itemize}
+}
+
+\Section{Chapter 9. Local Content Requirement}
+\frame{
+\frametitle{Local Content Requirement}
+\begin{itemize}
+\item A local content requirement is a regulation that requires a specified fraction of a final good to be produced domestically.
+\item It may be specified in value terms, by requiring that some minimum share of the value of a good represent domestic valued added, or in physical units.
+\end{itemize}
+}
+
+\frame{
+\frametitle{Summary}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.80\textwidth]{tab.pdf}
+	\label{fig:11}
+\end{figure}}
+
+
+
+
+\end{document}
+

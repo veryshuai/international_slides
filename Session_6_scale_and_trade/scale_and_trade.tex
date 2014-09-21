@@ -10,6 +10,7 @@
 \usepackage{tikz}
 \usepackage{tikz-qtree}
 \usepackage{pdfpages} %include beamer pdf slides from other presentations \usepackage{color}
+\usepackage{hyperref}
 \ifxetex \usepackage{fontspec,xltxtra,xunicode}
   \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
 \else
@@ -125,25 +126,24 @@
 \end{frame}
 
 
-% \frame[plain]{\includegraphics[page=28,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=29,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=30,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=31,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=32,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=34,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=35,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=38,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=39,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=44,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=45,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=46,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=48,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=49,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=53,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=54,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=55,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=56,width=\textwidth]{heckscher_ohlin.pdf}}
-% \frame[plain]{\includegraphics[page=67,width=\textwidth]{heckscher_ohlin.pdf}}
+\frame[plain]{\includegraphics[page=7,width=\textwidth]{introduction_gravity.pdf}}
+\frame[plain]{\includegraphics[page=8,width=\textwidth]{introduction_gravity.pdf}}
+\frame[plain]{\includegraphics[page=25,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=30,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=36,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=37,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=38,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=40,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=43,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=57,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=58,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=67,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=68,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=69,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=74,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=76,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=77,width=\textwidth]{standard_model.pdf}}
+\frame[plain]{\includegraphics[page=78,width=\textwidth]{standard_model.pdf}}
 
 \begin{frame}
     \begin{itemize}
@@ -177,7 +177,6 @@
 \end{frame}
 
 \begin{frame}{Returns to Scale}
- \emph{even if countries are ex-ante identical!}
     \begin{itemize}
         \item IKEA furniture
         \begin{itemize}
@@ -265,7 +264,9 @@
         \item Close to my heart
         \begin{itemize}
             \item Academics spread citations when they move across departments
-            \item Can't resist showing you a couple of pictures from my paper
+            \item Can't resist showing you a picture from my paper: 
+
+            http://veryshuai.no-ip.org/downloads/white\_only\_US\_sm.gif
         \end{itemize}
         \item People spread ideas informally and face-to-face
         \begin{itemize}
@@ -398,7 +399,7 @@
 
 \begin{frame}{Allow button trade}
 
-    \includegraphics[scale=0.20]{buttons_aut.png}
+    \includegraphics[scale=0.20]{button_trade.png}
 
 \end{frame}
 
@@ -685,6 +686,12 @@
 
 \begin{frame}{Pause}
 
+\begin{itemize}
+    \item We have derived the autarchy equilibrium price level and number of firms
+    \item Next trade with homogenous firms
+\end{itemize}
+
+\end{frame}
 
 \begin{frame}{Opening up to trade}
 
@@ -726,17 +733,111 @@
 \end{frame}
     
 \begin{frame}{Pause}
-    
+
     \begin{itemize}
-        \item Not going to go through it
-        \item Point: Opening up to trade 
+        \item Trade with homogenous firms
         \begin{itemize}
-            \item Increases number of products available to each consumer
-            \item Lowers price of each product
+            \item Increases available products
+            \item Lowers prices
         \end{itemize}
-        \item Each firm is a product
-        \item Products might be different brands of chocolate 
-        \item Intra-industry trade, important part of observed trade
+        \item Still not very interesting distribution -- all firms identical!
+        \item Now: Heterogenous firms
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Heterogenous Firms}
+
+    \begin{itemize}
+        \item Firms remain the same in every way
+        \item \emph{Except} that they have different marginal costs $c$
+        \item Assume that firms learn $c$ \emph{after} they have paid fixed costs 
+        \item New equilibrium condition: Expected zero profits (net of fixed cost)
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Heterogenous firm equilibrium}
+
+    \begin{itemize}
+        \item Firms still produce at point where marginal revenue equals marginal cost
+    \end{itemize}
+        \includegraphics[scale=0.20]{hetequil.png}
+
+\end{frame}
+
+\begin{frame}{Heterogenous firm equilibrium}
+
+        \begin{itemize}
+            \item What is the gap between D and MR?
+            \item Who has bigger markup $P - c$?
+            \item Do firms with higher marginal cost make more or less profit?
+        \end{itemize}
+        \includegraphics[scale=0.20]{hetequil_comp.png}
+
+\end{frame}
+
+\begin{frame}{Heterogenous firms and trade}
+
+        \begin{itemize}
+            \item Demand:
+            \begin{equation*}
+                Q = S \left(\frac{1}{n} - b (P - \overline{P})\right)
+            \end{equation*}
+            \item What is the slope of the demand curve?
+            \item What is its intercept?
+            \item When a country opens to trade, how does demand change?
+        \end{itemize}
+
+\end{frame}
+    
+\begin{frame}{Heterogenous firms and trade}
+    \begin{itemize}
+        \item A bit hand-wavy
+    \end{itemize}
+    \includegraphics[scale=0.20]{hetaftertrade.png}
+\end{frame}
+
+\begin{frame}{Heterogenous firms and trade}
+    \begin{itemize}
+        \item Punchline: Opening up to trade
+        \begin{itemize}
+            \item Worst firms exit
+            \item high-cost firms shrink
+            \item low-cost firms grow
+        \end{itemize}
+        \item Industry more efficient as production is more concentrated in low-cost firms
+        \item Effect similar to actual productivity growth
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Summary}
+
+    \begin{itemize}
+        \item External economies of scale lead to strange results
+        \begin{itemize}
+            \item Multiple equilibria
+            \item Overall losses from trade
+            \item Big role for government
+        \end{itemize}
+        \item Internal economies of scale allow us to consider the distribution of firms
+        \begin{itemize}
+            \item Opening up to trade has beneficial effects on the firm distribution 
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+    \begin{itemize}
+        \item Coming up
+        \begin{itemize}
+            \item Wrap up a bit of Chapter 8: trade costs and dumping
+            \item Next week the set of chapters on Trade policy (9-12)
+            \item Following week we start International Finance
+            \item That will mean we did a semester course in 4 weeks!
+        \end{itemize}
     \end{itemize}
 
 \end{frame}
