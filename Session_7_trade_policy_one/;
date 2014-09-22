@@ -353,7 +353,6 @@ $P=P^{*}\left(1+\tau\right)$
     \item Tariffs were \emph{the} source of government revenue for much of history
     \item Easy to put government agents at ports
     \item Same reason Turkey has extremely high petrol tax
-    \item Because of tariffs, good international trade data is unusually detailed and old
 \end{itemize}
 }
 
@@ -487,129 +486,28 @@ $P_{T} - P^{*}_{T} = t $
 
 \frame{
 \frametitle{Classic partial equilibrium welfare calculations}
-\begin{itemize}
-    \item Consumer Surplus
-    \begin{itemize}
-        \item Difference in the price consumer pays and the max price he is willing to pay
-    \end{itemize}
-    \item Producer Surplus
-    \begin{itemize}
-        \item Difference in at which firm sells and the min. price it would be willing to sell at
-    \end{itemize}
-    \item Why partial equilibrium?
-    \begin{itemize}
-        \item Where does producer surplus go?
-        \item Workers and owners of capital are consumers
-        \item The larger the producer surplus, the higher willingness to pay, etc.
-        \item How does price affect prices of other goods, wages, etc?
-    \end{itemize}
-\end{itemize}
+Consumer surplus measures the amount that consumers gain from purchases by the difference in the price that each pays from the maximum price each would be willing to pay.
 }
 
-\frame{
-\frametitle{Consumer Surplus}
-\begin{figure}
-	\centering
-		\includegraphics[width=0.80\textwidth]{demand_surplus.png}
-\end{figure}
-}
-
-\frame{
-\frametitle{Consumer Surplus}
-\begin{figure}
-	\centering
-		\includegraphics[width=0.80\textwidth]{consumer_surplus.png}
-\end{figure}
-}
-
-\frame{
-\frametitle{Producer Surplus}
-\begin{figure}
-	\centering
-		\includegraphics[width=0.80\textwidth]{producer_surplus.png}
-\end{figure}
-}
-
-\begin{frame}{Effect of tariff}
-
-    \begin{itemize}
-        \item Now the effect of tariffs on consumer, producer, and government surplus
-        \item Now the effect of tariffs on consumer, producer, and government surplus
-        \item First Government:
-        \begin{itemize}
-            \item The government gets $t * Q$ in revenue
-        \end{itemize}
-    \end{itemize}
-
-\end{frame}
-
-\frame{
-\frametitle{Costs and Benefits of a Tariff for the Importing Country}
-\begin{figure}
-	\centering
-		\includegraphics[scale=0.22]{tariff_effect.png}
-\end{figure}
-}
-
-\begin{frame}{Effect of tariff}
-
-    \begin{itemize}
-        \item Consumers
-        \begin{itemize}
-            \item Lose consumer surplus between trade price and tariff price
-        \end{itemize}
-        \item Producers
-        \begin{itemize}
-            \item Gain producer surplus between trade price and tariff price
-        \end{itemize}
-    \end{itemize}
-
-\end{frame}
-
-\frame{
-\frametitle{Costs and Benefits of a Tariff for the Importing Country}
-\begin{figure}
-	\centering
-		\includegraphics[scale=0.22]{tariff_effect.png}
-\end{figure}
-}
-
-\frame{
-\frametitle{Net gains vs losses}
-\begin{figure}
-	\centering
-		\includegraphics[scale=0.22]{net_gains.png}
-\end{figure}
-}
-
-\begin{frame}{Effect of tariff}
-
-    \begin{itemize}
-        \item Punchline
-        \begin{itemize}
-            \item Gains from government revenue
-            \item Losses from consumer surplus
-        \end{itemize}
-        \item What happens if Home is small?
-    \end{itemize}
-
-\end{frame}
-
-\begin{frame}{Pause}
-
-    \begin{itemize}
-        \item We have seen that tariffs have costs and benefits
-        \item Now we will analyze some other trade policy tools
-        \begin{enumerate}
-            \item Export subsidies (agricultural policy)
-            \item Import quotas
-            \item Voluntary export restraint
-        \end{enumerate}
-        \item Preview: All worse than tariff
-        \item Reason: Others get tariff government rents
-    \end{itemize}
-
-\end{frame}
+% \frame{
+% \frametitle{Consumer Surplus (2)}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.80\textwidth]{cs1.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% \frame{
+% \frametitle{Producer Surplus}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.80\textwidth]{ps1.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
 % 
 % \frame{
 % \frametitle{How is Welfare affected by $t$?}
@@ -640,7 +538,15 @@ $P_{T} - P^{*}_{T} = t $
 % }
 % 
 % 
-
+% \frame{
+% \frametitle{Fig. 9-9: Costs and Benefits of a Tariff for the Importing Country}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.80\textwidth]{85bis.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
 % 
 % 
 % \frame{
