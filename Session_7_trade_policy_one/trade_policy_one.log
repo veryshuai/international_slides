@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  22 SEP 2014 20:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  23 SEP 2014 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1146,79 +1146,93 @@ Package pdftex.def Info: scale_and_trade.pdf, page63 used on input line 121.
  [29
 
  <./scale_and_trade.pdf>]
-<scale_and_trade.pdf, id=1087, page=67, 364.19562pt x 273.14648pt>
+<scale_and_trade.pdf, id=1087, page=64, 364.19562pt x 273.14648pt>
 File: scale_and_trade.pdf Graphic file (type pdf)
 
-<use scale_and_trade.pdf, page 67>
-Package pdftex.def Info: scale_and_trade.pdf, page67 used on input line 122.
+<use scale_and_trade.pdf, page 64>
+Package pdftex.def Info: scale_and_trade.pdf, page64 used on input line 122.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [30
 
  <./scale_and_trade.pdf>]
-<scale_and_trade.pdf, id=1126, page=68, 364.19562pt x 273.14648pt>
+<scale_and_trade.pdf, id=1118, page=67, 364.19562pt x 273.14648pt>
 File: scale_and_trade.pdf Graphic file (type pdf)
 
-<use scale_and_trade.pdf, page 68>
-Package pdftex.def Info: scale_and_trade.pdf, page68 used on input line 123.
+<use scale_and_trade.pdf, page 67>
+Package pdftex.def Info: scale_and_trade.pdf, page67 used on input line 123.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [31
 
  <./scale_and_trade.pdf>]
-<scale_and_trade.pdf, id=1163, page=70, 364.19562pt x 273.14648pt>
+<scale_and_trade.pdf, id=1157, page=68, 364.19562pt x 273.14648pt>
 File: scale_and_trade.pdf Graphic file (type pdf)
 
-<use scale_and_trade.pdf, page 70>
-Package pdftex.def Info: scale_and_trade.pdf, page70 used on input line 124.
+<use scale_and_trade.pdf, page 68>
+Package pdftex.def Info: scale_and_trade.pdf, page68 used on input line 124.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [32
 
  <./scale_and_trade.pdf>]
-<scale_and_trade.pdf, id=1207, page=72, 364.19562pt x 273.14648pt>
+<scale_and_trade.pdf, id=1193, page=70, 364.19562pt x 273.14648pt>
 File: scale_and_trade.pdf Graphic file (type pdf)
 
-<use scale_and_trade.pdf, page 72>
-Package pdftex.def Info: scale_and_trade.pdf, page72 used on input line 125.
+<use scale_and_trade.pdf, page 70>
+Package pdftex.def Info: scale_and_trade.pdf, page70 used on input line 125.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [33
 
- <./scale_and_trade.pdf>] [34
+ <./scale_and_trade.pdf>]
+<scale_and_trade.pdf, id=1238, page=71, 364.19562pt x 273.14648pt>
+File: scale_and_trade.pdf Graphic file (type pdf)
 
-] [35
+<use scale_and_trade.pdf, page 71>
+Package pdftex.def Info: scale_and_trade.pdf, page71 used on input line 126.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [34
+
+ <./scale_and_trade.pdf>]
+<scale_and_trade.pdf, id=1274, page=72, 364.19562pt x 273.14648pt>
+File: scale_and_trade.pdf Graphic file (type pdf)
+
+<use scale_and_trade.pdf, page 72>
+Package pdftex.def Info: scale_and_trade.pdf, page72 used on input line 127.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [35
+
+ <./scale_and_trade.pdf>] [36
+
+] [37
 
 ]
-<bjrs_firms.png, id=1297, 1589.94pt x 770.88pt>
+<bjrs_firms.png, id=1365, 1589.94pt x 770.88pt>
 File: bjrs_firms.png Graphic file (type png)
  <use bjrs_firms.png>
-Package pdftex.def Info: bjrs_firms.png used on input line 150.
+Package pdftex.def Info: bjrs_firms.png used on input line 152.
 (pdftex.def)             Requested size: 317.98236pt x 154.17326pt.
 
-Overfull \hbox (10.69249pt too wide) in paragraph at lines 150--150
+Overfull \hbox (10.69249pt too wide) in paragraph at lines 152--152
 []  
  []
 
-[36
+[38
 
  <./bjrs_firms.png>]
-<trade_costs_firms.png, id=1323, 1529.715pt x 691.58376pt>
+<trade_costs_firms.png, id=1391, 1529.715pt x 691.58376pt>
 File: trade_costs_firms.png Graphic file (type png)
 
 <use trade_costs_firms.png>
-Package pdftex.def Info: trade_costs_firms.png used on input line 154.
+Package pdftex.def Info: trade_costs_firms.png used on input line 156.
 (pdftex.def)             Requested size: 305.93758pt x 138.3143pt.
- [37
+ [39
 
- <./trade_costs_firms.png>] [38
+ <./trade_costs_firms.png>] [40
 
-] [39
-
-] [40
-
-]
-[41
+] [41
 
 ] [42
 
-] [43
+]
+[43
 
 ] [44
 
@@ -1236,231 +1250,235 @@ Package pdftex.def Info: trade_costs_firms.png used on input line 154.
 
 ] [51
 
+] [52
+
+] [53
+
 ]
-<US_tariffs_19th.png, id=1712, 843.15pt x 813.0375pt>
+<US_tariffs_19th.png, id=1779, 843.15pt x 813.0375pt>
 File: US_tariffs_19th.png Graphic file (type png)
 
 <use US_tariffs_19th.png>
-Package pdftex.def Info: US_tariffs_19th.png used on input line 366.
+Package pdftex.def Info: US_tariffs_19th.png used on input line 368.
 (pdftex.def)             Requested size: 210.78697pt x 203.25888pt.
- [52
+ [54
 
  <./US_tariffs_19th.png>]
-<US_tariffs_20th.png, id=1738, 813.0375pt x 964.60374pt>
+<US_tariffs_20th.png, id=1805, 813.0375pt x 964.60374pt>
 File: US_tariffs_20th.png Graphic file (type png)
 
 <use US_tariffs_20th.png>
-Package pdftex.def Info: US_tariffs_20th.png used on input line 374.
+Package pdftex.def Info: US_tariffs_20th.png used on input line 376.
 (pdftex.def)             Requested size: 203.25888pt x 241.15034pt.
 
-Overfull \vbox (11.80626pt too high) detected at line 374
+Overfull \vbox (11.80626pt too high) detected at line 376
  []
 
-[53
+[55
 
- <./US_tariffs_20th.png>] [54
+ <./US_tariffs_20th.png>] [56
 
-] [55
+] [57
 
 ]
-<import_demand.png, id=1816, 1658.195pt x 751.80875pt>
+<import_demand.png, id=1883, 1658.195pt x 751.80875pt>
 File: import_demand.png Graphic file (type png)
  <use import_demand.png>
-Package pdftex.def Info: import_demand.png used on input line 404.
+Package pdftex.def Info: import_demand.png used on input line 406.
 (pdftex.def)             Requested size: 245.83282pt x 111.4472pt.
 
-[56
+[58
 
  <./import_demand.png>]
-<export_supply.png, id=1842, 1639.12375pt x 724.7075pt>
+<export_supply.png, id=1909, 1639.12375pt x 724.7075pt>
 File: export_supply.png Graphic file (type png)
 
 <use export_supply.png>
-Package pdftex.def Info: export_supply.png used on input line 412.
+Package pdftex.def Info: export_supply.png used on input line 414.
 (pdftex.def)             Requested size: 245.83282pt x 108.69037pt.
- [57
+ [59
 
- <./export_supply.png>] [58
+ <./export_supply.png>] [60
 
 ]
-<world_equil.png, id=1895, 1246.6575pt x 849.1725pt>
+<world_equil.png, id=1961, 1246.6575pt x 849.1725pt>
 File: world_equil.png Graphic file (type png)
  <use world_equil.png>
-Package pdftex.def Info: world_equil.png used on input line 432.
+Package pdftex.def Info: world_equil.png used on input line 434.
 (pdftex.def)             Requested size: 245.83282pt x 167.44734pt.
-
-[59
-
- <./world_equil.png>] [60
-
-]
-<tariff_prices.png, id=1947, 1674.255pt x 765.86125pt>
-File: tariff_prices.png Graphic file (type png)
- <use tariff_prices.png>
-Package pdftex.def Info: tariff_prices.png used on input line 453.
-(pdftex.def)             Requested size: 245.83282pt x 112.44351pt.
 
 [61
 
- <./tariff_prices.png>] [62
+ <./world_equil.png>] [62
 
 ]
-<flat_export_supply.png, id=2000, 1264.725pt x 856.19875pt>
+<tariff_prices.png, id=2015, 1674.255pt x 765.86125pt>
+File: tariff_prices.png Graphic file (type png)
+ <use tariff_prices.png>
+Package pdftex.def Info: tariff_prices.png used on input line 455.
+(pdftex.def)             Requested size: 245.83282pt x 112.44351pt.
+
+[63
+
+ <./tariff_prices.png>] [64
+
+]
+<flat_export_supply.png, id=2066, 1264.725pt x 856.19875pt>
 File: flat_export_supply.png Graphic file (type png)
 
 <use flat_export_supply.png>
-Package pdftex.def Info: flat_export_supply.png used on input line 476.
+Package pdftex.def Info: flat_export_supply.png used on input line 478.
 (pdftex.def)             Requested size: 245.83282pt x 166.4159pt.
- [63
+ [65
 
- <./flat_export_supply.png>] [64
+ <./flat_export_supply.png>] [66
 
-] [65
+] [67
 
 ]
-<demand_surplus.png, id=2076, 1242.6425pt x 958.58125pt>
+<demand_surplus.png, id=2144, 1242.6425pt x 958.58125pt>
 File: demand_surplus.png Graphic file (type png)
 
 <use demand_surplus.png>
-Package pdftex.def Info: demand_surplus.png used on input line 515.
+Package pdftex.def Info: demand_surplus.png used on input line 517.
 (pdftex.def)             Requested size: 245.83282pt x 189.63585pt.
- [66
+ [68
 
  <./demand_surplus.png>]
-<consumer_surplus.png, id=2103, 1391.1975pt x 966.61125pt>
+<consumer_surplus.png, id=2170, 1391.1975pt x 966.61125pt>
 File: consumer_surplus.png Graphic file (type png)
 
 <use consumer_surplus.png>
-Package pdftex.def Info: consumer_surplus.png used on input line 523.
+Package pdftex.def Info: consumer_surplus.png used on input line 525.
 (pdftex.def)             Requested size: 245.83282pt x 170.79668pt.
- [67
+ [69
 
  <./consumer_surplus.png>]
-<producer_surplus.png, id=2130, 1443.3925pt x 865.2325pt>
+<producer_surplus.png, id=2196, 1443.3925pt x 865.2325pt>
 File: producer_surplus.png Graphic file (type png)
 
 <use producer_surplus.png>
-Package pdftex.def Info: producer_surplus.png used on input line 531.
+Package pdftex.def Info: producer_surplus.png used on input line 533.
 (pdftex.def)             Requested size: 245.83282pt x 147.35162pt.
- [68
+ [70
 
- <./producer_surplus.png>] [69
+ <./producer_surplus.png>] [71
 
 ]
-<tariff_effect.png, id=2181, 1490.56876pt x 964.60374pt>
+<tariff_effect.png, id=2248, 1490.56876pt x 964.60374pt>
 File: tariff_effect.png Graphic file (type png)
 
 <use tariff_effect.png>
-Package pdftex.def Info: tariff_effect.png used on input line 552.
+Package pdftex.def Info: tariff_effect.png used on input line 554.
 (pdftex.def)             Requested size: 327.92613pt x 212.21347pt.
 
-Overfull \hbox (20.63626pt too wide) in paragraph at lines 552--552
- [] 
- []
-
-[70
-
- <./tariff_effect.png>] [71
-
-]
-File: tariff_effect.png Graphic file (type png)
- <use tariff_effect.png>
-Package pdftex.def Info: tariff_effect.png used on input line 575.
-(pdftex.def)             Requested size: 327.92613pt x 212.21347pt.
-
-Overfull \hbox (20.63626pt too wide) in paragraph at lines 575--575
+Overfull \hbox (20.63626pt too wide) in paragraph at lines 554--554
  [] 
  []
 
 [72
 
-] <net_gains.png, id=2258, 1395.2125pt x 936.49875pt>
-File: net_gains.png Graphic file (type png)
- <use net_gains.png>
-Package pdftex.def Info: net_gains.png used on input line 583.
-(pdftex.def)             Requested size: 306.9477pt x 206.03035pt.
-
-[73
-
- <./net_gains.png>] [74
-
-] [75
-
-] [76
+ <./tariff_effect.png>] [73
 
 ]
-File: tariff_prices.png Graphic file (type png)
- <use tariff_prices.png>
-Package pdftex.def Info: tariff_prices.png used on input line 626.
-(pdftex.def)             Requested size: 245.83282pt x 112.44351pt.
- [77
+File: tariff_effect.png Graphic file (type png)
+ <use tariff_effect.png>
+Package pdftex.def Info: tariff_effect.png used on input line 577.
+(pdftex.def)             Requested size: 327.92613pt x 212.21347pt.
+
+Overfull \hbox (20.63626pt too wide) in paragraph at lines 577--577
+ [] 
+ []
+
+[74
+
+] <net_gains.png, id=2326, 1395.2125pt x 936.49875pt>
+File: net_gains.png Graphic file (type png)
+ <use net_gains.png>
+Package pdftex.def Info: net_gains.png used on input line 585.
+(pdftex.def)             Requested size: 306.9477pt x 206.03035pt.
+
+[75
+
+ <./net_gains.png>] [76
+
+] [77
 
 ] [78
 
 ]
-<export_subsidy.png, id=2412, 1429.34pt x 961.5925pt>
+File: tariff_prices.png Graphic file (type png)
+ <use tariff_prices.png>
+Package pdftex.def Info: tariff_prices.png used on input line 628.
+(pdftex.def)             Requested size: 245.83282pt x 112.44351pt.
+ [79
+
+] [80
+
+]
+<export_subsidy.png, id=2479, 1429.34pt x 961.5925pt>
 File: export_subsidy.png Graphic file (type png)
  <use export_subsidy.png>
-Package pdftex.def Info: export_subsidy.png used on input line 653.
+Package pdftex.def Info: export_subsidy.png used on input line 655.
 (pdftex.def)             Requested size: 357.33412pt x 240.39754pt.
 
-Overfull \hbox (50.04425pt too wide) in paragraph at lines 653--653
+Overfull \hbox (50.04425pt too wide) in paragraph at lines 655--655
  [] 
  []
 
 
-Overfull \vbox (21.02568pt too high) detected at line 653
+Overfull \vbox (21.02568pt too high) detected at line 655
  []
 
-[79
+[81
 
  <./export_subsidy.png>]
-<export_subsidy_europe.png, id=2439, 1486.55376pt x 961.5925pt>
+<export_subsidy_europe.png, id=2505, 1486.55376pt x 961.5925pt>
 File: export_subsidy_europe.png Graphic file (type png)
 
 <use export_subsidy_europe.png>
-Package pdftex.def Info: export_subsidy_europe.png used on input line 662.
+Package pdftex.def Info: export_subsidy_europe.png used on input line 664.
 (pdftex.def)             Requested size: 297.30548pt x 192.3151pt.
- [80
-
- <./export_subsidy_europe.png>] [81
-
-]
-<us_sugar.png, id=2490, 1415.2875pt x 951.555pt>
-File: us_sugar.png Graphic file (type png)
- <use us_sugar.png>
-Package pdftex.def Info: us_sugar.png used on input line 677.
-(pdftex.def)             Requested size: 283.05249pt x 190.30762pt.
  [82
 
- <./us_sugar.png>] <fat-american.jpg, id=2516, 303.534pt x 214.6419pt>
+ <./export_subsidy_europe.png>] [83
+
+]
+<us_sugar.png, id=2557, 1415.2875pt x 951.555pt>
+File: us_sugar.png Graphic file (type png)
+ <use us_sugar.png>
+Package pdftex.def Info: us_sugar.png used on input line 679.
+(pdftex.def)             Requested size: 283.05249pt x 190.30762pt.
+ [84
+
+ <./us_sugar.png>] <fat-american.jpg, id=2583, 303.534pt x 214.6419pt>
 File: fat-american.jpg Graphic file (type jpg)
 
 <use fat-american.jpg>
-Package pdftex.def Info: fat-american.jpg used on input line 688.
+Package pdftex.def Info: fat-american.jpg used on input line 690.
 (pdftex.def)             Requested size: 75.8833pt x 53.66034pt.
- [83
+ [85
 
- <./fat-american.jpg>] [84
+ <./fat-american.jpg>] [86
 
-] [85
+] [87
 
 ]
-<summary_table.png, id=2594, 1674.255pt x 510.90875pt>
+<summary_table.png, id=2660, 1674.255pt x 510.90875pt>
 File: summary_table.png Graphic file (type png)
  <use summary_table.png>
-Package pdftex.def Info: summary_table.png used on input line 713.
+Package pdftex.def Info: summary_table.png used on input line 715.
 (pdftex.def)             Requested size: 334.84506pt x 102.17993pt.
 
-Overfull \hbox (27.55519pt too wide) in paragraph at lines 713--713
+Overfull \hbox (27.55519pt too wide) in paragraph at lines 715--715
  [] 
  []
 
-[86
+[88
 
- <./summary_table.png>] [87
+ <./summary_table.png>] [89
 
-] [88
+] [90
 
 ]
 \tf@nav=\write6
@@ -1472,11 +1490,11 @@ Overfull \hbox (27.55519pt too wide) in paragraph at lines 713--713
 \tf@snm=\write8
 \openout8 = `trade_policy_one.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 738.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 738.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 741.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 741.
  (./trade_policy_one.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 738.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 738.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 741.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 741.
 Package rerunfilecheck Info: File `trade_policy_one.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1484,13 +1502,13 @@ Package rerunfilecheck Info: File `trade_policy_one.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 738.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 741.
  ) 
 Here is how much of TeX's memory you used:
- 18067 strings out of 493304
- 323290 string characters out of 6139871
+ 18077 strings out of 493304
+ 323508 string characters out of 6139871
  399468 words of memory out of 5000000
- 20929 multiletter control sequences out of 15000+600000
+ 20937 multiletter control sequences out of 15000+600000
  27422 words of font info for 74 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,55p,405b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1514,10 +1532,10 @@ m-super/sfss0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sfsx1095.pfb>
-Output written on trade_policy_one.pdf (88 pages, 4890641 bytes).
+Output written on trade_policy_one.pdf (90 pages, 5223520 bytes).
 PDF statistics:
- 2761 PDF objects out of 2984 (max. 8388607)
- 2562 compressed objects within 26 object streams
- 148 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2828 PDF objects out of 2984 (max. 8388607)
+ 2622 compressed objects within 27 object streams
+ 150 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
