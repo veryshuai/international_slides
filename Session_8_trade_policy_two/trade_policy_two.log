@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  23 SEP 2014 21:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  24 SEP 2014 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,7 +1208,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page88 used on input line 131.
 
 ] [37
 
-] <tariff_distortion.png, id=1308, 1340.00626pt x 912.40875pt>
+] <tariff_distortion.png, id=1309, 1340.00626pt x 912.40875pt>
 File: tariff_distortion.png Graphic file (type png)
 
 <use tariff_distortion.png>
@@ -1226,6 +1226,92 @@ Overfull \hbox (27.71088pt too wide) in paragraph at lines 189--189
 ] [40
 
 ]
+<trade_gains.png, id=1386, 1679.27374pt x 431.6125pt>
+File: trade_gains.png Graphic file (type png)
+ <use trade_gains.png>
+Package pdftex.def Info: trade_gains.png used on input line 226.
+(pdftex.def)             Requested size: 419.81741pt x 107.90285pt.
+
+Overfull \hbox (112.52754pt too wide) in paragraph at lines 226--226
+[]  
+ []
+
+[41
+
+ <./trade_gains.png>] [42
+
+]
+<gains_to_migration.png, id=1437, 656.4525pt x 602.25pt>
+File: gains_to_migration.png Graphic file (type png)
+
+<use gains_to_migration.png>
+Package pdftex.def Info: gains_to_migration.png used on input line 248.
+(pdftex.def)             Requested size: 164.11272pt x 150.56212pt.
+ [43
+
+ <./gains_to_migration.png>] [44
+
+]
+<optimum_tariff.png, id=1490, 1350.04375pt x 905.3825pt>
+File: optimum_tariff.png Graphic file (type png)
+
+<use optimum_tariff.png>
+Package pdftex.def Info: optimum_tariff.png used on input line 272.
+(pdftex.def)             Requested size: 270.00397pt x 181.07329pt.
+ [45
+
+ <./optimum_tariff.png>] [46
+
+] [47
+
+] [48
+
+] [49
+
+]
+[50
+
+] [51
+
+] [52
+
+] [53
+
+] [54
+
+] [55
+
+]
+<textiles_welfare.png, id=1771, 1645.14626pt x 328.22626pt>
+File: textiles_welfare.png Graphic file (type png)
+
+<use textiles_welfare.png>
+Package pdftex.def Info: textiles_welfare.png used on input line 437.
+(pdftex.def)             Requested size: 329.02342pt x 65.64407pt.
+
+Overfull \hbox (21.73355pt too wide) in paragraph at lines 437--437
+[]  
+ []
+
+[56
+
+ <./textiles_welfare.png>] [57
+
+]
+<tariff_rates_US.png, id=1822, 1574.88374pt x 771.88374pt>
+File: tariff_rates_US.png Graphic file (type png)
+
+<use tariff_rates_US.png>
+Package pdftex.def Info: tariff_rates_US.png used on input line 479.
+(pdftex.def)             Requested size: 314.97118pt x 154.37401pt.
+
+Overfull \hbox (7.6813pt too wide) in paragraph at lines 479--479
+[]  
+ []
+
+[58
+
+ <./tariff_rates_US.png>]
 \tf@nav=\write6
 \openout6 = `trade_policy_two.nav'.
 
@@ -1235,11 +1321,11 @@ Overfull \hbox (27.71088pt too wide) in paragraph at lines 189--189
 \tf@snm=\write8
 \openout8 = `trade_policy_two.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 783.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 783.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 951.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 951.
  (./trade_policy_two.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 783.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 783.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 951.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 951.
 Package rerunfilecheck Info: File `trade_policy_two.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1247,13 +1333,13 @@ Package rerunfilecheck Info: File `trade_policy_two.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 783.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 951.
  ) 
 Here is how much of TeX's memory you used:
- 17738 strings out of 493304
- 318698 string characters out of 6139871
+ 17867 strings out of 493304
+ 320739 string characters out of 6139871
  401569 words of memory out of 5000000
- 20720 multiletter control sequences out of 15000+600000
+ 20808 multiletter control sequences out of 15000+600000
  21412 words of font info for 60 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,55p,405b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1270,10 +1356,10 @@ uper/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-su
 per/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on trade_policy_two.pdf (40 pages, 2747612 bytes).
+Output written on trade_policy_two.pdf (58 pages, 3421413 bytes).
 PDF statistics:
- 1430 PDF objects out of 1440 (max. 8388607)
- 1306 compressed objects within 14 object streams
- 51 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1901 PDF objects out of 2073 (max. 8388607)
+ 1750 compressed objects within 18 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 

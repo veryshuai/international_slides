@@ -231,36 +231,11 @@ Chapter 9 :
         \begin{itemize}
             \item We have arguments that countries gain from trade
             \item Recently theory models have been estimable
-        \end{itemize}
-        \item Important new paper: Gains from trade in most models are the same
-        \begin{itemize}
-            \item Arkolakis, Costinot, Rodriguez, American Economic Review, 2012
+            \item Important new paper: large class of new models have same gains from trade
+            \item Gains are extermely tiny
             \item United States going from autarchy to free trade welfare gains 0.7-1.4\% 
-            \item Compare this to estimates of gains from migration\dots
-        \end{itemize}
     \end{itemize}
-\end{frame}
-
-\begin{frame}{Gains from trade vs migration}
-    \includegraphics[scale=0.25]{gains_to_migration.png}
-
-    {\tiny Source: Clemens, Michael, ``Economics and Emigration: Trillion Dollar Bills on the Sidewalk?'', Journal of Economic Perspectives, 2011}
-\end{frame}
-
-\begin{frame}{Pause}
-    \begin{itemize}
-        \item We have seen more arguments for free trade
-        \begin{itemize}
-            \item Classical gains from trade
-            \item Trade policy causes rent seeking distortions
-            \item Trade policy is often captured by special interests
-        \end{itemize}
-        \item Now we will focus on arguments against free trade
-        \begin{itemize}
-            \item The optimum tariff
-            \item Domestic market failure and trade policy
-        \end{itemize}
-    \end{itemize}
+    \includegraphics[scale=0.25]{trade_gains.png}
 \end{frame}
 
 \begin{frame}{The optimum tariff}
@@ -270,7 +245,6 @@ Chapter 9 :
     \end{itemize}
     \includegraphics[scale=0.20]{optimum_tariff.png}
 \end{frame}
-
 
 \begin{frame}{The optimum tariff}
     \begin{itemize}
@@ -321,163 +295,107 @@ Chapter 9 :
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Pause}
-    \begin{itemize}
-        \item We have seen more arguments for free trade
-        \begin{itemize}
-            \item Classical gains from trade
-            \item Trade policy causes rent seeking distortions
-            \item Trade policy is often captured by special interests
-        \end{itemize}
-        \item We have seen arguments against free trade
-        \begin{itemize}
-            \item The optimum tariff
-            \item Domestic market failure and trade policy
-        \end{itemize}
-        \item Now we will talk about how trade policy is formed
-    \end{itemize}
-\end{frame}
-
-\frame{
-\frametitle{Political Models of Trade Policy}
-Models related to trade policy:
-\begin{enumerate}
-\item Median voter theorem
-\item Collective action
-\end{enumerate}
-}
-
-\frame{
-\frametitle{Median Voter Theorem}
-Electoral competition can be modeled as:
-\begin{itemize}
-\item Two parties: Liberals ($L$) and the Greens ($G$)
-\item Continuum of voters of size $N$
-\item Line the voters up by their preferred tariff
-\item A voter chooses the party closest to her preferred tariff
-\item Parties take tariff positions to maximize support
-\item Suppose that voters have a uniform distribution over preferred tariffs between $0$ and $T$
-\end{itemize}
-}
-
-\frame{
-\frametitle{Median Voter Theorem}
-\begin{itemize}
-\item Both parties choose the same, median voter supported trade policy 
-\item What if there are three parties?
-\item Median voter theorem predictions contrast with trade policy
-\begin{itemize}
-    \item Typically trade policy helps one industry a lot
-    \item Typically trade policy hurts everyone else a little
-\end{itemize}
-\end{itemize}
-}
-
-\frame{
-\frametitle{Collective Action}
-\begin{itemize}
-    \item Trade policy is a \emph{public good}
-    \begin{itemize}
-    \item That is, it cannot be excluded
-    \end{itemize}
-    \item Nearly everyone in EU hurt by agricultural export subsidies
-    \item Suppose I write a letter to my representative
-    \begin{itemize}
-        \item The probability my letter is pivotal is small
-        \item The benefit I get from removing subsidies is (relatively) small
-        \item There is a small cost to sending a letter
-        \item I won't do it
-    \end{itemize}
-    \item Suppose I am a EU farmer
-    \begin{itemize}
-        \item The probability my letter is pivotal is larger (smaller group of potential writers)
-        \item The benefit I get from keeping subsidies is much larger
-        \item There is a small cost to sending a letter 
-        \item I do it
-    \end{itemize}
-    \item Result: All the letters from farmers
-\end{itemize}
-}
-
-\frame{
-    \frametitle{Punchline: Collective action}
-    \begin{itemize}
-        \item Policies with large aggregate loss but small individual loss are difficult to change
-        \item Small groups with concentrated losses are more willing to pay effort fixed cost 
-    \end{itemize}
-}
-
-\frame{
-\frametitle{Real Politics}
-\begin{itemize}
-\item Politicians win elections partly because: 
-    \begin{enumerate} 
-        \item they advocate popular policies (median voter theorem)
-        \item they have funds to run campaigns (collective action)
-    \end{enumerate}
-\item We expect trade policy in well-organized groups with concentrated gains 
-\end{itemize}
-}
-
-\frame{
-\frametitle{Which Industries are Protected?}
-\begin{itemize}
-\item Agriculture 
-\begin{itemize}
-    \item Small but politically vocal labor force in the US
-    \item Japan has 1000\% tariff on rice imports!
-\end{itemize}
-\item Textiles (USA, about 14 \$ billion)
-\begin{itemize}
-    \item Declining in importance thanks to WTO
-    \item Billions of dollars in US welfare loss due to protection:
-\end{itemize}
-\end{itemize}
-    \includegraphics[scale=0.20]{textiles_welfare.png}
-}
-
-\begin{frame}{Pause}
-    \begin{itemize}
-        \item We have seen more arguments for free trade
-        \begin{itemize}
-            \item Classical gains from trade
-            \item Trade policy causes rent seeking distortions
-            \item Trade policy is often captured by special interests
-        \end{itemize}
-        \item We have seen arguments against free trade
-        \begin{itemize}
-            \item The optimum tariff
-            \item Domestic market failure and trade policy
-        \end{itemize}
-        \item We have talk about how trade policy is formed
-        \begin{itemize}
-            \item Median voter
-            \item Collective action
-        \end{itemize}
-        \item Next international negotiations
-        \begin{itemize}
-            \item Theory
-            \item History
-        \end{itemize}
-    \end{itemize}
-\end{frame}
-
-\frame{
-\frametitle{International Negotiations}
-\begin{itemize}
-\item A US-centric history of trade milestones:
-\begin{itemize}
-    \item 1930: Smoot-Harley Act
-    \item 1932: Bilateral negotiations
-    \item 1947: Multilateral negotiations (GATT)
-    \item 1995: WTO
-\end{itemize}
-\item US Tariff rates over the years
-\end{itemize}
-\includegraphics[scale=0.20]{tariff_rates_US.png}
-}
-
-\begin{frame}{
+% \frame{
+% \frametitle{Political Models of Trade Policy}
+% Models related to trade policy:
+% \begin{enumerate}
+% \item Median voter theorem
+% \item Collective action
+% \item A model of trade policy that combines aspects of the median voter theorem \& collective action
+% \end{enumerate}
+% }
+% 
+% \frame{
+% \frametitle{Median Voter Theorem}
+% Electoral competition can be modeled as:
+% \begin{itemize}
+% \item two parties
+% \item $t_{m}$: equilibrium tariff 
+% \item Both want majority $\Rightarrow$ both parties will offer the same tariff policy to court the median voter 
+% \item \textbf{BUT} this model does not work well for trade policy (e.g. small groups/lobbies influence tariff, see Box at page 225)
+% \end{itemize}
+% }
+% 
+% \frame{
+% \frametitle{Fig. 9-4: Political Competition}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.80\textwidth]{91.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% \frame{
+% \frametitle{Median Voter \& Tariffs}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.80\textwidth]{mediumvoter.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% \frame{
+% \frametitle{Collective Action (1)}
+% Model introduced by Mancur Olson. Main assumptions:
+% \begin{itemize}
+% \item Political activity on behalf of a group is a \textit{public good}
+% \item Policies with large aggregate/ total
+% loss but small individual loss are
+% difficult to change
+% \item Collective action is required
+% \end{itemize}
+% }
+% 
+% 
+% \frame{
+% \frametitle{Collective Action (2)}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.80\textwidth]{92.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% \frame{
+% \frametitle{A Model of Trade Policy}
+% \begin{itemize}
+% \item Politicians may win elections partly because they advocate popular policies (median voter theorem), but they also require funds to run campaigns (collective action)
+% \item funds may especially come from groups who do not have a collective action problem and are willing to advocate a special interest policy
+% \item models of trade restriction policy try to measure the trade off between the reduction in welfare of constituents as a whole and the increase in campaign contributions from special interests.
+% \end{itemize}
+% }
+% 
+% \frame{
+% \frametitle{Which Industries are Protected?}
+% \begin{itemize}
+% \item Agriculture (Europe and Japan)
+% \item Clothing (USA, about 14 \$ billion)
+% \end{itemize}
+% }
+% 
+% \Section{Chapter 9. International Negotiations}
+% 
+% \frame{
+% \frametitle{International Negotiations}
+% \begin{itemize}
+% \item 1930: Smoot-Harley Act
+% \item 1932: Bilateral negotiations
+% \item 1947: Multilateral negotiations
+% (GATT)
+% \item 1995: WTO
+% \end{itemize}
+% }
+% 
+% \frame{
+% \frametitle{Fig. 9-5: The U.S. Tariff Rate}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.80\textwidth]{95.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
 % \frame{
 % \frametitle{Multilateral Negotiations}
 % \begin{itemize}

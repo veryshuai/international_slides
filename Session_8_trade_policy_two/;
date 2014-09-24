@@ -370,7 +370,6 @@ Electoral competition can be modeled as:
     \item Typically trade policy helps one industry a lot
     \item Typically trade policy hurts everyone else a little
 \end{itemize}
-\end{itemize}
 }
 
 \frame{
@@ -399,85 +398,55 @@ Electoral competition can be modeled as:
 \end{itemize}
 }
 
-\frame{
-    \frametitle{Punchline: Collective action}
-    \begin{itemize}
-        \item Policies with large aggregate loss but small individual loss are difficult to change
-        \item Small groups with concentrated losses are more willing to pay effort fixed cost 
-    \end{itemize}
+\begin{frame}{Punchline: Collective action}
+\begin{itemize}
+    \item Policies with large aggregate loss but small individual loss are difficult to change
+    \item Small groups with concentrated losses are more willing to pay effort fixed cost 
+\end{itemize}
 }
 
 \frame{
-\frametitle{Real Politics}
+\frametitle{Read Politics}
 \begin{itemize}
 \item Politicians win elections partly because: 
     \begin{enumerate} 
         \item they advocate popular policies (median voter theorem)
         \item they have funds to run campaigns (collective action)
     \end{enumerate}
-\item We expect trade policy in well-organized groups with concentrated gains 
+\item models of trade restriction policy try to measure the trade off between the reduction in welfare of constituents as a whole and the increase in campaign contributions from special interests.
 \end{itemize}
 }
-
-\frame{
-\frametitle{Which Industries are Protected?}
-\begin{itemize}
-\item Agriculture 
-\begin{itemize}
-    \item Small but politically vocal labor force in the US
-    \item Japan has 1000\% tariff on rice imports!
-\end{itemize}
-\item Textiles (USA, about 14 \$ billion)
-\begin{itemize}
-    \item Declining in importance thanks to WTO
-    \item Billions of dollars in US welfare loss due to protection:
-\end{itemize}
-\end{itemize}
-    \includegraphics[scale=0.20]{textiles_welfare.png}
-}
-
-\begin{frame}{Pause}
-    \begin{itemize}
-        \item We have seen more arguments for free trade
-        \begin{itemize}
-            \item Classical gains from trade
-            \item Trade policy causes rent seeking distortions
-            \item Trade policy is often captured by special interests
-        \end{itemize}
-        \item We have seen arguments against free trade
-        \begin{itemize}
-            \item The optimum tariff
-            \item Domestic market failure and trade policy
-        \end{itemize}
-        \item We have talk about how trade policy is formed
-        \begin{itemize}
-            \item Median voter
-            \item Collective action
-        \end{itemize}
-        \item Next international negotiations
-        \begin{itemize}
-            \item Theory
-            \item History
-        \end{itemize}
-    \end{itemize}
-\end{frame}
-
-\frame{
-\frametitle{International Negotiations}
-\begin{itemize}
-\item A US-centric history of trade milestones:
-\begin{itemize}
-    \item 1930: Smoot-Harley Act
-    \item 1932: Bilateral negotiations
-    \item 1947: Multilateral negotiations (GATT)
-    \item 1995: WTO
-\end{itemize}
-\item US Tariff rates over the years
-\end{itemize}
-\includegraphics[scale=0.20]{tariff_rates_US.png}
-}
-
-\begin{frame}{
+% 
+% \frame{
+% \frametitle{Which Industries are Protected?}
+% \begin{itemize}
+% \item Agriculture (Europe and Japan)
+% \item Clothing (USA, about 14 \$ billion)
+% \end{itemize}
+% }
+% 
+% \Section{Chapter 9. International Negotiations}
+% 
+% \frame{
+% \frametitle{International Negotiations}
+% \begin{itemize}
+% \item 1930: Smoot-Harley Act
+% \item 1932: Bilateral negotiations
+% \item 1947: Multilateral negotiations
+% (GATT)
+% \item 1995: WTO
+% \end{itemize}
+% }
+% 
+% \frame{
+% \frametitle{Fig. 9-5: The U.S. Tariff Rate}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.80\textwidth]{95.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
 % \frame{
 % \frametitle{Multilateral Negotiations}
 % \begin{itemize}
