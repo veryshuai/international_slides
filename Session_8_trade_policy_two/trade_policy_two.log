@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  24 SEP 2014 21:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  24 SEP 2014 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -943,7 +943,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 37>
-Package pdftex.def Info: trade_policy_one.pdf, page37 used on input line 103.
+Package pdftex.def Info: trade_policy_one.pdf, page37 used on input line 102.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [5
 
@@ -952,7 +952,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page37 used on input line 103.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 39>
-Package pdftex.def Info: trade_policy_one.pdf, page39 used on input line 104.
+Package pdftex.def Info: trade_policy_one.pdf, page39 used on input line 103.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [6
 
@@ -961,7 +961,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page39 used on input line 104.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 41>
-Package pdftex.def Info: trade_policy_one.pdf, page41 used on input line 105.
+Package pdftex.def Info: trade_policy_one.pdf, page41 used on input line 104.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [7
 
@@ -970,7 +970,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page41 used on input line 105.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 32>
-Package pdftex.def Info: trade_policy_one.pdf, page32 used on input line 106.
+Package pdftex.def Info: trade_policy_one.pdf, page32 used on input line 105.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [8
 
@@ -979,7 +979,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page32 used on input line 106.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 43>
-Package pdftex.def Info: trade_policy_one.pdf, page43 used on input line 107.
+Package pdftex.def Info: trade_policy_one.pdf, page43 used on input line 106.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [9
 
@@ -988,7 +988,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page43 used on input line 107.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 44>
-Package pdftex.def Info: trade_policy_one.pdf, page44 used on input line 108.
+Package pdftex.def Info: trade_policy_one.pdf, page44 used on input line 107.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [10
 
@@ -997,7 +997,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page44 used on input line 108.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 48>
-Package pdftex.def Info: trade_policy_one.pdf, page48 used on input line 109.
+Package pdftex.def Info: trade_policy_one.pdf, page48 used on input line 108.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [11
 
@@ -1006,7 +1006,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page48 used on input line 109.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 56>
-Package pdftex.def Info: trade_policy_one.pdf, page56 used on input line 110.
+Package pdftex.def Info: trade_policy_one.pdf, page56 used on input line 109.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [12
 
@@ -1015,7 +1015,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page56 used on input line 110.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 57>
-Package pdftex.def Info: trade_policy_one.pdf, page57 used on input line 111.
+Package pdftex.def Info: trade_policy_one.pdf, page57 used on input line 110.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [13
 
@@ -1024,7 +1024,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page57 used on input line 111.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 58>
-Package pdftex.def Info: trade_policy_one.pdf, page58 used on input line 112.
+Package pdftex.def Info: trade_policy_one.pdf, page58 used on input line 111.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [14
 
@@ -1033,7 +1033,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page58 used on input line 112.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 59>
-Package pdftex.def Info: trade_policy_one.pdf, page59 used on input line 113.
+Package pdftex.def Info: trade_policy_one.pdf, page59 used on input line 112.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [15
 
@@ -1042,7 +1042,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page59 used on input line 113.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 60>
-Package pdftex.def Info: trade_policy_one.pdf, page60 used on input line 114.
+Package pdftex.def Info: trade_policy_one.pdf, page60 used on input line 113.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [16
 
@@ -1051,7 +1051,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page60 used on input line 114.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 61>
-Package pdftex.def Info: trade_policy_one.pdf, page61 used on input line 115.
+Package pdftex.def Info: trade_policy_one.pdf, page61 used on input line 114.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [17
 
@@ -1060,7 +1060,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page61 used on input line 115.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 62>
-Package pdftex.def Info: trade_policy_one.pdf, page62 used on input line 116.
+Package pdftex.def Info: trade_policy_one.pdf, page62 used on input line 115.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [18
 
@@ -1069,7 +1069,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page62 used on input line 116.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 63>
-Package pdftex.def Info: trade_policy_one.pdf, page63 used on input line 117.
+Package pdftex.def Info: trade_policy_one.pdf, page63 used on input line 116.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [19
 
@@ -1078,7 +1078,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page63 used on input line 117.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 64>
-Package pdftex.def Info: trade_policy_one.pdf, page64 used on input line 118.
+Package pdftex.def Info: trade_policy_one.pdf, page64 used on input line 117.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [20
 
@@ -1087,7 +1087,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page64 used on input line 118.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 65>
-Package pdftex.def Info: trade_policy_one.pdf, page65 used on input line 119.
+Package pdftex.def Info: trade_policy_one.pdf, page65 used on input line 118.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [21
 
@@ -1096,7 +1096,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page65 used on input line 119.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 66>
-Package pdftex.def Info: trade_policy_one.pdf, page66 used on input line 120.
+Package pdftex.def Info: trade_policy_one.pdf, page66 used on input line 119.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [22
 
@@ -1105,7 +1105,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page66 used on input line 120.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 69>
-Package pdftex.def Info: trade_policy_one.pdf, page69 used on input line 121.
+Package pdftex.def Info: trade_policy_one.pdf, page69 used on input line 120.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [23
 
@@ -1114,7 +1114,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page69 used on input line 121.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 70>
-Package pdftex.def Info: trade_policy_one.pdf, page70 used on input line 122.
+Package pdftex.def Info: trade_policy_one.pdf, page70 used on input line 121.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [24
 
@@ -1123,7 +1123,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page70 used on input line 122.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 72>
-Package pdftex.def Info: trade_policy_one.pdf, page72 used on input line 123.
+Package pdftex.def Info: trade_policy_one.pdf, page72 used on input line 122.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [25
 
@@ -1132,7 +1132,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page72 used on input line 123.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 75>
-Package pdftex.def Info: trade_policy_one.pdf, page75 used on input line 124.
+Package pdftex.def Info: trade_policy_one.pdf, page75 used on input line 123.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [26
 
@@ -1141,7 +1141,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page75 used on input line 124.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 76>
-Package pdftex.def Info: trade_policy_one.pdf, page76 used on input line 125.
+Package pdftex.def Info: trade_policy_one.pdf, page76 used on input line 124.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [27
 
@@ -1150,7 +1150,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page76 used on input line 125.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 77>
-Package pdftex.def Info: trade_policy_one.pdf, page77 used on input line 126.
+Package pdftex.def Info: trade_policy_one.pdf, page77 used on input line 125.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [28
 
@@ -1159,7 +1159,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page77 used on input line 126.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 80>
-Package pdftex.def Info: trade_policy_one.pdf, page80 used on input line 127.
+Package pdftex.def Info: trade_policy_one.pdf, page80 used on input line 126.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [29
 
@@ -1168,7 +1168,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page80 used on input line 127.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 81>
-Package pdftex.def Info: trade_policy_one.pdf, page81 used on input line 128.
+Package pdftex.def Info: trade_policy_one.pdf, page81 used on input line 127.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [30
 
@@ -1177,7 +1177,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page81 used on input line 128.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 83>
-Package pdftex.def Info: trade_policy_one.pdf, page83 used on input line 129.
+Package pdftex.def Info: trade_policy_one.pdf, page83 used on input line 128.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [31
 
@@ -1186,7 +1186,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page83 used on input line 129.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 86>
-Package pdftex.def Info: trade_policy_one.pdf, page86 used on input line 130.
+Package pdftex.def Info: trade_policy_one.pdf, page86 used on input line 129.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [32
 
@@ -1195,7 +1195,7 @@ Package pdftex.def Info: trade_policy_one.pdf, page86 used on input line 130.
 File: trade_policy_one.pdf Graphic file (type pdf)
 
 <use trade_policy_one.pdf, page 88>
-Package pdftex.def Info: trade_policy_one.pdf, page88 used on input line 131.
+Package pdftex.def Info: trade_policy_one.pdf, page88 used on input line 130.
 (pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [33
 
@@ -1212,10 +1212,10 @@ Package pdftex.def Info: trade_policy_one.pdf, page88 used on input line 131.
 File: tariff_distortion.png Graphic file (type png)
 
 <use tariff_distortion.png>
-Package pdftex.def Info: tariff_distortion.png used on input line 189.
+Package pdftex.def Info: tariff_distortion.png used on input line 188.
 (pdftex.def)             Requested size: 335.00075pt x 228.10162pt.
 
-Overfull \hbox (27.71088pt too wide) in paragraph at lines 189--189
+Overfull \hbox (27.71088pt too wide) in paragraph at lines 188--188
 [][]  
  []
 
@@ -1229,10 +1229,10 @@ Overfull \hbox (27.71088pt too wide) in paragraph at lines 189--189
 <trade_gains.png, id=1386, 1679.27374pt x 431.6125pt>
 File: trade_gains.png Graphic file (type png)
  <use trade_gains.png>
-Package pdftex.def Info: trade_gains.png used on input line 226.
+Package pdftex.def Info: trade_gains.png used on input line 225.
 (pdftex.def)             Requested size: 419.81741pt x 107.90285pt.
 
-Overfull \hbox (112.52754pt too wide) in paragraph at lines 226--226
+Overfull \hbox (112.52754pt too wide) in paragraph at lines 225--225
 []  
  []
 
@@ -1245,7 +1245,7 @@ Overfull \hbox (112.52754pt too wide) in paragraph at lines 226--226
 File: gains_to_migration.png Graphic file (type png)
 
 <use gains_to_migration.png>
-Package pdftex.def Info: gains_to_migration.png used on input line 248.
+Package pdftex.def Info: gains_to_migration.png used on input line 247.
 (pdftex.def)             Requested size: 164.11272pt x 150.56212pt.
  [43
 
@@ -1256,7 +1256,7 @@ Package pdftex.def Info: gains_to_migration.png used on input line 248.
 File: optimum_tariff.png Graphic file (type png)
 
 <use optimum_tariff.png>
-Package pdftex.def Info: optimum_tariff.png used on input line 272.
+Package pdftex.def Info: optimum_tariff.png used on input line 271.
 (pdftex.def)             Requested size: 270.00397pt x 181.07329pt.
  [45
 
@@ -1286,10 +1286,10 @@ Package pdftex.def Info: optimum_tariff.png used on input line 272.
 File: textiles_welfare.png Graphic file (type png)
 
 <use textiles_welfare.png>
-Package pdftex.def Info: textiles_welfare.png used on input line 437.
+Package pdftex.def Info: textiles_welfare.png used on input line 436.
 (pdftex.def)             Requested size: 329.02342pt x 65.64407pt.
 
-Overfull \hbox (21.73355pt too wide) in paragraph at lines 437--437
+Overfull \hbox (21.73355pt too wide) in paragraph at lines 436--436
 []  
  []
 
@@ -1302,10 +1302,10 @@ Overfull \hbox (21.73355pt too wide) in paragraph at lines 437--437
 File: tariff_rates_US.png Graphic file (type png)
 
 <use tariff_rates_US.png>
-Package pdftex.def Info: tariff_rates_US.png used on input line 474.
+Package pdftex.def Info: tariff_rates_US.png used on input line 473.
 (pdftex.def)             Requested size: 314.97118pt x 154.37401pt.
 
-Overfull \hbox (7.6813pt too wide) in paragraph at lines 474--474
+Overfull \hbox (7.6813pt too wide) in paragraph at lines 473--473
 []  
  []
 
@@ -1337,7 +1337,7 @@ Overfull \hbox (7.6813pt too wide) in paragraph at lines 474--474
 ] <ulysses.png, id=2131, 794.97pt x 553.06625pt>
 File: ulysses.png Graphic file (type png)
  <use ulysses.png>
-Package pdftex.def Info: ulysses.png used on input line 620.
+Package pdftex.def Info: ulysses.png used on input line 619.
 (pdftex.def)             Requested size: 230.46739pt x 160.33446pt.
 
 [70
@@ -1365,7 +1365,7 @@ Package pdftex.def Info: ulysses.png used on input line 620.
 File: effective_protection.png Graphic file (type png)
 
 <use effective_protection.png>
-Package pdftex.def Info: effective_protection.png used on input line 769.
+Package pdftex.def Info: effective_protection.png used on input line 768.
 (pdftex.def)             Requested size: 230.46739pt x 85.91586pt.
  [80
 
@@ -1375,7 +1375,7 @@ Package pdftex.def Info: effective_protection.png used on input line 769.
 <tigers.png, id=2440, 1510.64375pt x 915.42pt>
 File: tigers.png Graphic file (type png)
  <use tigers.png>
-Package pdftex.def Info: tigers.png used on input line 790.
+Package pdftex.def Info: tigers.png used on input line 789.
 (pdftex.def)             Requested size: 302.1234pt x 183.08075pt.
  [82
 
@@ -1383,10 +1383,10 @@ Package pdftex.def Info: tigers.png used on input line 790.
 File: tariff_decline.png Graphic file (type png)
 
 <use tariff_decline.png>
-Package pdftex.def Info: tariff_decline.png used on input line 794.
+Package pdftex.def Info: tariff_decline.png used on input line 793.
 (pdftex.def)             Requested size: 308.54729pt x 176.25537pt.
 
-Overfull \hbox (1.25742pt too wide) in paragraph at lines 794--794
+Overfull \hbox (1.25742pt too wide) in paragraph at lines 793--793
 [][]  
  []
 
@@ -1396,7 +1396,7 @@ Overfull \hbox (1.25742pt too wide) in paragraph at lines 794--794
 <develop_trade.png, id=2492, 1425.325pt x 953.5625pt>
 File: develop_trade.png Graphic file (type png)
  <use develop_trade.png>
-Package pdftex.def Info: develop_trade.png used on input line 798.
+Package pdftex.def Info: develop_trade.png used on input line 797.
 (pdftex.def)             Requested size: 285.05995pt x 190.70912pt.
 
 [84
@@ -1410,7 +1410,7 @@ Package pdftex.def Info: develop_trade.png used on input line 798.
 File: plenty_of_protection.png Graphic file (type png)
 
 <use plenty_of_protection.png>
-Package pdftex.def Info: plenty_of_protection.png used on input line 820.
+Package pdftex.def Info: plenty_of_protection.png used on input line 819.
 (pdftex.def)             Requested size: 198.99295pt x 92.84663pt.
  [87
 
@@ -1419,43 +1419,94 @@ Package pdftex.def Info: plenty_of_protection.png used on input line 820.
 ] [89
 
 ]
+[90
 
-! LaTeX Error: \begin{itemize} on input line 849 ended by \end{beamer@framepaus
-es}.
+] [91
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.849 }
-       
-? x
- 
+] [92
+
+] [93
+
+] [94
+
+] <kuznets.png, id=2775, 1162.3425pt x 856.19875pt>
+File: kuznets.png Graphic file (type png)
+
+<use kuznets.png>
+Package pdftex.def Info: kuznets.png used on input line 919.
+(pdftex.def)             Requested size: 232.46439pt x 171.23671pt.
+
+Overfull \vbox (6.80882pt too high) detected at line 919
+ []
+
+[95
+
+ <./kuznets.png>]
+<chinese_pollution.png, id=2802, 1296.845pt x 972.63374pt>
+File: chinese_pollution.png Graphic file (type png)
+
+<use chinese_pollution.png>
+Package pdftex.def Info: chinese_pollution.png used on input line 927.
+(pdftex.def)             Requested size: 259.36441pt x 194.5233pt.
+ [96
+
+ <./chinese_pollution.png>] [97
+
+] [98
+
+] [99
+
+]
+\tf@nav=\write6
+\openout6 = `trade_policy_two.nav'.
+
+\tf@toc=\write7
+\openout7 = `trade_policy_two.toc'.
+
+\tf@snm=\write8
+\openout8 = `trade_policy_two.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 984.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 984.
+
+(./trade_policy_two.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 984.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 984.
+Package rerunfilecheck Info: File `trade_policy_two.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 984.
+ ) 
 Here is how much of TeX's memory you used:
- 18016 strings out of 493304
- 322642 string characters out of 6139871
- 401569 words of memory out of 5000000
- 20891 multiletter control sequences out of 15000+600000
+ 18073 strings out of 493304
+ 323110 string characters out of 6139871
+ 401594 words of memory out of 5000000
+ 20922 multiletter control sequences out of 15000+600000
  22187 words of font info for 61 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,55p,405b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/symbols/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfsi0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1000.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-sup
-er/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/
-type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-supe
-r/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
-Output written on trade_policy_two.pdf (89 pages, 5344322 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/symbols/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfsi0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1000.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0900.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+ss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on trade_policy_two.pdf (99 pages, 5634992 bytes).
 PDF statistics:
- 2716 PDF objects out of 2984 (max. 8388607)
- 2517 compressed objects within 26 object streams
- 149 named destinations out of 1000 (max. 500000)
- 236 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2981 PDF objects out of 2984 (max. 8388607)
+ 2770 compressed objects within 28 object streams
+ 170 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
