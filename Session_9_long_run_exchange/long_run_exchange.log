@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  29 SEP 2014 22:30
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  30 SEP 2014 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1081,7 +1081,7 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 File: gnp_us.png Graphic file (type png)
 
 <use gnp_us.png>
-Package pdftex.def Info: gnp_us.png used on input line 405.
+Package pdftex.def Info: gnp_us.png used on input line 406.
 (pdftex.def)             Requested size: 268.25153pt x 207.27386pt.
  [24
 
@@ -1091,7 +1091,7 @@ Package pdftex.def Info: gnp_us.png used on input line 405.
 <iip_us.png, id=665, 1082.0425pt x 810.02625pt>
 File: iip_us.png Graphic file (type png)
  <use iip_us.png>
-Package pdftex.def Info: iip_us.png used on input line 432.
+Package pdftex.def Info: iip_us.png used on input line 433.
 (pdftex.def)             Requested size: 270.50996pt x 202.50606pt.
  [26
 
@@ -1099,10 +1099,10 @@ Package pdftex.def Info: iip_us.png used on input line 432.
 File: imbalance_imf.png Graphic file (type png)
 
 <use imbalance_imf.png>
-Package pdftex.def Info: imbalance_imf.png used on input line 440.
+Package pdftex.def Info: imbalance_imf.png used on input line 441.
 (pdftex.def)             Requested size: 320.94827pt x 205.01543pt.
 
-Overfull \hbox (13.6584pt too wide) in paragraph at lines 440--440
+Overfull \hbox (13.6584pt too wide) in paragraph at lines 441--441
  [] 
  []
 
@@ -1122,7 +1122,7 @@ Overfull \hbox (13.6584pt too wide) in paragraph at lines 440--440
 <num1.png, id=845, 1229.59375pt x 419.5675pt>
 File: num1.png Graphic file (type png)
  <use num1.png>
-Package pdftex.def Info: num1.png used on input line 545.
+Package pdftex.def Info: num1.png used on input line 546.
 (pdftex.def)             Requested size: 261.19826pt x 89.12329pt.
  [33
 
@@ -1130,7 +1130,7 @@ Package pdftex.def Info: num1.png used on input line 545.
 <num2.png, id=871, 1268.74pt x 446.66875pt>
 File: num2.png Graphic file (type png)
  <use num2.png>
-Package pdftex.def Info: num2.png used on input line 557.
+Package pdftex.def Info: num2.png used on input line 558.
 (pdftex.def)             Requested size: 261.19826pt x 91.95616pt.
  [34
 
@@ -1138,17 +1138,17 @@ Package pdftex.def Info: num2.png used on input line 557.
 <num3.png, id=898, 1261.71375pt x 438.63875pt>
 File: num3.png Graphic file (type png)
  <use num3.png>
-Package pdftex.def Info: num3.png used on input line 569.
+Package pdftex.def Info: num3.png used on input line 570.
 (pdftex.def)             Requested size: 261.19826pt x 90.80501pt.
  [35
 
  <./num3.png>] <bop_2012.png, id=924, 839.135pt x 937.5025pt>
 File: bop_2012.png Graphic file (type png)
  <use bop_2012.png>
-Package pdftex.def Info: bop_2012.png used on input line 577.
+Package pdftex.def Info: bop_2012.png used on input line 578.
 (pdftex.def)             Requested size: 192.99698pt x 215.62103pt.
 
-Overfull \vbox (0.64917pt too high) detected at line 577
+Overfull \vbox (0.64917pt too high) detected at line 578
  []
 
 [36
@@ -1160,10 +1160,10 @@ Overfull \vbox (0.64917pt too high) detected at line 577
 File: credit_expansion.png Graphic file (type png)
 
 <use credit_expansion.png>
-Package pdftex.def Info: credit_expansion.png used on input line 597.
+Package pdftex.def Info: credit_expansion.png used on input line 598.
 (pdftex.def)             Requested size: 314.65897pt x 179.37639pt.
 
-Overfull \hbox (7.3691pt too wide) in paragraph at lines 597--597
+Overfull \hbox (7.3691pt too wide) in paragraph at lines 598--598
  [] 
  []
 
@@ -1179,10 +1179,10 @@ Overfull \hbox (7.3691pt too wide) in paragraph at lines 597--597
 <eurdkk.png, id=1078, 1352.05125pt x 470.75874pt>
 File: eurdkk.png Graphic file (type png)
  <use eurdkk.png>
-Package pdftex.def Info: eurdkk.png used on input line 643.
+Package pdftex.def Info: eurdkk.png used on input line 644.
 (pdftex.def)             Requested size: 324.49893pt x 112.9844pt.
 
-Overfull \hbox (17.20906pt too wide) in paragraph at lines 643--643
+Overfull \hbox (17.20906pt too wide) in paragraph at lines 644--644
  [] 
  []
 
@@ -1192,10 +1192,10 @@ Overfull \hbox (17.20906pt too wide) in paragraph at lines 643--643
 File: usddkk.png Graphic file (type png)
 
 <use usddkk.png>
-Package pdftex.def Info: usddkk.png used on input line 651.
+Package pdftex.def Info: usddkk.png used on input line 652.
 (pdftex.def)             Requested size: 324.01712pt x 114.18892pt.
 
-Overfull \hbox (16.72725pt too wide) in paragraph at lines 651--651
+Overfull \hbox (16.72725pt too wide) in paragraph at lines 652--652
  [] 
  []
 
@@ -1205,10 +1205,10 @@ Overfull \hbox (16.72725pt too wide) in paragraph at lines 651--651
 File: ft_ex.png Graphic file (type png)
 
 <use ft_ex.png>
-Package pdftex.def Info: ft_ex.png used on input line 660.
+Package pdftex.def Info: ft_ex.png used on input line 661.
 (pdftex.def)             Requested size: 251.18782pt x 237.88817pt.
 
-Overfull \vbox (4.9163pt too high) detected at line 660
+Overfull \vbox (4.9163pt too high) detected at line 661
  []
 
 [44
@@ -1229,17 +1229,17 @@ Overfull \vbox (4.9163pt too high) detected at line 660
 <crises.png, id=1311, 1099.10625pt x 768.8725pt>
 File: crises.png Graphic file (type png)
  <use crises.png>
-Package pdftex.def Info: crises.png used on input line 755.
+Package pdftex.def Info: crises.png used on input line 756.
 (pdftex.def)             Requested size: 274.77588pt x 192.21765pt.
  [51
 
  <./crises.png>] <usdars.png, id=1337, 1347.0325pt x 469.755pt>
 File: usdars.png Graphic file (type png)
  <use usdars.png>
-Package pdftex.def Info: usdars.png used on input line 769.
+Package pdftex.def Info: usdars.png used on input line 770.
 (pdftex.def)             Requested size: 323.2944pt x 112.7435pt.
 
-Overfull \hbox (16.00453pt too wide) in paragraph at lines 769--769
+Overfull \hbox (16.00453pt too wide) in paragraph at lines 770--770
  [] 
  []
 
@@ -1250,10 +1250,10 @@ Overfull \hbox (16.00453pt too wide) in paragraph at lines 769--769
 ]
 File: usdars.png Graphic file (type png)
  <use usdars.png>
-Package pdftex.def Info: usdars.png used on input line 796.
+Package pdftex.def Info: usdars.png used on input line 797.
 (pdftex.def)             Requested size: 323.2944pt x 112.7435pt.
 
-Overfull \hbox (16.00453pt too wide) in paragraph at lines 796--796
+Overfull \hbox (16.00453pt too wide) in paragraph at lines 797--797
  [] 
  []
 
@@ -1263,10 +1263,10 @@ Overfull \hbox (16.00453pt too wide) in paragraph at lines 796--796
 File: spot_forward.png Graphic file (type png)
 
 <use spot_forward.png>
-Package pdftex.def Info: spot_forward.png used on input line 808.
+Package pdftex.def Info: spot_forward.png used on input line 809.
 (pdftex.def)             Requested size: 332.9306pt x 167.42891pt.
 
-Overfull \hbox (25.64073pt too wide) in paragraph at lines 808--808
+Overfull \hbox (25.64073pt too wide) in paragraph at lines 809--809
  [] 
  []
 
@@ -1288,10 +1288,10 @@ Overfull \hbox (25.64073pt too wide) in paragraph at lines 808--808
 <bond_choice.png, id=1593, 1349.04pt x 528.97626pt>
 File: bond_choice.png Graphic file (type png)
  <use bond_choice.png>
-Package pdftex.def Info: bond_choice.png used on input line 895.
+Package pdftex.def Info: bond_choice.png used on input line 896.
 (pdftex.def)             Requested size: 323.77621pt x 126.9569pt.
 
-Overfull \hbox (16.48634pt too wide) in paragraph at lines 895--895
+Overfull \hbox (16.48634pt too wide) in paragraph at lines 896--896
  [] 
  []
 
@@ -1311,10 +1311,10 @@ Overfull \hbox (16.48634pt too wide) in paragraph at lines 895--895
 <ex_return.png, id=1747, 1359.0775pt x 500.87125pt>
 File: ex_return.png Graphic file (type png)
  <use ex_return.png>
-Package pdftex.def Info: ex_return.png used on input line 961.
+Package pdftex.def Info: ex_return.png used on input line 962.
 (pdftex.def)             Requested size: 326.18527pt x 120.21155pt.
 
-Overfull \hbox (18.8954pt too wide) in paragraph at lines 961--961
+Overfull \hbox (18.8954pt too wide) in paragraph at lines 962--962
  [] 
  []
 
@@ -1325,10 +1325,10 @@ Overfull \hbox (18.8954pt too wide) in paragraph at lines 961--961
 File: ex_return_chart.png Graphic file (type png)
 
 <use ex_return_chart.png>
-Package pdftex.def Info: ex_return_chart.png used on input line 973.
+Package pdftex.def Info: ex_return_chart.png used on input line 974.
 (pdftex.def)             Requested size: 166.61954pt x 192.11433pt.
 
-Overfull \vbox (11.47112pt too high) detected at line 973
+Overfull \vbox (11.47112pt too high) detected at line 974
  []
 
 [69
@@ -1339,7 +1339,7 @@ Overfull \vbox (11.47112pt too high) detected at line 973
 <eq_exchange.png, id=1824, 1100.11pt x 756.8275pt>
 File: eq_exchange.png Graphic file (type png)
  <use eq_exchange.png>
-Package pdftex.def Info: eq_exchange.png used on input line 997.
+Package pdftex.def Info: eq_exchange.png used on input line 998.
 (pdftex.def)             Requested size: 275.02682pt x 189.2064pt.
 
 [71
@@ -1348,10 +1348,10 @@ Package pdftex.def Info: eq_exchange.png used on input line 997.
 File: int_rise_one.png Graphic file (type png)
 
 <use int_rise_one.png>
-Package pdftex.def Info: int_rise_one.png used on input line 1009.
+Package pdftex.def Info: int_rise_one.png used on input line 1010.
 (pdftex.def)             Requested size: 286.82086pt x 196.73451pt.
 
-Overfull \vbox (6.2741pt too high) detected at line 1009
+Overfull \vbox (6.2741pt too high) detected at line 1010
  []
 
 [72
@@ -1360,10 +1360,10 @@ Overfull \vbox (6.2741pt too high) detected at line 1009
 File: int_rise_two.png Graphic file (type png)
 
 <use int_rise_two.png>
-Package pdftex.def Info: int_rise_two.png used on input line 1021.
+Package pdftex.def Info: int_rise_two.png used on input line 1022.
 (pdftex.def)             Requested size: 279.29276pt x 196.73451pt.
 
-Overfull \vbox (6.2741pt too high) detected at line 1021
+Overfull \vbox (6.2741pt too high) detected at line 1022
  []
 
 [73
@@ -1371,7 +1371,7 @@ Overfull \vbox (6.2741pt too high) detected at line 1021
  <./int_rise_two.png>]
 File: int_rise_two.png Graphic file (type png)
  <use int_rise_two.png>
-Package pdftex.def Info: int_rise_two.png used on input line 1033.
+Package pdftex.def Info: int_rise_two.png used on input line 1034.
 (pdftex.def)             Requested size: 223.43079pt x 157.38521pt.
  [74
 
@@ -1380,6 +1380,308 @@ Package pdftex.def Info: int_rise_two.png used on input line 1033.
 ] [76
 
 ] [77
+
+]
+<trade_policy_two.pdf, id=2005, page=35, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 35>
+Package pdftex.def Info: trade_policy_two.pdf, page35 used on input line 1067.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [78
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2056, page=36, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 36>
+Package pdftex.def Info: trade_policy_two.pdf, page36 used on input line 1068.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [79
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2099, page=37, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 37>
+Package pdftex.def Info: trade_policy_two.pdf, page37 used on input line 1069.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [80
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2134, page=38, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 38>
+Package pdftex.def Info: trade_policy_two.pdf, page38 used on input line 1070.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [81
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2164, page=39, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 39>
+Package pdftex.def Info: trade_policy_two.pdf, page39 used on input line 1071.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [82
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2206, page=40, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 40>
+Package pdftex.def Info: trade_policy_two.pdf, page40 used on input line 1072.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [83
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2247, page=41, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 41>
+Package pdftex.def Info: trade_policy_two.pdf, page41 used on input line 1073.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [84
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2283, page=44, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 44>
+Package pdftex.def Info: trade_policy_two.pdf, page44 used on input line 1074.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [85
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2326, page=45, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 45>
+Package pdftex.def Info: trade_policy_two.pdf, page45 used on input line 1075.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [86
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2362, page=48, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 48>
+Package pdftex.def Info: trade_policy_two.pdf, page48 used on input line 1076.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [87
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2404, page=49, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 49>
+Package pdftex.def Info: trade_policy_two.pdf, page49 used on input line 1077.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [88
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2445, page=50, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 50>
+Package pdftex.def Info: trade_policy_two.pdf, page50 used on input line 1078.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [89
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2477, page=51, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 51>
+Package pdftex.def Info: trade_policy_two.pdf, page51 used on input line 1079.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [90
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2518, page=52, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 52>
+Package pdftex.def Info: trade_policy_two.pdf, page52 used on input line 1080.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [91
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2560, page=53, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 53>
+Package pdftex.def Info: trade_policy_two.pdf, page53 used on input line 1081.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [92
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2604, page=55, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 55>
+Package pdftex.def Info: trade_policy_two.pdf, page55 used on input line 1082.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [93
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2643, page=57, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 57>
+Package pdftex.def Info: trade_policy_two.pdf, page57 used on input line 1083.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [94
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2684, page=58, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 58>
+Package pdftex.def Info: trade_policy_two.pdf, page58 used on input line 1084.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [95
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2727, page=69, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 69>
+Package pdftex.def Info: trade_policy_two.pdf, page69 used on input line 1085.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [96
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2772, page=72, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 72>
+Package pdftex.def Info: trade_policy_two.pdf, page72 used on input line 1086.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [97
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2808, page=73, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 73>
+Package pdftex.def Info: trade_policy_two.pdf, page73 used on input line 1087.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [98
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2850, page=75, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 75>
+Package pdftex.def Info: trade_policy_two.pdf, page75 used on input line 1088.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [99
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2888, page=76, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 76>
+Package pdftex.def Info: trade_policy_two.pdf, page76 used on input line 1089.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [100
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2941, page=78, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 78>
+Package pdftex.def Info: trade_policy_two.pdf, page78 used on input line 1090.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [101
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=2986, page=80, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 80>
+Package pdftex.def Info: trade_policy_two.pdf, page80 used on input line 1091.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [102
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=3025, page=82, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 82>
+Package pdftex.def Info: trade_policy_two.pdf, page82 used on input line 1092.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [103
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=3057, page=83, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 83>
+Package pdftex.def Info: trade_policy_two.pdf, page83 used on input line 1093.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [104
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=3087, page=87, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 87>
+Package pdftex.def Info: trade_policy_two.pdf, page87 used on input line 1094.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [105
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=3123, page=91, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 91>
+Package pdftex.def Info: trade_policy_two.pdf, page91 used on input line 1095.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [106
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=3158, page=92, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 92>
+Package pdftex.def Info: trade_policy_two.pdf, page92 used on input line 1096.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [107
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=3194, page=93, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 93>
+Package pdftex.def Info: trade_policy_two.pdf, page93 used on input line 1097.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [108
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=3240, page=96, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 96>
+Package pdftex.def Info: trade_policy_two.pdf, page96 used on input line 1098.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [109
+
+ <./trade_policy_two.pdf>]
+<trade_policy_two.pdf, id=3271, page=97, 364.19562pt x 273.14648pt>
+File: trade_policy_two.pdf Graphic file (type pdf)
+
+<use trade_policy_two.pdf, page 97>
+Package pdftex.def Info: trade_policy_two.pdf, page97 used on input line 1099.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [110
+
+ <./trade_policy_two.pdf>] [111
+
+]
+[112
 
 ]
 \tf@nav=\write6
@@ -1391,12 +1693,11 @@ Package pdftex.def Info: int_rise_two.png used on input line 1033.
 \tf@snm=\write8
 \openout8 = `long_run_exchange.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1082.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1082.
-
-(./long_run_exchange.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1082.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1082.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1129.
+ (./long_run_exchange.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1129.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1129.
 
 Package rerunfilecheck Info: File `long_run_exchange.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1405,13 +1706,13 @@ Package rerunfilecheck Info: File `long_run_exchange.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1082.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1129.
  ) 
 Here is how much of TeX's memory you used:
- 20687 strings out of 493304
- 377223 string characters out of 6139871
- 470710 words of memory out of 5000000
- 23485 multiletter control sequences out of 15000+600000
+ 20901 strings out of 493304
+ 381399 string characters out of 6139871
+ 473708 words of memory out of 5000000
+ 23661 multiletter control sequences out of 15000+600000
  27352 words of font info for 74 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,55p,406b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1432,10 +1733,10 @@ ts/type1/public/cm-super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
 uper/sfss1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></
 usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/font
 s/type1/public/cm-super/sfsx1095.pfb>
-Output written on long_run_exchange.pdf (77 pages, 4607460 bytes).
+Output written on long_run_exchange.pdf (112 pages, 6324436 bytes).
 PDF statistics:
- 2100 PDF objects out of 2487 (max. 8388607)
- 1956 compressed objects within 20 object streams
- 150 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3456 PDF objects out of 3580 (max. 8388607)
+ 3222 compressed objects within 33 object streams
+ 187 named destinations out of 1000 (max. 500000)
+ 308 words of extra memory for PDF output out of 10000 (max. 10000000)
 
