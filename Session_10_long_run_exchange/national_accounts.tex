@@ -1,0 +1,1131 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{xcolor,mathrsfs,url}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ifthen}
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\everymath{\displaystyle}
+
+% The command to define a subsection is '\subsec{}' and NOT '\subsection'.
+% This code generates the bar. Don't edit.
+\newcommand{\midbarnew}{}
+\newcommand{\subsec}[1]
+{
+  \ifthenelse{\equal{#1}{}}
+  {\renewcommand{\midbarnew}{} \subsection{}}
+  {\renewcommand{\midbarnew}{ $\mid$ } \subsection{#1}}
+}
+
+% change the pictures here, if necessary. logobig and logosmall are the internal names
+% for the pictures: do not modify them, just change "hulogo" and "logo". Pictures must be 
+% supplied as JPEG, PNG or PDF
+%########################################
+
+\pgfdeclareimage[height=2cm]{logobig}{logo} % use hucase instead for the Humboldt-Case Logo
+\pgfdeclareimage[height=1cm]{logosmall}{logo}
+
+% use this number to modify the scaling of the headline on titlepage
+\def\titlescale{1.0}
+
+\title{National Accounts}
+\author{Instructor: David Jinkins\thanks{I wish to acknowledge Battista Severgnini for providing last year's slides to me. His generosity saved me much time, and these slides are partially based on his. Any errors are of course my own.}}
+\date{Date: Sept. 30, 2014}
+%Start of the document
+\begin{document}
+
+\frame[plain]{% create the titleslide, layout controlled in metricsbeamer
+	\titlepage
+}
+
+\frame{% how to print
+\frametitle{Plan for Today}
+\begin{enumerate}
+    \item Chapter 13:
+    \begin{itemize}
+        \item National income accounts
+        \item National saving, investment, and the current account
+    \end{itemize}
+    \item Chapter 14:
+    \begin{itemize}
+        \item Exchange rate
+        \item The foreign exchange market
+        \item The demand of currency deposits
+        \item Interest rate parity
+        \item Partial equilibrium ex. rates
+    \end{itemize}
+    \item Review
+\end{enumerate}
+}
+
+\frame{% how to print
+\frametitle{}
+\begin{center}
+\textcolor{blue}{Chapter 13: National Income Accounting and the Balance of Payments }
+\end{center}
+}
+
+\begin{frame}{Goodbye micro foundations}
+
+    \begin{itemize}
+        \item Our first trade models
+        \begin{itemize}
+            \item Stark and simple
+            \item General equilibrium
+            \item A real economy -- no money!
+        \end{itemize}
+        \item Models in the remainder of course
+        \begin{itemize}
+            \item Partial equilibrium
+            \item Equilibrium conditions:
+            \begin{enumerate}
+                \item Interest rate parity
+                \item Law of one price
+            \end{enumerate}
+        \end{itemize}
+        \item Text: Micro vs Macro
+        \begin{itemize}
+            \item A little more complicated than that\dots
+        \end{itemize}
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Why partial equilibrium?}
+
+    \begin{itemize}
+        \item Easier to analyze some important topics
+        \item Our general equilibrium models abstracted from
+        \begin{enumerate}
+            \item Unemployment
+            \item Saving
+            \item Trade imbalances
+            \item Money
+        \end{enumerate}
+        \item Fiat money very tricky to put in 'microfounded' model!
+        \begin{itemize}
+            \item International finance about exchange rates!
+        \end{itemize}
+        \item Minnesota macro vs. New Keynsian macro
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Chapter 13 split}
+
+    \begin{enumerate}
+        \item National income accounting
+        \begin{itemize}
+            \item Measuring value of a nation's annual production
+        \end{itemize}
+        \item Balance of payments accounting
+        \begin{itemize}
+            \item Measuring a nation's debt to other countries at a point in time
+        \end{itemize}
+    \end{enumerate}
+
+\end{frame}
+
+\frame{
+\frametitle{National income accounting}
+\begin{itemize}
+    \item Focus on \emph{Gross National Product} or GNP
+    \item Definition from textbook: 
+    \begin{itemize}
+        \item The value of all final goods and services produced by the country's factors of production and sold on the market in a given time period
+    \end{itemize}
+    \item Let's parse this
+%\item amount of expenditure by buyers ($C+I+G+\textcolor{blue}{CA}$)= amount of income for sellers ($F\left(factors\right)$) = value of production ($Y$)
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product}
+\begin{itemize}
+    \item Definition from textbook: 
+    \begin{itemize}
+        \item \textcolor{red}{The value} of all final goods and services produced by the country's factors of production and sold on the market in a given time period
+    \end{itemize}
+    \item The value in common terms -- often current national currency
+%\item amount of expenditure by buyers ($C+I+G+\textcolor{blue}{CA}$)= amount of income for sellers ($F\left(factors\right)$) = value of production ($Y$)
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product}
+\begin{itemize}
+    \item Definition from textbook: 
+    \begin{itemize}
+        \item The value\textcolor{red}{ of all final goods and services} produced by the country's factors of production and sold on the market in a given time period
+    \end{itemize}
+    \item Only final goods are counted, not intermediates
+    \item Count only the sale of the textbook, not the sale of the paper to the bookmaker
+    \item Final goods can also be "investment" like production machines
+%\item amount of expenditure by buyers ($C+I+G+\textcolor{blue}{CA}$)= amount of income for sellers ($F\left(factors\right)$) = value of production ($Y$)
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product}
+\begin{itemize}
+    \item Definition from textbook: 
+    \begin{itemize}
+        \item The value of all final goods and services \textcolor{red}{produced by the country's factors of production} and sold on the market in a given time period
+    \end{itemize}
+    \item The final goods must have been produced using factors of production owned by nationals
+    \begin{enumerate}
+        \item Land (resources)
+        \item Labor (human capital)
+        \item Capital (machines, buildings, etc)
+    \end{enumerate}
+    \item Production does not have to take place within the country
+%\item amount of expenditure by buyers ($C+I+G+\textcolor{blue}{CA}$)= amount of income for sellers ($F\left(factors\right)$) = value of production ($Y$)
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product}
+\begin{itemize}
+    \item Definition from textbook: 
+    \begin{itemize}
+        \item The value of all final goods and services produced by the country's factors of production \textcolor{red}{and sold on the market in a given time period}
+    \end{itemize}
+    \item Only count final goods that are sold in the relevant year 
+    \item Do not count sale of used textbooks!
+    \item Sale of previously manufactured stuff is just exchange, not production
+    \item Caution: Inventories are counted as a firm selling to itself
+%\item amount of expenditure by buyers ($C+I+G+\textcolor{blue}{CA}$)= amount of income for sellers ($F\left(factors\right)$) = value of production ($Y$)
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product}
+\begin{itemize}
+    \item Definition from textbook: 
+    \begin{itemize}
+        \item The value of all final goods and services produced by the country's factors of production and sold on the market in a given time period
+    \end{itemize}
+    \item Ex: Fish caught in Oresund and sold in a Nyhavn restaurant
+    \begin{itemize}
+        \item Restaurant buys fish from fisherman -- \emph{not} part of GNP
+        \item Consumer buys restaurant service, incl. fish -- part of GNP
+    \end{itemize}
+    \item Ex: Danish company goes public
+    \begin{itemize}
+        \item Investors buy stocks from firm -- \emph{not} part of GNP
+        \item Investors buy stocks from each other -- \emph{not} part of GNP
+    \end{itemize}
+    \item Ex: Danish-owned company opens pharmaceutical factory in Poland 
+    \begin{itemize}
+        \item Sales of factory are part of GNP (less the wages paid to Polish labor)
+    \end{itemize}
+
+%\item amount of expenditure by buyers ($C+I+G+\textcolor{blue}{CA}$)= amount of income for sellers ($F\left(factors\right)$) = value of production ($Y$)
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product (GNP)}
+\begin{itemize}
+    \item Often separate GNP by ultimate use of production
+\end{itemize}
+\begin{center}
+$GNP=C+I+G+CA$
+\end{center}
+where
+\begin{itemize}
+\item $C$ is consumption
+\item $I$ is investment
+\item $G$ is government purchases
+\item $CA$ is current account balance (exports minus imports) 
+\item Let's talk about these categories
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product, ultimate use categories}
+\begin{center}
+$GNP=C+I+G+CA$
+\end{center}
+\begin{itemize}
+    \item Consumption
+    \begin{itemize}
+        \item Portion of production expended in satisfying current wants
+        \item Examples: Movie tickets, food, dental work, and washing machines
+        \item Largest share of production, 60-70\%
+    \end{itemize}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product, ultimate use categories}
+\begin{center}
+$GNP=C+I+G+CA$
+\end{center}
+\begin{itemize}
+    \item Investment
+    \begin{itemize}
+        \item Any good or service which is used for future production
+        \item Examples: Machinery for a factory, the newest word processor
+        \item \emph{Does not} include household ``investment'', or purchases of bonds or shares
+        \item If company sells bond and uses cash to buy machinery, it is counted as investment
+        \item The sale of a bond between two people is just an exchange, not production
+    \end{itemize}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product, ultimate use categories}
+\begin{center}
+$GNP=C+I+G+CA$
+\end{center}
+\begin{itemize}
+    \item Government purchases
+    \begin{itemize}
+        \item Any good or service ultimately used by the government
+        \item Examples: new fighter jet, highway repair, basic research 
+        \item Some countries (Denmark) divide this into:
+        \begin{itemize}
+            \item Government consumption (ex: military)
+            \item Government investment (ex: highway repair)
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product, ultimate use categories}
+\begin{center}
+$GNP=C+I+G+CA$
+\end{center}
+\begin{itemize}
+    \item Current account balance
+    \begin{itemize}
+        \item $CA = EX - IM$
+        \item $EX =$ goods and services produced by Danish factors and used abroad
+        \item $IM =$ goods and services produced by Foreign factors and used in Denmark
+    \end{itemize}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product, ultimate use categories}
+\begin{center}
+$GNP=C+I+G+CA$
+\end{center}
+\begin{itemize}
+    \item Current account balance difference between exports and imports
+    \item $>0$ is \emph{current account surplus}, $<0$ is \emph{current account deficit}
+    \item Surplus means a country is lending, deficit means borrowing
+    \item Current account balance is change in net foreign wealth
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product, ultimate use categories}
+\begin{center}
+$GNP=C+I+G+CA$
+\end{center}
+\begin{itemize}
+    \item Takeaway
+    \begin{itemize}
+        \item GNP is (the value of) stuff produced in a country in a year
+    \end{itemize}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Gross National Product, three details}
+\begin{itemize}
+    \item Three more details from the textbook 
+    \begin{enumerate}
+        \item National product vs national income
+        \item Capital depreciation and international transfers
+        \item GNP vs GDP
+    \end{enumerate}
+\end{itemize}
+}
+
+\frame{
+\frametitle{National Product vs. National Income}
+\begin{itemize}
+    \item The value of production ulimately reaches owners of a factor
+    \item Thus national income should equal national product
+    \item Almost\dots
+\end{itemize}
+}
+
+\frame{
+\frametitle{National Product vs. National Income}
+\begin{enumerate}
+    \item Capital depreciation like a reduction in the wealth of owners of capital 
+    \begin{itemize}
+        \item Needs to be subtracted from production to get income 
+        \item GNP net of depreciation is called Net National Product (NNP)
+    \end{itemize}
+    \item Unilateral transfers
+    \begin{itemize}
+        \item Sometimes a country gives goods or services to another country
+        \item Needs to be added to production to get national income
+    \end{itemize}
+\end{enumerate}
+}
+
+\frame{
+\frametitle{Gross Domestic Product}
+\begin{itemize}
+    \item GDP has replaced GNP as the most common headline figure in national accounts 
+    \item Only one difference
+    \begin{itemize}
+        \item GDP is the product of all factors in a country, regardless of the owners 
+        \item GNP is the product of all factors owned by people from a country, regardless of production location
+    \end{itemize}
+    \item Ex: If a British firm owns a factory in Denmark
+    \begin{itemize}
+        \item The product is part of Denmarks GDP, but not GNP
+    \end{itemize}
+\end{itemize}
+}
+
+\frame{
+\frametitle{U.S. GNP by use}
+\begin{itemize}
+    \item How would Denmark be different?
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.25]{gnp_us.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{More on the Current Account}
+\begin{center}
+$CA = EX - IM  = Y-  \left(C + I + G \right)$
+\end{center}
+When production > domestic expenditure, exports > imports: current account > 0 and trade balance > 0
+\begin{itemize}
+\item if $Y> \left(C + I + G \right) \Rightarrow EX > IM \Rightarrow CA>0$ (surplus)
+ \item if $Y< \left(C + I + G \right) \Rightarrow EX < IM \Rightarrow CA<0$ (deficit)
+\end{itemize}
+World production must equal world consumption, investment, and government purchases
+\begin{itemize}
+\item Globally, deficits and surpluses must balance
+\item Some countries often borrowers, others often lenders: \textbf{global imbalances}
+\end{itemize}}
+
+\frame{
+\frametitle{International Investment Position}
+\begin{itemize}
+    \item The stock of net foreign wealth
+\end{itemize}
+\includegraphics[scale=0.25]{iip_us.png}
+\begin{itemize}
+    \item Why is net foreign wealth so volatile?
+\end{itemize}
+}
+
+\frame[plain]{
+\frametitle{Figure; Deficits and Surpluses: The Balance of Payments (Source: IMF, International Financial Statistics)}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.25]{imbalance_imf.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{National Saving}
+\begin{itemize}
+    \item Define national savings as:
+\begin{equation*}
+        S=Y - C - G
+\end{equation*}
+    \item GNP identity:
+\begin{equation*}
+        Y =  C + I + G + CA
+\end{equation*} 
+    \item Combine the two:
+\begin{equation*}
+ \implies       S - CA =  I
+\end{equation*}
+    \item Investment can be financed by:
+    \begin{enumerate}
+        \item Putting off consumption (pay today)
+        \item Borrowing from abroad (pay tomorrow)
+        \item Current account sometimes called \emph{net foreign investment}
+    \end{enumerate}
+\end{itemize}
+}
+
+\frame{
+\frametitle{National Saving: Private vs government}
+\begin{center}
+$S=Y -C -G $
+\end{center}
+\begin{center}
+$S=\left(Y -C - T\right) + \left(T - G\right)$
+\end{center}
+\begin{center}
+$S=S^{p} + S^{g}$
+\end{center}
+}
+
+\frame{
+\frametitle{National Saving: Private vs government}
+\begin{itemize}
+    \item Combining our two definitions of saving:
+\begin{equation*}
+    S = I + CA = S^{p} + S^{g}
+\end{equation*}
+\begin{equation*}
+    S^{p} = I + CA - S^g 
+\end{equation*}
+\begin{equation*}
+    S^{p} = I + CA + \left(G - T\right)
+\end{equation*}
+\item Private saving is used for: 
+\begin{enumerate}
+    \item Investment at home
+    \item Investment abroad
+    \item Purchasing government debt
+\end{enumerate}
+\end{itemize}
+}
+
+\begin{frame}{Pause}
+    \begin{itemize}
+        \item National Income Accounts
+        \begin{itemize}
+            \item $GNP: Y = C + I + G + CA$
+            \item Only count stuff produced by factors owned by nationals
+            \item Investment can be funded by foreign borrowing
+        \end{itemize}
+        \item Next: Balance of Payment Account
+        \begin{itemize}
+            \item Tracks credits and liabilities between countries 
+            \item Similar to a balance sheet from accounting
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\frame{
+\frametitle{Balance of Payments Accounts }
+\begin{itemize}
+    \item Two types of transactions:
+    \begin{enumerate}
+        \item Credit if a foreigner pays a native
+        \item Debit if a native pays a foreigner
+    \end{enumerate}
+    \item A \emph{Financial Asset} holds wealth: stocks, bonds, debt, etc
+    \item current account + financial account + capital account = 0
+    \begin{enumerate}
+\item \textbf{current account}:  tracks flows of goods and services (imports and exports)
+\item \textbf{financial account}:  tracks flows of financial assets (financial capital)
+\item \textbf{capital account}:  flows of special categories of assets:  typically intangible assets like debt forgiveness, copyrights and trademarks.
+\end{enumerate}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Example 1: US imports fax machine}
+\begin{itemize}
+    \item US imports fax machine from Italy
+    \item Italian firm deposits USD in US bank
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{num1.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Example 2: US tourist buys French lunch}
+\begin{itemize}
+    \item US tourist buys lunch in Paris
+    \item Pays with US credit card
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{num2.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Example 3: American buys share of British Petroleum}
+\begin{itemize}
+    \item American buys a share of BP
+    \item BP deposits money in American bank
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{num3.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{U.S. Balance of Payments Accounts for 2012 (billions of dollars)}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.23]{bop_2012.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Official reserve assets}
+\begin{itemize}
+    \item Central banks hold foreign currency reserves
+    \begin{itemize}
+        \item Purpose: Insure against macroeconomic fluctuations
+    \end{itemize}
+    \item These are often American Treasury bills (promises that the American government will pay a dollar tomorrow)
+    \item Buying and selling these bills locally allows central banks to affect money supply
+\end{itemize}
+}
+
+\frame{
+\frametitle{Expansion of credit end of 20th century}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.23]{credit_expansion.png}
+\end{figure}
+}
+
+\begin{frame}{Pause}
+    \begin{itemize}
+        \item National Income Accounts
+        \begin{itemize}
+            \item $GNP: Y = C + I + G + CA$
+            \item Only count stuff produced by factors owned by nationals
+            \item Investment can be funded by foreign borrowing
+        \end{itemize}
+        \item Balance of Payment Account
+        \begin{itemize}
+            \item Tracks credits and liabilities between countries 
+            \item That is, who consumes now and who in the future 
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\frame[plain]{% how to print
+\frametitle{}
+\begin{center}
+\textcolor{blue}{Chapter 14: Exchange Rates and the Foreign Exchange Market: An Asset Approach }
+\end{center}
+}
+
+
+\frame{
+\frametitle{Exchange Rates}
+\begin{itemize}
+\item \textit{Direct}: The price of the foreign currency in terms
+of DKK (e.g., $7.45$ DKK per Euro): $E_{DKK/EURO}$
+\item \textit{Indirect} : The price of DKK in terms of the foreign currency (e.g., $0.13$ Euro per 1 DKK)
+\end{itemize}
+Exchange rate regimes:
+\begin{itemize}
+\item \textit{flexible}: Exchange rate is determined freely by the market
+\item \textit{fixed}: Exchange rate is politically determined and market is manipulated
+\end{itemize}
+}
+
+\frame{
+\frametitle{Fixed Exchange Rate }
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.24]{eurdkk.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Floating Exchange Rate }
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.24]{usddkk.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Exchange Rate Quotations}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.25]{ft_ex.png}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Depreciation and Appreciation}
+We are under \textbf{flexible exchange rates}:
+\begin{enumerate}
+\item \textbf{Depreciation} $E_{DKK/EURO} \Uparrow$ the Euro becomes more
+expensive, i.e., DKK becomes less valuable.
+\item \textbf{Appreciation} $E_{DKK/EURO} \Downarrow$ the Euro becomes less
+expensive, i.e., DKK becomes more
+valuable.
+\end{enumerate}
+}
+
+
+\frame{
+\frametitle{Devaluation and Revaluation}
+We are under \textbf{fixed exchange rates}:
+\begin{enumerate}
+\item \textbf{Devaluation} $E_{DKK/EURO} \Uparrow$ the Euro becomes more
+expensive, i.e., DKK becomes less valuable.
+\item \textbf{Revaluation} $E_{DKK/EURO} \Downarrow$ the Euro becomes less
+expensive, i.e., DKK becomes more
+valuable.
+\end{enumerate}
+}
+
+\frame{
+\frametitle{The Foreign Exchange Market}
+Main actor:
+\begin{itemize}
+    \item \textbf{Commercial banks and other depository institutions}
+    \begin{itemize}
+        \item Suppose I want to buy some books from Amazon UK
+        \item Nordea charges me in DKK, and then pays Amazon in GBP
+    \end{itemize}
+    \item Interbank trading is lions share of foreign currency trading
+    \item \emph{Wholesale} rates in the Financial Times: only trades of 5 million dkk and up
+    \item \emph{Retail} rates available to you and I are much worse
+\end{itemize}}
+
+\frame{
+\frametitle{The Foreign Exchange Market}
+Other actors:
+\begin{enumerate}
+\item \textbf{Non-financial businesses} directly buy foreign currency transactions to pay foreign employees or suppliers 
+\item \textbf{Non-bank financial institutions} may trade foreign currency for investment clients
+\item \textbf{Central banks} conduct official international reserves trades (small)
+\end{enumerate}
+}
+
+\frame{
+\frametitle{The Foreign Exchange Market}
+\begin{itemize}
+    \item Incredible volume
+    \begin{itemize}
+        \item 4 trillion USD traded a day
+        \item The value of everything produced in the world in a year -- 70 trillion dollars
+    \end{itemize}
+    \item Tightly connected market
+    \begin{itemize}
+        \item Price cannot be different in different places
+        \item No \emph{arbitrage}
+        \item That is, can't buy in London, sell in Copenhagen for a profit
+    \end{itemize}
+\end{itemize}
+}
+
+\frame{
+\frametitle{When Exchange Rates Misbehave}
+\begin{itemize}
+\item \textbf{Exchange rate crises} occur when a currency experiences a sudden change in value against another world currencies.
+\begin{itemize}
+\item Such crises are fairly common, 19 crises 1980-2002
+\end{itemize}
+\item Crises can have severe economic consequences.
+\begin{itemize}
+\item Government default
+\item Severe changes in lending positions (bank collapse)
+\item Contraction in output and decline in real wages
+\end{itemize}
+\item Also politically embarrassing
+\begin{itemize}
+\item Countries experiencing crises often seek loans from international development agencies, such as the International Monetary Fund (IMF).
+\item Idea: use foreign currency to change money supply 
+\end{itemize}
+\end{itemize}}
+
+\frame[plain]{
+\frametitle{When Exchange Rates Misbehave. Source: IMF, International Financial Statistics.
+}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.25]{crises.png}
+\end{figure}
+}
+
+\frame[plain]{
+\frametitle{Case Study: Argentina (2001)
+}
+\begin{itemize}
+    \item Depreciated to 70\% in six months!
+    \item Effect on importers (good? bad?)
+    \item Effect on exporters (good? bad?)
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.24]{usdars.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Ways to trading currency}
+\begin{itemize}
+    \item \textbf{Spot rate}: exchange rates for currency exchange "on the spot", or when trading is executed immediately.
+    \item \textbf{Forward rate}: promise to buy or sell in the future
+\end{itemize}
+Other methods:
+\begin{enumerate}
+    \item \textbf{Foreign exchange swap} sell currency on the spot and promise to buy it back in the future
+    \item \textbf{Futures contract} Promise to deliver currency in the future
+    \item \textbf{Options contracts} Option to buy or sell currency for a fixed rate in the future
+\end{enumerate}
+}
+
+\frame[plain]{
+\frametitle{Spot and Future Rate}
+\begin{itemize}
+    \item Depreciated to 70\% in six months!
+    \item Effect on importers (good? bad?)
+    \item Effect on exporters (good? bad?)
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.24]{usdars.png}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Fig. 14-1: Dollar/Pound Spot and 90 Day Forward Exchange Rates, 1983-2013 }
+\begin{itemize}
+    \item Why are they so close?
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.24]{spot_forward.png}
+\end{figure}
+}
+
+\begin{frame}{Pause}
+    \begin{itemize}
+        \item We have seen who trades currency 
+        \item We have seen how currency is traded
+        \item Now lets talk about what makes people want to trade currency
+    \end{itemize}
+\end{frame}
+
+\frame{
+\frametitle{The Demand for Currency}
+\begin{itemize}
+    \item Most important determinant of demand: belief about future value
+    \begin{enumerate}
+        \item Expected rate of return 
+        \item Expected future exchange rate
+    \end{enumerate}
+    \item Rate of return definitions:
+\begin{itemize}
+\item \textbf{Rate of return:} the \% change in value that an asset offers during a time period
+\item \textbf{Real rate of return:} inflation-adjusted rate of return
+\item if inflation=0 $\Rightarrow$ rate of return=real rate of return
+\end{itemize}
+\end{itemize}
+}
+
+\begin{frame}{Some other considerations}
+
+    \begin{itemize}
+        \item In addition to expected return, investors care about:
+        \begin{enumerate}
+            \item \emph{risk}: Uncertainty about future real returns
+            \item \emph{liquidity}: Ease of selling currency?
+        \end{enumerate}
+        \item For now, we will ignore these considerations
+        \item Assume certain knowledge of future, and liquid market
+    \end{itemize}
+
+\end{frame}
+
+\frame{
+\frametitle{Comparing assets}
+Example:
+Should we invest in a Danish bond or a Euro bond?
+\begin{itemize}
+\item Return of 1 DKK in DK bonds in DKK 
+    
+    $\Rightarrow R_{DKK,t}$
+\item Return of 1 DKK in Euro bonds in DKK: 
+    $\Rightarrow \left(\frac{E^{e}_{DKK/EURO, t+1}}{E_{DKK/EURO,t}}\right)\left(1+R_{EURO,t}\right) - 1$
+\end{itemize}
+}
+
+\frame{
+\frametitle{A convenient approximation}
+\begin{itemize}
+\item Return of 1 DKK in Euro bonds in DKK: 
+    $\left(\frac{E^{e}_{DKK/EURO, t+1}}{E_{DKK/EURO,t}}\right)\left(1+R_{EURO,t}\right) - 1$
+\item Some algebra:
+    $R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}} + R_{EURO,t}\frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+\item Final term is usually small 
+\item Return of 1 DKK in Euro bonds in DKK is approximately
+    $R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+\item Euro interest rate plus the rate of depreciation of the Kroner against the Euro 
+\end{itemize}
+}
+
+\frame{
+\frametitle{Using our approximation}
+\begin{itemize}
+\item Approximation
+    $R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+\item Buy the DKK bond if:
+    $R_{DKK,t} - R_{EURO,t} - \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}} > 0$
+\end{itemize}
+}
+
+\frame{
+\frametitle{Case studies}
+\begin{itemize}
+\item Replace DKK with USD
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.24]{bond_choice.png}
+\end{figure}
+}
+
+\begin{frame}{Pause}
+    \begin{itemize}
+        \item We have seen who trades currency 
+        \item We have seen how currency is traded
+        \item We have seen what drives currency demand
+        \item Now (partial) equilibrium in the financial market
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Before we begin}
+
+    \begin{itemize}
+        \item Need to know how people form beliefs about future interest rates
+        \item This is the concern of the next two chapters (next session)
+        \item For now future exchange rate taken as given
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Interest rate parity}
+
+    \begin{itemize}
+        \item In equilibrium, all assets should give the same expected return
+        \item Why?
+        \item Using our approximation:
+    $R_{DKK,t} = R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+    \end{itemize}
+
+\end{frame}
+
+\frame{
+\frametitle{Interest rate parity}
+In other words, arbitrage ensures
+that the domestic interest rate
+equals the foreign interest rate plus
+the expected percentage
+depreciation of the domestic
+currency.
+\begin{itemize}
+\item $E^{e}_{DKK/EURO,t+1}=E_{DKK/EURO,t} \Rightarrow R_{DKK,t}=R_{EURO,t}$
+\end{itemize}
+}
+
+\begin{frame}{Effect of current exchange rates on return}
+
+    \begin{itemize}
+        \item All else equal (including future exchange rate)
+        \begin{itemize}
+            \item Current depreciation of $DKK$ lowers the $DKK$ return on Euro bonds
+            \item Appreciation of $DKK$ raises the $DKK$ return on Euro bonds
+        \end{itemize}
+        \item Intuitive, because depreciation means one can buy less Euros today!
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Effect of current exchange rates on return}
+\begin{itemize}
+\item Replace DKK with USD
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.24]{ex_return.png}
+\end{figure}
+\end{frame}
+
+\frame{
+\frametitle{Table 14-3: Comparing Dollar Rates of Return on Dollar and Euro Deposits}
+\begin{itemize}
+    \item Same thing in a chart rather than a table
+    \item Remember, keep future exchange rates fixed
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.20]{ex_return_chart.png}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Equilibrium in the Foreign
+Exchange Market}
+The 'Equilibrium Exchange Rate'
+\begin{itemize}
+\item Assume that the DKK interest rate
+$R_{DKK}$, the Euro interest rate $R_{EURO}$, and
+the expected future DKK/EURO
+exchange rate $E_{e}$, are all given
+\item Basically, solve our parity condition for $E_{DKK/EURO,t}$
+    $R_{DKK,t} = R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+\end{itemize}
+}
+
+\frame{
+\frametitle{Equilibrium exchange rate}
+    $R_{DKK,t} = R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.25]{eq_exchange.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Changing interest rates and exchange rate}
+    $R_{DKK,t} = R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+\begin{itemize}
+    \item Rise in interest rate results in current currency appreciation
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.25]{int_rise_one.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Changing interest rates and exchange rate}
+    $R_{DKK,t} = R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+\begin{itemize}
+    \item Rise in interest rate results in current currency appreciation
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.25]{int_rise_two.png}
+\end{figure}
+}
+
+\frame{
+\frametitle{Changing future exchange rate and current exchange rate}
+    $R_{DKK,t} = R_{EURO,t} + \frac{E^{e}_{DKK/EURO, t+1} - E_{DKK/EURO,t}}{E_{DKK/EURO,t}}$
+\begin{itemize}
+    \item Rise in future exchange rate results in current currency appreciation
+\end{itemize}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.20]{int_rise_two.png}
+\end{figure}
+}
+
+\begin{frame}{Summary}
+    \begin{itemize}
+        \item Chapter 13:
+        \begin{itemize}
+            \item National income accounting
+            \item Measuring value of a nation's annual production
+            \item Balance of payments accounting
+            \item Measuring a nation's debt to other countries
+        \end{itemize}
+        \item Chapter 14:
+        \begin{itemize}
+        \item Currency markets
+        \item Currency demand
+        \item Interest rate parity
+        \item Partial equilibrium ex. rate determination
+        \end{itemize}
+    \end{itemize};
+\end{frame}
+
+\begin{frame}{Next time}
+    \begin{itemize}
+        \item How are beliefs about exchange rates formed?
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Review}
+    \begin{itemize}
+        \item Begin review
+    \end{itemize}
+\end{frame}
+
+\frame[plain]{\includegraphics[page=35,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=36,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=37,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=38,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=39,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=40,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=41,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=44,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=45,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=48,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=49,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=50,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=51,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=52,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=53,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=55,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=57,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=58,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=69,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=72,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=73,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=75,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=76,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=78,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=80,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=82,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=83,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=87,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=91,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=92,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=93,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=96,width=\textwidth]{trade_policy_two.pdf}}
+\frame[plain]{\includegraphics[page=97,width=\textwidth]{trade_policy_two.pdf}}
+
+\begin{frame}{Review}
+    \begin{itemize}
+        \item End review
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Overall trade review}
+
+\begin{tikzpicture}
+\tikzset{scale=0.75,grow'=right,level distance=70pt}
+\tikzset{execute at begin node=\strut}
+\tikzset{every tree node/.style={anchor=base west}}
+
+\Tree   [.Int\ Econ                     [.Trade     [.Theory    [.Comparative\ advantage ]
+                                                                [.Factor\ endowments ]
+                                                                [.Specific\ factors ]
+                                                                [.Scale\ economies ]
+                                                                [.Standard\ model ] ]
+                                                    [.Policy    [.Policy\ instruments ]
+                                                                [.Political\ economy ] ] ]
+                                        [.Finance   [.Theory    [.Terminology\ and\ principles ]
+                                                                [.Long-run\ exchange\ rates ] ]
+                                                    [.Policy    [.Short-run\ exchange\ rates ]
+                                                                [.Coordination\ and\ Currency\ unions ] ] ] ]
+\end{tikzpicture}
+\end{frame}
+
+
+\end{document}
+
+

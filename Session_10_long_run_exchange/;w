@@ -1,0 +1,632 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{xcolor,mathrsfs,url}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ifthen}
+
+\usepackage{metricsbeamer} % using the metric beamer style
+
+% The command to define a subsection is '\subsec{}' and NOT '\subsection'.
+% This code generates the bar. Don't edit.
+\newcommand{\midbarnew}{}
+\newcommand{\subsec}[1]
+{
+  \ifthenelse{\equal{#1}{}}
+  {\renewcommand{\midbarnew}{} \subsection{}}
+  {\renewcommand{\midbarnew}{ $\mid$ } \subsection{#1}}
+}
+
+% change the pictures here, if necessary. logobig and logosmall are the internal names
+% for the pictures: do not modify them, just change "hulogo" and "logo". Pictures must be 
+% supplied as JPEG, PNG or PDF
+%########################################
+
+\pgfdeclareimage[height=2cm]{logobig}{logo} % use hucase instead for the Humboldt-Case Logo
+\pgfdeclareimage[height=1cm]{logosmall}{logo}
+
+% use this number to modify the scaling of the headline on titlepage
+\def\titlescale{1.0}
+
+
+\title{Money and Exchange Rates}
+\author{Instructor: David Jinkins\thanks{I wish to acknowledge Battista Severgnini for providing last year's slides to me. His generosity saved me much time, and these slides are partially based on his. Any errors are of course my own.}}
+\date{Date: Sept. 30, 2014}
+%Start of the document
+\begin{document}
+
+
+\frame[plain]{% create the titleslide, layout controlled in metricsbeamer
+	\titlepage
+}
+
+\Section{Plan for Today}
+
+\frame{% how to print
+\frametitle{Plan for Today}
+Chapter 15:
+\begin{itemize}
+\item Money
+\item A model of the money market
+\item Long \& Short Run
+\end{itemize}
+}
+
+
+
+
+\frame{% how to print
+\frametitle{}
+\begin{center}
+\textcolor{blue}{\Huge{\textbf{Chapter 15: Money, Interest Rates, and Exchange Rates}}}
+\end{center}
+}
+
+\frame{
+\frametitle{Money}
+Different definitions:
+\begin{itemize}
+\item liquid (=easy to use, 0 interest) asset
+\item narrow definition: cash, checking deposits, and debit card 
+\item broad definition: narrow+deposits of currency
+\item other financial assets are illiquid
+\end{itemize}
+}
+
+\frame{
+\frametitle{Money Supply \& Demand}
+\begin{itemize}
+\item \textbf{money supply} is controlled by the Central Bank 
+\item \textbf{money demand} represents the amount of monetary assets that people are willing to hold. This is based on:
+\begin{enumerate}
+\item Interest rates/expected rates of return 
+\item Risk/inflation
+\item Liquidity
+\end{enumerate}
+\end{itemize}
+}
+
+
+\Section{Chapter 14. A Model of the  Money Market }
+\frame{
+\frametitle{Aggregate Demand of Real Money}
+The aggregate demand of real money can be expressed as:
+\begin{center}
+$\frac{M^{d}}{P} =L\left(R,Y\right)$
+\end{center}
+where:
+\begin{itemize}
+\item $P$ is the price level
+\item $Y$ is real national income
+\item $R$ is a measure of interest rates on non-monetary assets
+\item $L\left(R,Y\right)$ is the aggregate demand of real monetary assets
+\end{itemize}
+}
+
+\frame[plain]{
+\frametitle{Fig. 14-2: Effect on the Aggregate Real Money Demand Schedule of a Rise in Real Income}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{due.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{A Model of the Money Market}
+In equilibrium:
+\begin{center}
+$M^{s}=M^{d}$
+\end{center}
+or
+\begin{center}
+$\frac{M^{s}}{P} =L\left(R,Y\right)$
+\end{center}
+If is an excess supply of monetary assets $\Rightarrow$ excess demand for interest bearing assets like bonds, loans, and deposits.
+}
+
+
+\frame{
+\frametitle{Fig 14-3: Determination of the Equilibrium Interest Rate}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{tre.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Fig 14-4: Effect of an Increase in the Money Supply on the Interest Rate}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{quattro.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Fig 14-5: Effect on the Interest Rate of a Rise in Real Income}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{cinque.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Fig 14-7: Money Market/Exchange Rate Linkages}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{sette.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\frame[plain]{
+\frametitle{Fig 14-6: Simultaneous Equilibrium in the U.S. Money Market and the Foreign Exchange Market}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{otto.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame[plain]{
+\frametitle{Fig 14-8: Effect on the Dollar/Euro Exchange Rate and Dollar Interest Rate of an Increase in the U.S. Money Supply}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{nove.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Changes in the Domestic Money Supply}
+An increase in a country's money supply:
+\begin{itemize}
+\item $R \Downarrow$
+\item depreciation of the domestic currency
+\end{itemize}
+An increase in a country's money supply:
+\begin{itemize}
+\item $R \Uparrow$
+\item appreciation of the domestic currency
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Changes in the Foreign Money Supply}
+How would a change in the supply of euros  affect the U.S. money market and foreign exchange markets?
+\begin{itemize}
+\item An increase in the supply of euros $\Rightarrow$ depreciation of the euro
+\begin{enumerate}
+\item $R\ EURO \Downarrow$
+\item depreciation of the euro
+\end{enumerate}
+\item A decrease in the supply of euros $\Rightarrow$ appreciation of the euro
+\end{itemize}
+}
+
+
+\frame[plain]{
+\frametitle{Fig 14-9: Effect of an Increase in the European Money Supply on the Dollar/Euro Exchange Rate}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{dieci.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\Section{Chapter 14. Long \& Short Run}
+
+\frame{
+\frametitle{Long \& Short Run}
+\begin{itemize}
+\item \textbf{Short run:} prices are sticky
+\item \textbf{Long run:} prices of factors of production (wages, real interest rate) and of output have sufficient time to adjust to market conditions.
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{In the Long Run}
+In the long run, there is a direct relationship between the inflation rate and changes in the money supply.
+\begin{itemize}
+\item $M^{s} = P x L\left(R,Y\right)$
+\item $P =\frac{M^{s}}{L\left(R,Y\right)}$
+\item $\frac{\Delta P}{P} = \frac{\Delta M^{s}}{M^{s}} - \frac{\Delta L}{L}$
+\end{itemize}
+The inflation rate is predicted to equal the growth rate in money supply minus the growth rate in money demand.
+}
+
+
+\frame[plain]{
+\frametitle{Fig 14-10: Average Money Growth and Inflation in Western Hemisphere Developing Countries, by Year, 1987-–2006}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.85\textwidth]{corre.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Money and Prices in the Long Run }
+How does a positive change in the money supply cause prices of output and inputs to change?
+\begin{enumerate}
+\item Excess demand of goods and services: labor $\Uparrow$ $\Rightarrow$ wage $w \Uparrow$  $ P \Uparrow$
+\item Inflationary expectations: $P^{e} \Uparrow w \Uparrow P \Uparrow$
+\end{enumerate}
+}
+
+\frame[plain]{
+\frametitle{Money, Prices, Exchange Rates, and Expectations (1)}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{ex1.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame[plain]{
+\frametitle{Money, Prices, Exchange Rates, and Expectations (2)}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{ex2.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Money, Prices, Exchange Rates, and Expectations (3)}
+\begin{enumerate}
+\item A permanent increase in a country's money supply causes a proportional long run depreciation of its currency.
+\item A permanent decrease in a country's money supply causes a proportional long run appreciation of its currency.
+\end{enumerate}
+}
+
+
+\frame[plain]{
+\frametitle{Money, Prices, Exchange Rates, and Expectations (4)}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{ex3.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Exchange Rate Overshooting}
+\begin{itemize}
+\item The exchange rate is said to overshoot when its immediate response to a change is greater than its long run response.
+\item Overshooting is predicted to occur when monetary policy has an immediate effect on interest rates, but not on prices and (expected) inflation.
+\item Overshooting helps explain why exchange rates are so volatile
+\end{itemize}
+}
+
+\frame[plain]{
+\frametitle{Fig 14-11: Month-to-Month Variability of the Dollar/Yen Exchange Rate and of the U.S./Japan Price Level Ratio, 1974$-$–2007}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{ex4.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\end{document}
+
+\Section{Chapter 15. The Law of One Price}
+\frame{% how to print
+\frametitle{}
+\begin{center}
+\textcolor{blue}{\Huge{\textbf{Chapter 15: Price Levels and the Exchange Rate in the Long Run
+}}}
+\end{center}
+}
+
+
+\frame{
+\frametitle{The Law of One Price (1)}
+The prices of identical goods sold in different
+countries must be the same when expressed
+in terms of the same currency.
+\begin{itemize}
+\item  This law applies only in competitive markets
+free of transport costs and official barriers to
+trade.
+\item Example: If the dollar/pound exchange rate
+is USD 1.50 per pound, a sweater that sells for
+USD 45 in New York must sell for £30 in London.
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{The Law of One Price (2)}
+The dollar price of good i is the same wherever it
+is sold
+\begin{center}
+$P^{i}_{US} = \left(E_{USD/EURO}\right) x \left(P^{i}_{E}\right)$
+\end{center}
+where:
+\begin{itemize}
+\item $P^{i}_{US}$ is the dollar price of good i when sold in
+the U.S.
+\item $P^{i}_{EURO}$ is the corresponding euro price in Europe
+\item $\left(E_{USD/EURO}\right)$ is the dollar/euro exchange rate
+\end{itemize}}
+
+\Section{Chapter 15. Purchasing Power Parity}
+
+\frame{
+\frametitle{Purchasing Power Parity  (PPP)(1)}
+PPP 
+\begin{itemize}
+\item is the application of the law of one price across countries for \textit{all} goods and services.
+\item compares average prices across countries
+\item predicts a dollar/euro exchange rate of
+\begin{center}
+$ E_{USD/EURO} =\frac{P_{US}}{P_{E}}$
+\end{center}
+where
+\begin{itemize}
+\item $P_{US}$ is the dollar price of a reference commodity
+basket sold in the United States
+\item $P_{E}$ is the euro price of the same basket in Europe
+\end{itemize}
+\end{itemize}
+}
+
+\frame{
+\frametitle{Purchasing Power Parity (PPP)(2)}
+Rearranging,
+\begin{center}
+$ P_{US}=\left(E_{USD/EURO}\right)x\left(P_{E}\right)$
+\end{center}
+All countries' price levels are equal when measured in
+terms of the same currency
+}
+
+\frame{
+\frametitle{PPP \& Law of One Price}
+\begin{itemize}
+\item The law of one price applies to individual
+commodities; PPP applies to the general
+price level
+\item If the law of one price holds true for every
+commodity $\Rightarrow$ PPP must hold for the same
+reference baskets across countries
+\item BUT if PPP holds, this does not mean that law of one price is respected
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Purchasing Power Parity (PPP)(3)}
+\begin{enumerate}
+\item Absolute PPP: exchange rates equal relative price levels
+\item Relative PPP: the percentage change in the exchange
+rate between two currencies equals the difference
+between the percentage changes in national price
+levels.
+\begin{center}
+$\frac{\left(E_{USD/EURO,t} - E_{USD/EURO,t}\right)}{ E_{USD/EURO,t-1}}= \pi_{US, t} - \pi_{EUROPE, t}$
+\end{center}
+\end{enumerate}
+where $\pi_{t}$ = inflation rate from period $t-1$ to $t$
+}
+
+
+\frame{
+\frametitle{Absolute \& Relative PPP (1)}
+If absolute PPP holds $\Rightarrow$ relative PPP holds
+\begin{table}
+\begin{center}
+\begin{tabular}{||c|c|c||}\hline
+ & $t$ & $t+1$ \\\hline
+Absolute & $P_{US,t-1}=USD 100$ & $P_{US,t-1}= USD110$ \\ 
+PPP      & $E_{t-1}P_{EURO,t-1}=USD100$ & $E_{t}P_{EURO,t} = USD110$ \\ \hline
+\multicolumn{3}{||c||}{$\Rightarrow$} \\ \hline
+Relative & \multicolumn{2}{|c||}{$\pi_{US, t}=10\%$}\\
+PPP      & \multicolumn{2}{|c||}{$\pi_{EUROPE, t}=\frac{\left(E_{t} - E_{t-1}\right)}{ E_{t-1}}$}\\\hline \hline
+\end{tabular}
+\end{center}
+\end{table}
+}
+
+
+\frame{
+\frametitle{Absolute \& Relative PPP (2)}
+\textbf{Not the other way around!}
+\begin{table}
+\begin{center}
+\begin{tabular}{||c|c|c||}\hline
+ & $t$ & $t+1$ \\\hline
+Relative & \multicolumn{2}{|c||}{$\pi_{US, t}=10\%$}\\
+PPP      & \multicolumn{2}{|c||}{$\pi_{EUROPE, t}=\frac{\left(E_{t} - E_{t-1}\right)}{ E_{t-1}}$} \\\hline
+\multicolumn{3}{||c||}{NOT TRUE $\Rightarrow$} \\ \hline
+Absolute & $P_{US,t-1}=USD 200$ & $P_{US,t-1}= USD220$ \\ 
+PPP      & $E_{t-1}P_{EURO,t-1}=USD100$ & $E_{t}P_{EURO,t} = USD110$ \\ \hline \hline
+\end{tabular}
+\end{center}
+\end{table}
+}
+
+\end{document}
+\Section{Chapter 15. A Long-Run Exchange Rate
+Model Based on PPP}
+
+
+\frame{
+\frametitle{A Long-Run Exchange Rate
+Model Based on PPP}
+\begin{itemize}
+\item Monetary approach to the exchange rate
+\item A theory of how exchange rates and
+monetary factors interact in the long run.
+\item The fundamental equation of the monetary
+approach
+\item Price levels can be expressed in terms of
+domestic money demand and supplies.
+\end{itemize}
+\begin{enumerate}
+\item In the United States:
+\begin{center}
+$P_{US}= \frac{M^{s}_{US}}{L \left(R_{USD}, Y_{US}\right)}$
+\end{center}
+\item In Europe:
+\begin{center}
+$P_{EUROPE}= \frac{M^{s}_{EURO}}{L \left(R_{EURO}, Y_{EUROPE}\right)}$
+\end{center}
+\end{enumerate}}
+
+
+\frame{
+\frametitle{PPP and Money Market}
+\begin{center}
+$E=\frac{P_{US}}{P_{EURO}}=\frac{\frac{M^{s}_{US}}{L \left(R_{USD}, Y_{US}\right)}}{\frac{M^{s}_{EURO}}{L \left(R_{EURO}, Y_{EUROPE}\right)}}$
+\end{center}
+Specific Predictions:
+\begin{enumerate}
+\item Money supplies: if $M^{s}_{US} \left(M^{s}_{EU}\right) \Uparrow \Rightarrow$ long-run depreciation (appreciation) of the dollar against the euro
+\item interest rates: if $R_{USD} \left(R_{EU}\right) \Uparrow \Rightarrow$  
+causes a depreciation (appreciation) of the dollar against the
+euro
+\item Output levels: a rise if $Y_{US} \left(Y_{EUROPE}\right) \Uparrow \Rightarrow$ causes an appreciation
+(depreciation) of the dollar against the euro.
+\end{enumerate}
+}
+
+
+\Section{Chapter 15. The Fisher Effect}
+
+\frame{
+\frametitle{The Fisher Effect (1)}
+\begin{itemize}
+\item A more reasonable description of
+monetary policy is constantly growing
+money supply
+\item Money supply grows at a constant
+growth rate results in ongoing inflation
+at the same rate
+\end{itemize}
+}
+
+\frame{
+\frametitle{The Fisher Effect (2)}
+\begin{center}
+$E=\frac{P_{US}}{P_{EURO}}=\frac{\frac{M^{s}_{US}}{L \left(R_{USD}, Y_{US}\right)}}{\frac{M^{s}_{EURO}}{L \left(R_{EURO}, Y_{EUROPE}\right)}}$
+\end{center}
+Given $M^{s}_{EURO}$ and $P_{EURO}$ constant, if $M^{s}_{US}$ grows by $\pi$, $P_{US}$ grows by $\pi$
+\begin{center}
+$\Rightarrow$
+\end{center}
+\begin{center}
+$E$ depreciated by $\pi$ each period
+\end{center}
+\begin{center}
+$\frac{E_{t}-E_{t-1}}{E_{t}}=\pi_{t}-\pi_{t-1}$
+\end{center}
+Monetary policies in
+the US and Euroland determine the
+development in the exchange rate
+}
+
+
+\frame[plain]{
+\frametitle{The Fisher Effect (3)}
+Given Uncovered Interest Rate Parity,
+\begin{center}
+$R_{USD,t}= R_{EURO,t}+\left(\frac{E^{e}_{EURO,USD,t+1}-E_{EURO,USD,t}}{E_{EURO,USD,t}}\right)$
+\end{center}
+and relative PPP
+\begin{center}
+$\frac{\left(E_{USD/EURO,t} - E_{USD/EURO,t}\right)}{ E_{USD/EURO,t-1}}= \pi_{US, t} - \pi_{EUROPE, t}$
+\end{center}
+\begin{center}
+$\Rightarrow$
+\end{center}
+Real interest rates are equal
+\begin{center}
+$\Rightarrow$
+\end{center}
+\begin{center}
+$R_{USD} - R_{EURO} = \pi^{e}_{US} - \pi^{e}_{EUROPE}$
+\end{center}
+or
+\begin{center}
+$R_{USD} - \pi^{e}_{US} = R_{EURO}- \pi^{e}_{EUROPE}$
+\end{center}
+}
+
+
+\frame{
+\frametitle{The Fisher Effect (4)}
+Given Uncovered Interest Rate Parity,
+\begin{center}
+$R_{USD,t}= R_{EURO,t}+\left(\frac{E^{e}_{EURO,USD,t+1}-E_{EURO,USD,t}}{E_{EURO,USD,t}}\right)$
+\end{center}
+and relative PPP
+\begin{center}
+$\frac{\left(E_{USD/EURO,t} - E_{USD/EURO,t}\right)}{ E_{USD/EURO,t-1}}= \pi_{US, t} - \pi_{EUROPE, t}$
+\end{center}
+\begin{center}
+$\Rightarrow$
+\end{center}
+Real interest rates are equal
+\begin{center}
+$\Rightarrow$
+\end{center}
+\begin{center}
+$R_{USD} - R_{EURO} = \pi^{e}_{US} - \pi^{e}_{EUROPE}$
+\end{center}
+or
+\begin{center}
+$R_{USD} - \pi^{e}_{US} = R_{EURO}- \pi^{e}_{EUROPE}$
+\end{center}
+}
+
+\frame{
+\frametitle{The Fisher Effect (5)}
+\begin{itemize}
+\item A rise (fall) in a country’s expected
+inflation rate will eventually cause an
+equal rise (fall) in the interest rate that
+deposits of its currency offer.
+\item In the long run, purely monetary
+developments should have no real
+effects.
+\item expected growth in money
+supply affects the interest rate
+through inflation.
+\end{itemize}
+}
+
+\frame{
+\frametitle{Interest and Monetary Policy}
+\begin{itemize}
+\item 
+\item 
+\item 
+\end{itemize}
+}
+
+
+
+
+
+
+\end{document}
