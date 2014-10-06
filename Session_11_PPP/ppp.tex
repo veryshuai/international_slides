@@ -609,102 +609,195 @@ countries.
 \end{itemize}
 }
 
+\begin{frame}{Pause}
 
-% \frame{
-% \frametitle{A General Model of Long-Run
-% Exchange Rates (1)}
-% The Real Exchange Rate
-% \begin{itemize}
-% \item Measure of the prices of one country's
-% goods and services relative to the other's.
-% \item The real exchange rate is the dollar price of
-% the European basket relative to that of the
-% US price:
-% \begin{center}
-% $q_{USD/EURO} = \frac{\left(E_{USD/EURO} x P_{E}\right)}{P_{US}}$
-% \end{center}
-% \item Observe that PPP only holds for $q_{USD/EURO}=1$
-% (absolute) or $q_{USD/EURO,t}-q_{USD/EURO,t-1}=0$ (conditional)
-% \end{itemize}}
-% 
-% \frame{
-% \frametitle{A General Model of Long-Run
-% Exchange Rates (2)}
-% \begin{enumerate}
-% \item Real depreciation (q increases): If US
-% prices fall in relation to foreign prices
-% (measured in USD). This happens if:
-% \begin{itemize}
-% \item Nominal exchange rate depreciates (E
-% increases), or
-% \item US prices fall, or
-% \item Euroland prices increase
-% \end{itemize}
-% \item Real appreciation (q falls): If US prices
-% increases relative to foreign prices
-% (measured in USD). This happens if:
-% \begin{itemize}
-% \item Nominal exchange rate appreciates (E falls),
-% or
-% \item US prices increase, or
-% \item Euroland prices fall
-% \end{itemize}
-% \end{enumerate}
-% }
-% 
-% 
-% 
-% \frame{
-% \frametitle{A General Model of Long-Run
-% Exchange Rates (3)}
-% We can express the nominal exchange
-% rate as:
-% \begin{center}
-% $E_{USD/EURO} = q_{USD/EURO} x (\frac{P_US}{P_E})$
-% \end{center}
-% \begin{center}
-% $\Rightarrow$
-% \end{center}
-% \begin{center}
-% $\frac{q^{e}_{USD/EURO}-q_{USD/EURO}}{q_{USD/EURO}}=\frac{E^{e}_{USD/EURO}-E_{USD/EURO}}{E_{USD/EURO}}-\left(\pi^{e}_{US}-\pi^{e}_{EURO}\right)$
-% \end{center}
-% Combining with the interest parity condition, the international interest gap is equal to:
-% \begin{center}
-% $\frac{q^{e}_{USD/EURO}-q_{USD/EURO}}{q_{USD/EURO}}=\frac{E^{e}_{USD/EURO}-E_{USD/EURO}}{E_{USD/EURO}}-\left(\pi^{e}_{US}-\pi^{e}_{EURO}\right)$
-% \end{center}
-% \begin{center}
-% $R_{US}-R_{EURO}=\frac{q^{e}_{USD/EURO}-q_{USD/EURO}}{q_{USD/EURO}}-\left(\pi^{e}_{US}-\pi^{e}_{EURO}\right)$
-% \end{center}
-% }
-% 
-% 
-% \frame[plain]{
-% \frametitle{Fig. 16-4: Determination of the Long-Run Real Exchange Rate}
-% \begin{figure}
-% 	\centering
-% 		\includegraphics[width=0.85\textwidth]{154.pdf}
-% 	\label{fig:11}
-% \end{figure}
-% }
-% 
-% 
-% \frame[plain]{
-% \frametitle{}
-% \begin{figure}
-% 	\centering
-% 		\includegraphics[width=0.85\textwidth]{155.pdf}
-% 	\label{fig:11}
-% \end{figure}
-% }
-% 
-% \frame{
-% \frametitle{Real Interest parity}
-% \begin{center}
-% $r^{e}_{US} -– r^{e}_{EU} = \frac{\left(q^{e}_{US/EU} -q_{US/EU}\right)}{q_{US/EU}}$
-% \end{center}
-% This equation is called real interest parity.
-% It says that differences in real interest rates (in terms of goods and services that are earned or forgone when lending or borrowing) between countries are equal to the expected change in the value/price/cost of goods and services between countries.
-% }
+    \begin{itemize}
+        \item We defined Purchasing Power Parity
+        \item We derived the inflation rate/rate of return connection 
+        \item We saw the three predictions of the PPP long-run model
+        \begin{itemize}
+            \item $M^{s}_{US}  \Uparrow \Rightarrow E_{\$/\text{\euro}}\Uparrow$  
+            \item $R_{USD}  \Uparrow \Rightarrow E_{\$/\text{\euro}}\Uparrow$
+            \item $Y_{US} \Uparrow \Rightarrow E_{\$/\text{\euro}}\Downarrow$ 
+        \end{itemize}
+        \item PPP doesn't do so well empirically.  Why?
+        \begin{enumerate}
+            \item Trade barriers and non-tradable products 
+            \item Imperfect competition
+            \item Differences in measures of average prices for baskets of goods and services
+        \end{enumerate}
+        \item Next: Build a model allowing deviations from PPP 
+    \end{itemize}
+
+\end{frame}
+
+\frame{
+\frametitle{A General Model of Long-Run Exchange Rates}
+The Real Exchange Rate
+\begin{itemize}
+\item Measure of the prices of one country's
+goods and services relative to the other's.
+\item The real exchange rate is the dollar price of
+the European basket relative to that of the
+US price:
+\begin{center}
+$q_{US/E} = \frac{\left(E_{USD/EURO} x P_{E}\right)}{P_{US}}$
+\end{center}
+\item Absolute PPP only holds for $q_{US/E}=1$
+\item Relative PPP only holds for $\frac{q_{US/E,t}}{q_{US/E,t-1}} = 1$
+\item In other words, relative PPP holds if $q_{US/E}$ is a constant
+\end{itemize}}
+
+\frame{
+\frametitle{A General Model of Long-Run Exchange Rates}
+The Real Exchange Rate
+\begin{itemize}
+    \item Under $PPP$: let $E_{USD/EURO}$ and price levels, but must obey PPP  
+    \item If real exchange rate $q_{US/E}$ is not constant, PPP is violated
+    \item If $q$ moves around, change in relative real value of good baskets!
+    \item If $q_{US/E}$ goes down, American goods suddenly worth more European goods
+\end{itemize}}
+
+\frame{
+\frametitle{A General Model of Long-Run Exchange Rates}
+\begin{itemize}
+\item Real depreciation (q increases): US basket worth less European goods
+\item Real appreciation (q falls): If US basket worth more European goods
+\item PPP Exchange rate relation
+    $E_{\$/\text{\euro}} = \frac{P_{US}}{P_{E}}$
+\item Real exchange rate relation
+    $E_{\$/\text{\euro}} = q_{US/E} \frac{P_{US}}{P_{E}}$
+\item Looks suspiciously like adding an error term\dots
+\end{itemize}
+
+}
+
+\frame{
+\frametitle{Changes in the real exchange rate}
+\begin{itemize}
+    \item What could change $q_{US/E}$?
+\begin{enumerate}
+\item Change in world relative demand for US products
+\begin{itemize}
+    \item People want the American basket more
+    \item value rises relative to EU basket
+    \item $q$ goes down
+\end{itemize}
+\item Change in world relative supply
+\begin{itemize}
+    \item US can suddenly produce more
+    \item More US baskets, decrease in value relative to EU basket
+    \item $q$ goes up
+\end{itemize}
+\end{enumerate}
+\end{itemize}}
+
+\frame[plain]{
+\frametitle{Changes in real exchange rate}
+\begin{figure}
+	\centering
+		\includegraphics[scale=0.25]{real_exchange_change.png}
+\end{figure}
+}
+
+\begin{frame}{Exchange rates in the general model}
+\begin{center}
+    $E_{USD/EURO} = q_{US/E} \frac{P_{US}}{P_E}$
+\end{center}
+\begin{itemize}
+    \item Changes in money supply
+    \begin{itemize}
+        \item Will not affect $q$ as money is neutral
+        \item One-time increase in money supply (Chpt. 15)
+        \begin{itemize}
+            \item Long-run: Prices and exchange rates adjust
+        \end{itemize} 
+        \item Change in money growth rate
+        \begin{itemize}
+            \item Changes interest rate, price level, and exchange rate
+        \end{itemize}
+    \end{itemize}
+    \item Changes in demand and supply
+    \begin{itemize}
+        \item Will affect $q$ as well as other prices
+        \item Change in relative output demand
+        \begin{itemize}
+            \item Will not affect price levels (doesn't change either GNP or interest rate)
+            \item Will change q and also the exchange rate 
+            \item Exchange rate responds to non-monetary stuff
+        \end{itemize}
+        \item Change in relative output supply
+        \begin{itemize}
+            \item Suppose American productivity increases
+            \item Causes rise in $q_{US/E}$
+            \item But also increases demand for liquid assets, lowering $P_{US}$
+            \item Ambiguous total effect
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Money Supply, Output, and Exchange Rate}
+    \begin{itemize}
+        \item Next class will use these results for long-run effects on exchange rate
+    \end{itemize}
+    \includegraphics[scale=0.25]{money_output_exchange.png}
+\end{frame}
+
+\frame{
+\frametitle{Interest rates and real exchange rates}
+\begin{itemize}
+    \item We defined relative PPP as:
+\begin{equation*}
+\frac{E^{e}_{USD/EURO}-E_{USD/EURO}}{E_{USD/EURO}}-\left(\pi^{e}_{US}-\pi^{e}_{EURO}\right)
+\end{equation*}
+    \item That is, the expected depreciation of USD equals the difference in USD and Euro growth rates
+    \item We argued that $q$ is a constant is relative PPP holds
+    \item We might think of changes in $q$ as deviations from relative PPP
+\begin{center}
+$\frac{q^{e}_{US/E}-q_{US/E}}{q_{US/E}}=\frac{E^{e}_{USD/EURO}-E_{USD/EURO}}{E_{USD/EURO}}-\left(\pi^{e}_{US}-\pi^{e}_{EURO}\right)$
+\end{center}    
+    \item In words, the part of the change in the nominal exchange rate not explained by inflation is change in the real exchange rate
+    \end{itemize} }
+
+\frame{
+\frametitle{Interest rates and real exchange rates}
+\begin{center}
+$\frac{q^{e}_{US/E}-q_{US/E}}{q_{US/E}}=\frac{E^{e}_{USD/EURO}-E_{USD/EURO}}{E_{USD/EURO}}-\left(\pi^{e}_{US}-\pi^{e}_{EURO}\right)$
+\end{center}    
+\begin{itemize}
+    \item Remember interest parity?
+\begin{center}
+    $R_{USD} - R_{EURO} = \frac{E^e_{USD/EURO} - E_{USD/EURO}}{E_{USD/EURO}}$
+\end{center}    
+    \item Combine:
+\begin{center}
+$R_{USD}-R_{EURO}=\frac{q^{e}_{US/E}-q_{US/E}}{q_{US/E}}+\left(\pi^{e}_{US}-\pi^{e}_{EURO}\right)$
+\end{center}
+\item Long run difference in interest rates is a combination of money growth rates and expected change in real exchange rates
+\end{itemize}
+}
+
+\frame{
+\frametitle{Real Interest parity}
+\begin{itemize}
+    \item Define expected real interest rate:
+    \begin{equation*}
+        r^e = R - \pi^e
+    \end{equation*}
+    \item Real interest rate is the nominal interest rate we have been studying, net of inflation
+    \item We can write:
+        \begin{equation*}
+            r_{US}^e - r_{E}^e = R_{USD} - \pi_{USD}^e - (R_{EURO} - \pi_{EURO}^e)
+        \end{equation*}
+    \item Now combine with the relation between interest rates and real exchange rates from last slide:
+    \begin{center}
+        $r^{e}_{US} - r^{e}_{EU} = \frac{\left(q^{e}_{US/EU} -q_{US/EU}\right)}{q_{US/EU}}$
+    \end{center}
+    \item This is real interest parity
+    \item Differences in real interest rates are equal to the expected real exchange rate depreciation 
+    \end{itemize}
+}
 % 
 % \begin{frame}{Overall trade review}
 % 
