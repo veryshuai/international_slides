@@ -1,0 +1,563 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{xcolor,mathrsfs,url}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ifthen}
+
+\usepackage{metricsbeamer} % using the metric beamer style
+
+% The command to define a subsection is '\subsec{}' and NOT '\subsection'.
+% This code generates the bar. Don't edit.
+\newcommand{\midbarnew}{}
+\newcommand{\subsec}[1]
+{
+  \ifthenelse{\equal{#1}{}}
+  {\renewcommand{\midbarnew}{} \subsection{}}
+  {\renewcommand{\midbarnew}{ $\mid$ } \subsection{#1}}
+}
+
+% change the pictures here, if necessary. logobig and logosmall are the internal names
+% for the pictures: do not modify them, just change "hulogo" and "logo". Pictures must be 
+% supplied as JPEG, PNG or PDF
+%########################################
+
+\pgfdeclareimage[height=2cm]{logobig}{logo} % use hucase instead for the Humboldt-Case Logo
+\pgfdeclareimage[height=1cm]{logosmall}{logo}
+
+% use this number to modify the scaling of the headline on titlepage
+\def\titlescale{1.0}
+
+
+\def\authora{Battista Severgnini}	% First Author
+\def\affa{Copenhagen Business School} % First Author's Affiliation
+\def\authorb{}  % Second Author
+\def\affb{} % Second Author's Affiliation
+\def\authorc{}  % Third Author
+\def\affc{} % Third Author's Affiliation
+\def\linka{}	% Link to your institution's/ personal website
+\def\linkb{}
+\def\linkc{}\def\email{\href{mailto:bs.eco@cbs.dk}{bs.eco@cbs.dk}}	% Your email address
+
+\title[Output and the Exhange Rate in the Short Run]{International Economics - B.Sc. IB\\ 11. Open-Economy Macroeconomics: \\Output and the Exchange Rate in the Short Run
+ \\  \footnotesize{May $15^{th}$, 2014}}
+\institute{Economics Department CBS}
+%Start of the document
+\begin{document}
+
+\frame[plain]{% create the titleslide, layout controlled in metricsbeamer
+	\titlepage
+}
+
+\Section{Plan for Today}
+
+\frame{% how to print
+\frametitle{Plan for Today}
+Chapter 17:
+\begin{itemize}
+\item Determinants of aggregate demand in the short run
+\item Short run equilibrium for aggregate demand and output (DD curve)
+\item Short run equilibrium in the asset markets (AA curve)
+\item Short run equilibrium (AA \& DD)
+\item Temporary changes in monetary and fiscal policy
+\item Permanent changes in monetary and fiscal policy
+\item Macroeconomic policies and the current account (XX curve)
+\end{itemize}
+}
+
+
+\Section{Chapter 17. Determinants of Aggregate Demand in the Short Run}
+\frame{% how to print
+\frametitle{}
+\begin{center}
+\textcolor{blue}{\Huge{\textbf{Chapter 17: Output and the Exchange Rate in the Short Run
+}}}
+\end{center}
+}
+
+
+\frame{% how to print
+\frametitle{Determinants of Aggregate Demand in the Short Run (1)}
+Remind:
+\begin{enumerate}
+\item Long run: flexible prices
+\item \textbf{Short run}: prices are sticky (reasons: menu costs, labor contracts, imperfect information...)
+\end{enumerate}
+In this class: relationship between $E$ and $Y$ ($E=f\left(Y\right)$) in the short run.
+}
+
+
+\frame{% how to print
+\frametitle{Determinants of Aggregate Demand in the Short Run (2)}
+Aggregate demand $D$ can be expressed by:
+\begin{center}
+$D=C+I+G+CA$
+\end{center}
+where
+\begin{itemize}
+\item $C$: consumption expenditure
+\item $I$: investment expenditure
+\item $G$: government purchase
+\item $CA$: current account
+\end{itemize}
+}
+
+\frame{% how to print
+\frametitle{Determinants of Aggregate Demand in the Short Run: $C$}
+\begin{center}
+$C=C\left(Y^{d}, R\right)$
+\end{center}
+Consumption expenditure is a function of 
+\begin{itemize}
+\item disposal income $Y^{d}=Y-T$ (positively related, but consumption typically increases less than the amount that disposable income increases.)
+\item interest rate $R$ (assumption in our model: unimportant)
+\item wealth (assumption in our model: non important)
+\end{itemize}
+}
+
+\frame{% how to print
+\frametitle{Determinants of Aggregate Demand in the Short Run: $G, I, T$}
+\begin{itemize}
+\item Government purchases $G$, the level of taxes $T$, and investment expenditure $I$ are determined by exogenous factors.
+\item in reality: $I=I\left(R\right)$
+\end{itemize}
+}
+
+
+\frame{% how to print
+\frametitle{Determinants of Aggregate Demand in the Short Run: $CA$}
+\begin{center}
+$CA\approx EXP-IMP$
+\end{center}
+\begin{center}
+$CA=CA\left(\frac{E P^{*}}{P}, Y-T\right)$
+\end{center}
+Current account is a function of 
+\begin{itemize}
+\item $\frac{E P^{*}}{P}$: if $\frac{E P^{*}}{P} \Uparrow \Rightarrow EXP \Uparrow, IMP \Downarrow, TOT \Uparrow$
+\item assumption: a real depreciation leads to an increase in the current account, i.e. the volume effect dominates the value effect
+\end{itemize}
+}
+
+
+\frame{% how to print
+\frametitle{Determinants of Aggregate Demand in the Short Run}
+The aggregate demand 
+\begin{center}
+$D=C+I+G+CA$
+\end{center}
+can be rewritten as 
+\begin{center}
+$D = C\left(Y –- T\right) + I + G + CA\left(\frac{E P^{*}}{P}, Y –-T\right)$
+\end{center}
+or 
+\begin{center}
+$D = D\left(\frac{E P^{*}}{P}, Y –- T, I, G\right)$
+\end{center}
+}
+
+\frame{
+\frametitle{Determinants of Aggregate Demand in the Short Run}
+Two effects:
+\begin{enumerate}
+\item \textbf{Real exchange rate:} $\frac{E P^{*}}{P} \Uparrow \Rightarrow CA \Uparrow \Rightarrow D \Uparrow$
+\item \textbf{Disposable income:} $ \left(Y-T\right)\Uparrow \Rightarrow C \Uparrow \Rightarrow CA \Downarrow \Rightarrow D ?$
+\end{enumerate}
+\begin{itemize}
+\item usually consumption expenditure is greater than expenditure on foreign products $\Rightarrow D \Uparrow$
+\end{itemize}
+}
+
+\Section{Chapter 17. Short Run Equilibrium for Aggregate Demand and Output (DD Curve)}
+
+\frame{
+\frametitle{Short Run Equilibrium for Aggregate Demand and Output}
+Equilibrium is achieved when the value of income from production (output) Y equals the value of aggregate demand D.
+\begin{center}
+$Y= D\left(\frac{E P^{*}}{P}, Y –- T, I, G\right)$
+\end{center}
+}
+
+
+\frame{
+\frametitle{Fig. 17-2: The Determination of Output in the Short Run}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{uno.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{DD Schedule (1)}
+\begin{itemize}
+\item with $\bar{P}$ and $\bar{P^{*}}$ if  $E \Uparrow \Rightarrow CA \Uparrow \Rightarrow D \Uparrow$
+\item $\Rightarrow Y \Uparrow$
+\end{itemize}
+}
+
+
+\frame[plain]{
+\frametitle{Fig. 17-3: Output Effect of a Currency Depreciation with Fixed Output Prices}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{due.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Fig. 17-4: Deriving the DD Schedule}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{tre.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{DD Schedule (2)}
+DD schedule:
+\begin{itemize}
+\item combinations of $Y$ and the $E$ at which the output market is in short run equilibrium 
+\item slopes upward 
+\end{itemize} 
+}
+
+
+\frame{
+\frametitle{DD Schedule (3)}
+Several changes could cause $DD$ to shift to the right:
+\begin{enumerate}
+\item $G$: if $G\Uparrow \Rightarrow D \& Y \Uparrow$ 
+\item $T$: if $T\Downarrow \Rightarrow C \Uparrow \Rightarrow D \& Y \Uparrow$
+\item $I$: if $I\Uparrow \Rightarrow D \& Y \Uparrow$ 
+\item $\frac{P}{P^{*}}$: if $\frac{P}{P^{*}} \Downarrow \Rightarrow D \& Y \Uparrow$
+\item $C$: if $C\Uparrow \Rightarrow D \& Y \Uparrow$
+\item demand of domestic goods with respect to the demand of foreign goods: $D \& Y \Uparrow$
+\end{enumerate} 
+}
+
+
+\frame[plain]{
+\frametitle{Fig. 17-5: Government Demand and the Position of the DD Schedule}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{quattro.pdf}
+	\label{fig:11}
+\end{figure}
+}
+\Section{Chapter 17. Short Run Equilibrium in Asset Markets (AA Curve)}
+
+
+\frame{
+\frametitle{Short Run Equilibrium in Asset Markets (1)}
+Two sets of assets markets:
+\begin{enumerate}
+\item Foreign exchange markets 
+\begin{center}
+$R = R^{*}+ \frac{(E^{e} –- E)}{E}$ 
+\end{center}
+\item Money market
+\begin{center}
+$\frac{M^{s}}{P}= L\left(R, Y\right) $
+\end{center}
+\end{enumerate}
+}
+
+
+\frame[plain]{
+\frametitle{Fig. 17-6: Output and the Exchange Rate in Asset Market Equilibrium}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{cinque.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Short Run Equilibrium in Asset Markets: AA Curve}
+If $Y \Uparrow$:
+\begin{enumerate}
+\item $L\left(R, Y\right) \Uparrow$
+\item $R \Uparrow$
+\item $E \Downarrow$
+\end{enumerate}
+The inverse relationship between output and exchange rates needed to keep the foreign exchange markets and the money market in equilibrium is summarized as the AA curve.
+}
+
+\frame[plain]{
+\frametitle{Fig. 17-7: The AA Schedule}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{sei.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{AA Schedule}
+Several changes could cause $AA$ to shift:
+\begin{enumerate}
+\item $M^{s}$: if $M^{s}\Uparrow \Rightarrow R \Downarrow \Rightarrow E \Uparrow$: $AA$ shifts up.  
+\item $P$: if $P\Uparrow \Rightarrow \frac{M^{s}}{P} \Downarrow \Rightarrow R \Uparrow \Rightarrow E \Downarrow$: $AA$ shifts down.
+\item $L\left(R,Y\right)$: if $L\left(R,Y\right)\Downarrow\Rightarrow$ more non-monetary assets $\Rightarrow E \Uparrow$: $AA$ shifts up.
+\item $R^{*}$: if $R^{*}\Uparrow E \Uparrow$: $AA$ shifts up. 
+\item $E^{e}$: if $E^{e}\Uparrow \Rightarrow D \& Y \Uparrow$
+\end{enumerate} 
+}
+
+\frame[plain]{
+\frametitle{Shifting the AA Curve}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{sette.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame[plain]{
+\frametitle{Fig. 17-7: Shifting the AA Curve}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{otto.pdf}
+	\label{fig:11}
+\end{figure}
+}
+\Section{Chapter 16. Short Run Equilibrium (DD \& AA)}
+
+\frame{
+\frametitle{Short Run Equilibrium}
+A short run equilibrium means $E$ and $Y$ such that:
+\begin{enumerate}
+\item equilibrium in the output markets holds (DD): $D=Y$
+\item equilibrium in the foreign exchange markets holds (AA): $R = R^{*}+ \frac{(E^{e} –- E)}{E}$ 
+\item equilibrium in the money market holds: $M^{s}=M^{d}$
+\end{enumerate}
+}
+
+\frame{
+\frametitle{Fig. 17-8: Short-Run Equilibrium: The Intersection of DD and AA}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{nove.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\frame[plain]{
+\frametitle{Fig. 17-9: How the Economy Reaches Its Short-Run Equilibrium}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{dieci.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\Section{Chapter 17. Temporary Changes in Monetary and Fiscal Policy}
+
+\frame{
+\frametitle{Temporary Changes in Monetary and Fiscal Policy}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{nove.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame{
+\frametitle{Temporary Changes in Monetary and Fiscal Policy}
+\begin{itemize}
+\item \textbf{Monetary policy:} the central bank influences the supply of monetary assets (AA) 
+\item \textbf{Fiscal policy:} governments influence the amount of government purchases and taxes (DD)
+\end{itemize}
+Both policies are expected to be effective in the short run.
+}
+
+\frame{
+\frametitle{Temporary Monetary Policy}
+\begin{itemize}
+\item if $M^{s} \Uparrow \Rightarrow R \Downarrow E \Uparrow$
+\item $AA$ shifts up
+\item Domestic products relative to foreign products are cheaper so that aggregate demand and output increase until a new short run equilibrium is achieved.
+\end{itemize}
+}
+
+
+\frame{
+\frametitle{Fig. 17-10: Effects of a Temporary Increase in the Money Supply}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{undici.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Temporary Fiscal Policy}
+In the short run
+\begin{itemize}
+\item if $G \Uparrow$ (or $T \Downarrow$) $\Rightarrow D \& Y \Uparrow$
+\item $DD$ shifts down
+\item $Y \Uparrow \Rightarrow L\left(Y,R\right) \Uparrow \Rightarrow R \Uparrow$
+\item $E \Downarrow$
+\end{itemize}
+}
+
+
+
+\frame{
+\frametitle{Fig. 17-11: Effects of a Temporary Fiscal Expansion}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{dodici.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\frame{
+\frametitle{Policies to Maintain Full Employment}
+Processes can be
+\begin{itemize}
+\item underemployed
+\item natural/potential level
+\item overemployed
+\end{itemize}
+}
+
+\frame[plain]{
+\frametitle{Fig. 17-12: Maintaining Full Employment After a Temporary Fall in World Demand for Domestic Products}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{tredici.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame[plain]{
+\frametitle{Fig. 17-13: Policies to Maintain Full Employment After a Money Demand Increase}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{quindici.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame{
+\frametitle{Policies to Maintain Full Employment}
+Policies to maintain full employment are difficult to implement:
+\begin{enumerate}
+\item people may anticipate the effects of policy changes and modify their behavior (e.g., Barro-Ricardian equivalence)
+\item data difficult to measure
+\item slow policies
+\item lobbies
+\end{enumerate}
+}
+
+\Section{Chapter 17. Permanent Changes in Monetary and Fiscal Policy}
+
+\frame{
+\frametitle{Permanent Changes in Monetary Policy (1)}
+Chapter 14:\\
+An increase in a country's money supply:
+\begin{itemize}
+\item $R \Downarrow$
+\item depreciation of the domestic currency
+\end{itemize}
+}
+
+
+\frame[plain]{
+\frametitle{Fig. 17-14: Short-Run Effects of a Permanent Increase in the Money Supply}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{sedici.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame[plain]{
+\frametitle{Permanent Changes in Monetary Policy (2)}
+With $N>\bar{N} \Rightarrow w \Uparrow \Rightarrow P\Uparrow$
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{diciasette.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+
+\frame{
+\frametitle{Effects of Permanent Changes in Fiscal Policy}
+If $G \Uparrow$ or $T \Downarrow$
+The final effect is $D \Leftrightarrow$: an increase in government purchases completely crowds out net exports, due to the effect of the appreciated domestic currency
+}
+
+
+\frame[plain]{
+\frametitle{Fig. 17-16: Effects of a Permanent Fiscal Expansion}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{diciotto.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\Section{Chapter 17. Macroeconomic Policies and the Current Account (XX curve)}
+
+\frame{
+\frametitle{Macroeconomic Policies and the Current Account}
+\begin{itemize}
+\item XX curve: combinations of output and exchange rates at which the current account is at its desired level. 
+\item if $Y \Uparrow \Rightarrow CA \Downarrow$
+\item XX curve slopes upward but is flatter than the DD curve
+\end{itemize}
+}
+
+\frame[plain]{
+\frametitle{Fig. 17-17: How Macroeconomic Policies Affect the Current Account}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{diciannove.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\frame[plain]{
+\frametitle{Fig. 17-17: How Macroeconomic Policies Affect the Current Account}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{venti.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+
+\frame[plain]{
+\frametitle{Fig. 17-18: The J-Curve}
+\begin{figure}
+	\centering
+		\includegraphics[width=0.90\textwidth]{ventidue.pdf}
+	\label{fig:11}
+\end{figure}
+}
+
+\end{document}

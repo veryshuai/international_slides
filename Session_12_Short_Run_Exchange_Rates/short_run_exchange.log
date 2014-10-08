@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  8 OCT 2014 16:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  8 OCT 2014 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ppp.tex
-(./ppp.tex
+**short_run_exchange.tex
+(./short_run_exchange.tex
 LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 78 languages loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
@@ -845,8 +845,18 @@ Package pgf Warning: Missing width for image "logosmall" ("logo") in draft mode
 .
 (pgf)                Using 1cm instead on input line 34.
 
-(./ppp.aux)
-\openout1 = `ppp.aux'.
+(./short_run_exchange.aux
+
+LaTeX Warning: Label `fig:11' multiply defined.
+
+
+LaTeX Warning: Label `fig:11' multiply defined.
+
+
+LaTeX Warning: Label `fig:11' multiply defined.
+
+)
+\openout1 = `short_run_exchange.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -941,9 +951,9 @@ LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
 
-(./ppp.out) (./ppp.out)
+(./short_run_exchange.out) (./short_run_exchange.out)
 \@outlinefile=\write5
-\openout5 = `ppp.out'.
+\openout5 = `short_run_exchange.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 44.
@@ -1014,7 +1024,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 44.
 \c@lstlisting=\count181
- (./ppp.nav)
+ (./short_run_exchange.nav)
 LaTeX Font Info:    Try loading font information for U+msa on input line 48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1034,7 +1044,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 74.
+(Font)              size <5> substituted on input line 62.
 
 [2
 
@@ -1042,544 +1052,317 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 
 ] [4
 
-]
-<national_accounts.pdf, id=122, page=57, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
+] [5
 
-<use national_accounts.pdf, page 57>
-Package pdftex.def Info: national_accounts.pdf, page57 used on input line 109.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [5
+] [6
 
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=184, page=59, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
+] [7
 
-<use national_accounts.pdf, page 59>
-Package pdftex.def Info: national_accounts.pdf, page59 used on input line 110.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [6
+] [8
 
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=257, page=60, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
+] [9
 
-<use national_accounts.pdf, page 60>
-Package pdftex.def Info: national_accounts.pdf, page60 used on input line 111.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [7
+] [10
 
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=318, page=61, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
+] [11
 
-<use national_accounts.pdf, page 61>
-Package pdftex.def Info: national_accounts.pdf, page61 used on input line 112.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [8
+] [12
 
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=380, page=65, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
-
-<use national_accounts.pdf, page 65>
-Package pdftex.def Info: national_accounts.pdf, page65 used on input line 113.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [9
-
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=436, page=67, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
-
-<use national_accounts.pdf, page 67>
-Package pdftex.def Info: national_accounts.pdf, page67 used on input line 114.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [10
-
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=483, page=71, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
-
-<use national_accounts.pdf, page 71>
-Package pdftex.def Info: national_accounts.pdf, page71 used on input line 115.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [11
-
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=534, page=72, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
-
-<use national_accounts.pdf, page 72>
-Package pdftex.def Info: national_accounts.pdf, page72 used on input line 116.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [12
-
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=592, page=73, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
-
-<use national_accounts.pdf, page 73>
-Package pdftex.def Info: national_accounts.pdf, page73 used on input line 117.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [13
-
- <./national_accounts.pdf>]
-<national_accounts.pdf, id=650, page=74, 364.19562pt x 273.14648pt>
-File: national_accounts.pdf Graphic file (type pdf)
-
-<use national_accounts.pdf, page 74>
-Package pdftex.def Info: national_accounts.pdf, page74 used on input line 118.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [14
-
- <./national_accounts.pdf>] [15
+] [13
 
 ]
-<long_run_exchange.pdf, id=733, page=33, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
+<ca_summary.png, id=363, 1462.46375pt x 406.51875pt>
+File: ca_summary.png Graphic file (type png)
+ <use ca_summary.png>
+Package pdftex.def Info: ca_summary.png used on input line 219.
+(pdftex.def)             Requested size: 292.48756pt x 81.3023pt.
 
-<use long_run_exchange.pdf, page 33>
-Package pdftex.def Info: long_run_exchange.pdf, page33 used on input line 125.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [16
+[14
 
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=771, page=37, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
+ <./ca_summary.png>] [15
 
-<use long_run_exchange.pdf, page 37>
-Package pdftex.def Info: long_run_exchange.pdf, page37 used on input line 126.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [17
+] [16
 
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=811, page=39, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
+] [17
 
-<use long_run_exchange.pdf, page 39>
-Package pdftex.def Info: long_run_exchange.pdf, page39 used on input line 127.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [18
+] [18
 
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=857, page=40, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
+]
+<ag_demand_eq.png, id=491, 1259.70625pt x 581.17125pt>
+File: ag_demand_eq.png Graphic file (type png)
+ <use ag_demand_eq.png>
+Package pdftex.def Info: ag_demand_eq.png used on input line 275.
+(pdftex.def)             Requested size: 314.9258pt x 145.29245pt.
 
-<use long_run_exchange.pdf, page 40>
-Package pdftex.def Info: long_run_exchange.pdf, page40 used on input line 128.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [19
+Overfull \hbox (7.63593pt too wide) in paragraph at lines 275--275
+[][]  
+ []
 
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=899, page=43, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
+[19
 
-<use long_run_exchange.pdf, page 43>
-Package pdftex.def Info: long_run_exchange.pdf, page43 used on input line 129.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [20
+ <./ag_demand_eq.png>] [20
 
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=935, page=44, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
+] <ag_demand.png, id=544, 979.66pt x 785.93625pt>
+File: ag_demand.png Graphic file (type png)
 
-<use long_run_exchange.pdf, page 44>
-Package pdftex.def Info: long_run_exchange.pdf, page44 used on input line 130.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+<use ag_demand.png>
+Package pdftex.def Info: ag_demand.png used on input line 292.
+(pdftex.def)             Requested size: 244.9144pt x 196.48358pt.
  [21
 
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=982, page=45, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 45>
-Package pdftex.def Info: long_run_exchange.pdf, page45 used on input line 131.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [22
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1030, page=46, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 46>
-Package pdftex.def Info: long_run_exchange.pdf, page46 used on input line 132.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [23
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1060, page=47, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 47>
-Package pdftex.def Info: long_run_exchange.pdf, page47 used on input line 133.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [24
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1090, page=48, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 48>
-Package pdftex.def Info: long_run_exchange.pdf, page48 used on input line 134.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [25
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1145, page=50, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 50>
-Package pdftex.def Info: long_run_exchange.pdf, page50 used on input line 135.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [26
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1175, page=51, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 51>
-Package pdftex.def Info: long_run_exchange.pdf, page51 used on input line 136.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [27
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1211, page=54, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 54>
-Package pdftex.def Info: long_run_exchange.pdf, page54 used on input line 137.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [28
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1247, page=55, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 55>
-Package pdftex.def Info: long_run_exchange.pdf, page55 used on input line 138.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [29
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1277, page=57, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 57>
-Package pdftex.def Info: long_run_exchange.pdf, page57 used on input line 139.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [30
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1307, page=61, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 61>
-Package pdftex.def Info: long_run_exchange.pdf, page61 used on input line 140.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [31
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1347, page=63, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 63>
-Package pdftex.def Info: long_run_exchange.pdf, page63 used on input line 141.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [32
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1388, page=66, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 66>
-Package pdftex.def Info: long_run_exchange.pdf, page66 used on input line 142.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [33
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1429, page=67, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 67>
-Package pdftex.def Info: long_run_exchange.pdf, page67 used on input line 143.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [34
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1466, page=74, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 74>
-Package pdftex.def Info: long_run_exchange.pdf, page74 used on input line 144.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [35
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1510, page=75, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 75>
-Package pdftex.def Info: long_run_exchange.pdf, page75 used on input line 145.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [36
-
- <./long_run_exchange.pdf>]
-<long_run_exchange.pdf, id=1540, page=76, 364.19562pt x 273.14648pt>
-File: long_run_exchange.pdf Graphic file (type pdf)
-
-<use long_run_exchange.pdf, page 76>
-Package pdftex.def Info: long_run_exchange.pdf, page76 used on input line 146.
-(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
- [37
-
- <./long_run_exchange.pdf>] [38
+ <./ag_demand.png>] [22
 
 ]
-[39
+<short_run_eq.png, id=596, 971.63pt x 767.86874pt>
+File: short_run_eq.png Graphic file (type png)
+ <use short_run_eq.png>
+Package pdftex.def Info: short_run_eq.png used on input line 314.
+(pdftex.def)             Requested size: 242.9069pt x 191.9667pt.
+
+[23
+
+ <./short_run_eq.png>] [24
+
+]
+<demand_output.png, id=648, 992.70876pt x 759.83875pt>
+File: demand_output.png Graphic file (type png)
+ <use demand_output.png>
+Package pdftex.def Info: demand_output.png used on input line 333.
+(pdftex.def)             Requested size: 248.17657pt x 189.95921pt.
+
+[25
+
+ <./demand_output.png>]
+<dd_schedule.png, id=675, 601.24625pt x 804.00375pt>
+File: dd_schedule.png Graphic file (type png)
+ <use dd_schedule.png>
+Package pdftex.def Info: dd_schedule.png used on input line 342.
+(pdftex.def)             Requested size: 150.31119pt x 201.00044pt.
+
+Overfull \vbox (17.55724pt too high) detected at line 342
+ []
+
+[26
+
+ <./dd_schedule.png>] [27
+
+]
+<goverment_demand_DD.png, id=726, 751.80875pt x 924.45375pt>
+File: goverment_demand_DD.png Graphic file (type png)
+
+<use goverment_demand_DD.png>
+Package pdftex.def Info: goverment_demand_DD.png used on input line 364.
+(pdftex.def)             Requested size: 150.35909pt x 184.88747pt.
+ [28
+
+ <./goverment_demand_DD.png>] [29
+
+] [30
+
+]
+[31
+
+] [32
+
+] <asset_market_equilibrium.png, id=854, 867.24pt x 951.555pt>
+File: asset_market_equilibrium.png Graphic file (type png)
+
+<use asset_market_equilibrium.png>
+Package pdftex.def Info: asset_market_equilibrium.png used on input line 442.
+(pdftex.def)             Requested size: 216.80946pt x 237.88817pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:11}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.442 }
+        [33
+
+ <./asset_market_equilibrium.png>] [34
+
+]
+<AA_curve.png, id=905, 1008.76875pt x 892.33376pt>
+File: AA_curve.png Graphic file (type png)
+ <use AA_curve.png>
+Package pdftex.def Info: AA_curve.png used on input line 464.
+(pdftex.def)             Requested size: 252.19157pt x 223.08289pt.
+ [35
+
+ <./AA_curve.png>] [36
+
+] <AA_shift.png, id=955, 972.63374pt x 781.92125pt>
+File: AA_shift.png Graphic file (type png)
+
+<use AA_shift.png>
+Package pdftex.def Info: AA_shift.png used on input line 480.
+(pdftex.def)             Requested size: 291.79237pt x 234.57819pt.
+ [37
+
+ <./AA_shift.png>]
+<AA_shift2.png, id=981, 734.745pt x 555.07375pt>
+File: AA_shift2.png Graphic file (type png)
+ <use AA_shift2.png>
+Package pdftex.def Info: AA_shift2.png used on input line 488.
+(pdftex.def)             Requested size: 220.42519pt x 166.52339pt.
+ [38
+
+ <./AA_shift2.png>] [39
 
 ] [40
 
 ] [41
 
-] [42
+]
+<full_short_run_eq.png, id=1082, 1008.76875pt x 896.34875pt>
+File: full_short_run_eq.png Graphic file (type png)
 
-] [43
+<use full_short_run_eq.png>
+Package pdftex.def Info: full_short_run_eq.png used on input line 530.
+(pdftex.def)             Requested size: 201.75017pt x 179.26657pt.
+ [42
 
-] [44
+ <./full_short_run_eq.png>]
+<path_to_eq.png, id=1109, 1073.00874pt x 947.54pt>
+File: path_to_eq.png Graphic file (type png)
+ <use path_to_eq.png>
+Package pdftex.def Info: path_to_eq.png used on input line 543.
+(pdftex.def)             Requested size: 182.40907pt x 161.07967pt.
+
+[43
+
+ <./path_to_eq.png>] [44
 
 ] [45
 
 ] [46
 
-] [47
+]
+<money_supply_increase.png, id=1210, 993.7125pt x 925.4575pt>
+File: money_supply_increase.png Graphic file (type png)
 
-] [48
+<use money_supply_increase.png>
+Package pdftex.def Info: money_supply_increase.png used on input line 580.
+(pdftex.def)             Requested size: 248.4275pt x 231.3638pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:11}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.580 }
+        [47
 
-] [49
-
-] [50
-
-] [51
-
-] [52
+ <./money_supply_increase.png>] [48
 
 ]
-<money_exchange.png, id=1968, 707.64375pt x 828.09375pt>
-File: money_exchange.png Graphic file (type png)
+<fiscal_expansion.png, id=1262, 969.6225pt x 896.34875pt>
+File: fiscal_expansion.png Graphic file (type png)
 
-<use money_exchange.png>
-Package pdftex.def Info: money_exchange.png used on input line 408.
-(pdftex.def)             Requested size: 162.75464pt x 190.45755pt.
- [53
+<use fiscal_expansion.png>
+Package pdftex.def Info: fiscal_expansion.png used on input line 599.
+(pdftex.def)             Requested size: 242.40503pt x 224.08664pt.
+ [49
 
- <./money_exchange.png>]
-<long_run_exchange.png, id=1994, 933.4875pt x 770.88pt>
-File: long_run_exchange.png Graphic file (type png)
+ <./fiscal_expansion.png>] [50
 
-<use long_run_exchange.png>
-Package pdftex.def Info: long_run_exchange.png used on input line 420.
-(pdftex.def)             Requested size: 233.3713pt x 192.71953pt.
- [54
+]
+<monetary_policy.png, id=1314, 844.15375pt x 944.52875pt>
+File: monetary_policy.png Graphic file (type png)
 
- <./long_run_exchange.png>] [55
+<use monetary_policy.png>
+Package pdftex.def Info: monetary_policy.png used on input line 617.
+(pdftex.def)             Requested size: 168.82776pt x 188.9024pt.
+ [51
+
+ <./monetary_policy.png>] [52
+
+]
+<fiscal_policy.png, id=1365, 872.25874pt x 945.5325pt>
+File: fiscal_policy.png Graphic file (type png)
+ <use fiscal_policy.png>
+Package pdftex.def Info: fiscal_policy.png used on input line 635.
+(pdftex.def)             Requested size: 174.44865pt x 189.10315pt.
+
+[53
+
+ <./fiscal_policy.png>] [54
+
+] [55
 
 ] [56
 
-] [57
+]
+<short_run_perm_money.png, id=1467, 759.83875pt x 829.0975pt>
+File: short_run_perm_money.png Graphic file (type png)
+
+<use short_run_perm_money.png>
+Package pdftex.def Info: short_run_perm_money.png used on input line 693.
+(pdftex.def)             Requested size: 189.95921pt x 207.27386pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:11}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.693 }
+        [57
+
+ <./short_run_perm_money.png>] [58
 
 ]
-[58
+<long_run_perm_money.png, id=1516, 749.80125pt x 820.06375pt>
+File: long_run_perm_money.png Graphic file (type png)
 
-] [59
+<use long_run_perm_money.png>
+Package pdftex.def Info: long_run_perm_money.png used on input line 714.
+(pdftex.def)             Requested size: 149.9576pt x 164.00984pt.
+ [59
 
-] <money_growth_exchange.png, id=2147, 968.61874pt x 937.5025pt>
-File: money_growth_exchange.png Graphic file (type png)
+ <./long_run_perm_money.png>]
 
-<use money_growth_exchange.png>
-Package pdftex.def Info: money_growth_exchange.png used on input line 491.
-(pdftex.def)             Requested size: 242.15408pt x 234.37505pt.
- [60
+! LaTeX Error: \begin{itemize} on input line 726 ended by \end{beamer@framepaus
+es}.
 
- <./money_growth_exchange.png>]
-<time_trends1.png, id=2172, 1527.7075pt x 630.355pt>
-File: time_trends1.png Graphic file (type png)
- <use time_trends1.png>
-Package pdftex.def Info: time_trends1.png used on input line 499.
-(pdftex.def)             Requested size: 305.53609pt x 126.06876pt.
-
-[61
-
- <./time_trends1.png>] <timetrends2.png, id=2198, 1549.79pt x 662.475pt>
-File: timetrends2.png Graphic file (type png)
-
-<use timetrends2.png>
-Package pdftex.def Info: timetrends2.png used on input line 507.
-(pdftex.def)             Requested size: 309.95251pt x 132.49265pt.
-
-Overfull \hbox (2.66264pt too wide) in paragraph at lines 507--507
- [] 
- []
-
-[62
-
- <./timetrends2.png>] [63
-
-] [64
-
-]
-<yen_dollar.png, id=2275, 1527.7075pt x 901.3675pt>
-File: yen_dollar.png Graphic file (type png)
- <use yen_dollar.png>
-Package pdftex.def Info: yen_dollar.png used on input line 548.
-(pdftex.def)             Requested size: 305.53609pt x 180.2703pt.
-
-[65
-
- <./yen_dollar.png>]
-<big_mac_economist.png, id=2301, 1024.82875pt x 852.18375pt>
-File: big_mac_economist.png Graphic file (type png)
-
-<use big_mac_economist.png>
-Package pdftex.def Info: big_mac_economist.png used on input line 557.
-(pdftex.def)             Requested size: 256.20656pt x 213.04541pt.
- [66
-
- <./big_mac_economist.png>]
-<big_mac_denmark.png, id=2327, 988.69376pt x 857.2025pt>
-File: big_mac_denmark.png Graphic file (type png)
-
-<use big_mac_denmark.png>
-Package pdftex.def Info: big_mac_denmark.png used on input line 565.
-(pdftex.def)             Requested size: 247.17284pt x 214.3001pt.
- [67
-
- <./big_mac_denmark.png>]
-<balassa_samuelson.png, id=2353, 1119.18124pt x 806.01125pt>
-File: balassa_samuelson.png Graphic file (type png)
-
-<use balassa_samuelson.png>
-Package pdftex.def Info: balassa_samuelson.png used on input line 573.
-(pdftex.def)             Requested size: 279.79462pt x 201.50232pt.
- [68
-
- <./balassa_samuelson.png>] [69
-
-] [70
-
-] [71
-
-]
-[72
-
-] [73
-
-] [74
-
-] [75
-
-] [76
-
-] [77
-
-] [78
-
-]
-<real_exchange_change.png, id=2632, 1069.9975pt x 808.01875pt>
-File: real_exchange_change.png Graphic file (type png)
-
-<use real_exchange_change.png>
-Package pdftex.def Info: real_exchange_change.png used on input line 721.
-(pdftex.def)             Requested size: 267.49872pt x 202.0042pt.
- [79
-
- <./real_exchange_change.png>] [80
-
-]
-<money_output_exchange.png, id=2684, 1243.64626pt x 745.78625pt>
-File: money_output_exchange.png Graphic file (type png)
-
-<use money_output_exchange.png>
-Package pdftex.def Info: money_output_exchange.png used on input line 765.
-(pdftex.def)             Requested size: 310.9108pt x 186.4461pt.
-
-Overfull \hbox (3.62093pt too wide) in paragraph at lines 765--765
-[]  
- []
-
-[81
-
- <./money_output_exchange.png>] [82
-
-] [83
-
-] [84
-
-] [85
-
-] [86
-
-] [87
-
-]
-\tf@nav=\write6
-\openout6 = `ppp.nav'.
-
-\tf@toc=\write7
-\openout7 = `ppp.toc'.
-
-\tf@snm=\write8
-\openout8 = `ppp.snm'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 882.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 882.
- (./ppp.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 882.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 882.
-Package rerunfilecheck Info: File `ppp.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 882.
- ) 
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.726 }
+       
+? 
+! Extra }, or forgotten \endgroup.
+\endbeamer@frameslide ...amer@framepauses}\egroup 
+                                                  \ifx \beamer@frametitle \@...
+l.726 }
+       
+? x
+ 
 Here is how much of TeX's memory you used:
- 20818 strings out of 493304
- 381016 string characters out of 6139871
- 472411 words of memory out of 5000000
- 23638 multiletter control sequences out of 15000+600000
- 27295 words of font info for 79 fonts, out of 8000000 for 9000
+ 20273 strings out of 493304
+ 370148 string characters out of 6139871
+ 450608 words of memory out of 5000000
+ 23111 multiletter control sequences out of 15000+600000
+ 29895 words of font info for 82 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 49i,14n,55p,392b,852s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfsi0600.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfsi0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi0800.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfsi0900.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sfss0900.pfb></usr/share/texmf/fonts/type1/public/cm
--super/sfss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb>
-</usr/share/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fo
-nts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfsx1095.pfb>
-Output written on ppp.pdf (87 pages, 3810043 bytes).
+ 49i,14n,53p,407b,542s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbol
+s/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi0800.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfsi1000.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+si1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfss0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
+s1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/shar
+e/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/
+public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx
+1095.pfb>
+Output written on short_run_exchange.pdf (59 pages, 2167166 bytes).
 PDF statistics:
- 2959 PDF objects out of 2984 (max. 8388607)
- 2752 compressed objects within 28 object streams
- 132 named destinations out of 1000 (max. 500000)
- 258 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1634 PDF objects out of 1728 (max. 8388607)
+ 1508 compressed objects within 16 object streams
+ 108 named destinations out of 1000 (max. 500000)
+ 126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
