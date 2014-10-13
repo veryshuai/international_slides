@@ -1,0 +1,489 @@
+\documentclass{beamer}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{listings}
+\usepackage{xcolor,mathrsfs,url}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{ifthen}
+
+% The command to define a subsection is '\subsec{}' and NOT '\subsection'.
+% This code generates the bar. Don't edit.
+\newcommand{\midbarnew}{}
+\newcommand{\subsec}[1]
+{
+  \ifthenelse{\equal{#1}{}}
+  {\renewcommand{\midbarnew}{} \subsection{}}
+  {\renewcommand{\midbarnew}{ $\mid$ } \subsection{#1}}
+}
+
+% change the pictures here, if necessary. logobig and logosmall are the internal names
+% for the pictures: do not modify them, just change "hulogo" and "logo". Pictures must be 
+% supplied as JPEG, PNG or PDF
+%########################################
+
+\pgfdeclareimage[height=2cm]{logobig}{logo} % use hucase instead for the Humboldt-Case Logo
+\pgfdeclareimage[height=1cm]{logosmall}{logo}
+
+% use this number to modify the scaling of the headline on titlepage
+\def\titlescale{1.0}
+
+
+\title{Fixed Exchange Rates}
+\author{Instructor: David Jinkins\thanks{I wish to acknowledge Battista Severgnini for providing last year's slides to me. His generosity saved me much time, and these slides are partially based on his. Any errors are of course my own.}}
+\date{Date: Oct. 14, 2014}
+%Start of the document
+\begin{document}
+
+\frame[plain]{% create the titleslide, layout controlled in metricsbeamer
+	\titlepage
+}
+
+\frame{% how to print
+\frametitle{Last time}
+Chapter 17:
+\begin{itemize}
+\item Determinants of aggregate demand in the short run
+\item Short run equilibrium for aggregate demand and output (DD curve)
+\item Short run equilibrium in the asset markets (AA curve)
+\item Short run equilibrium (AA \& DD)
+\item Temporary changes in monetary and fiscal policy
+\item Permanent changes in monetary and fiscal policy
+\item Odds and ends
+\end{itemize}
+}
+
+\frame{% how to print
+\frametitle{Plan for Today}
+Chapter 18:
+\begin{itemize}
+\item Balance sheets of central banks
+\item Fixed exchange rate
+\item Monetary and fiscal policies under fixed exchange rates
+\item Financial crises and capital flight
+\item Interest rate differentials
+\item Types of fixed exchange rate systems
+\end{itemize}
+Chapter 19:
+\begin{itemize}
+\item Goals of macroeconomic policies
+\end{itemize}
+}
+
+\begin{frame}{But first a review}
+\end{frame}
+
+% \frame[plain]{\includegraphics[page=44,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=47,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=50,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=52,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=53,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=54,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=55,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=57,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=58,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=60,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=61,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=62,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=63,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=65,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=69,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=74,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=75,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=76,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=77,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=78,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=79,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=80,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=82,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=83,width=\textwidth]{ppp.pdf}}
+% \frame[plain]{\includegraphics[page=84,width=\textwidth]{ppp.pdf}}
+
+\begin{frame}{Review}
+    \begin{itemize}
+        \item End review
+    \end{itemize}
+\end{frame}
+
+\frame{% how to print
+\frametitle{}
+\begin{center}
+\textcolor{blue}{Chapter 18. Fixed Exchange Rates and Foreign Exchange Intervention
+}
+\end{center}
+}
+
+% \frame{% how to print
+% \frametitle{Exchange Rates}
+% \begin{enumerate}
+% \item \textbf{Fixed or Pegged} 
+% \item \textbf{Flexible}
+% \end{enumerate}
+% Central banks manage the exchange rate from time to time by buying and selling currency and assets, especially in periods of exchange rate volatility.
+% }
+% 
+% 
+% \frame{% how to print
+% \frametitle{Central Bank's Simplified Balance Sheet (1)}
+% \textbf{Assets}
+% \begin{itemize}
+% \item Foreign government bonds (official international reserves)
+% \item Gold (official international reserves)
+% \item Domestic government bonds 
+% \item Loans to domestic banks (called discount loans in US)
+% \end{itemize}
+% \textbf{Liabilities}
+% \begin{itemize}
+% \item Deposits of domestic banks
+% \item Currency in circulation (previously central banks had to give up gold when citizens brought currency to exchange)
+% \end{itemize}
+% \textbf{Asset=Liabilities+ Net worth}\\
+% Net Worth is assumed to be constant:
+% \begin{center}
+% $\Delta Asset=\Delta Liabilities$
+% \end{center}
+% }
+% 
+% 
+% \frame{% how to print
+% \frametitle{Central Bank's Simplified Balance Sheet (2)}
+% Changes in the central bank's balance sheet lead to changes in currency in circulation or changes in deposits of banks, which lead to changes in the money supply.\\
+% If bank deposit $\Uparrow\Rightarrow$ additional fund for customers $\Rightarrow M^{s} \Uparrow$ 
+% }
+% \frame{% how to print
+% \frametitle{Purchase \& Sale}
+% \begin{enumerate}
+% \item \textbf{Purchase:} central bank  buys domestic bonds or foreign bonds $\Rightarrow +\Delta Asset=+\Delta Liabilities \Rightarrow M^{s}\Uparrow$ 
+% \item \textbf{Sale:} central bank sells domestic bonds or foreign bonds $\Rightarrow -\Delta Asset=-\Delta Liabilities \Rightarrow M^{s}\Downarrow$ 
+% \end{enumerate}
+% \begin{itemize}
+% \item Foreign currency deposits and foreign government bonds are often substitutes (liquidity)
+% \item purchase and sale influence the exchange rate
+% \end{itemize}
+% }
+% 
+% \frame{% how to print
+% \frametitle{Sterilization}
+% \textbf{Sterilization:}
+% If the central bank sells (buys) foreign bonds in the foreign exchange markets, it can buy (sell) domestic government bonds in bond markets: these operations can leave the amount of money in circulation unchanged.
+% }
+% 
+% \Section{Chapter 18. Fixed Exchange Rate}
+% 
+% \frame{% how to print
+% \frametitle{Fixed Exchange Rate (1)}
+% To fix the exchange rate, a central bank influences the quantities supplied and demanded of currency by trading domestic and foreign assets, so that the exchange rate (the price of foreign currency in terms of domestic currency) stays constant.
+% So the UIRP 
+% \begin{center}
+% $  R = R^{*}+ \frac{\left(E^{e} –-E\right)}{E}$
+% \end{center}
+% can be rewritten as
+% \begin{center}
+% $  R = R^{*}$
+% \end{center}
+% }
+% 
+% \frame{% how to print
+% \frametitle{Fixed Exchange Rate (2)}
+% To fix the exchange rate, the central bank must trade foreign and domestic assets in the foreign exchange market until 
+% \begin{center}
+% $R = R^{*}$
+% \end{center}
+% or 
+% \begin{center}
+% $\frac{M^{s}}{P}=L\left(R^{*}, Y\right)$
+% \end{center}
+% }
+% \Section{Chapter 18. Monetary and Fiscal Policies under Fixed Exchange Rates}
+% 
+% \frame{% how to print
+% \frametitle{Fixed Exchange Rate (3)}
+% Assumptions:
+% \begin{itemize}
+% \item fixed exchange rate $E_{t}=E_{0}$
+% \item if $Y\Uparrow\Rightarrow L\left(R, Y\right) \Uparrow$
+% \end{itemize}
+% In order to maintain fixed exchange rate, two strategies:
+% \begin{enumerate}
+% \item $M^{s}\Uparrow\Rightarrow R \Downarrow $
+% \item Central bank buys assets denominated in foreign currency and sells domestic currency, the price/value of foreign currency is increased and the price/value of domestic currency is decreased
+% \end{enumerate}
+% On the other hand, the central bank cannot control other variables (e.g., employment and output)
+% }
+% 
+% 
+% \frame[plain]{
+% \frametitle{Fig. 18-1 Asset Market Equilibrium with a Fixed Exchange Rate, $E_{0}$}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.90\textwidth]{one.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% \frame[plain]{
+% \frametitle{Fig. 18-2 Monetary Expansion Is Ineffective Under a Fixed Exchange Rate}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.90\textwidth]{two.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% 
+% \frame{% how to print
+% \frametitle{Fiscal Policy and Fixed Exchange Rates in the Short Run}
+% Temporary changes in fiscal policy are more effective in influencing output and employment in the short run:
+% \begin{center}
+% if $G \Uparrow$ (or $T \Downarrow$) $\Rightarrow D\Uparrow, Y\Uparrow \Rightarrow L\left(R, Y\right) \Uparrow \Rightarrow R \Uparrow \Rightarrow E \Downarrow$
+% \end{center}
+% In order to have $E_{t}=E_{0}$, central bank must buy foreign assets, thereby increasing the money supply and decreasing interest rates.
+% }
+% 
+% 
+% 
+% 
+% \frame[plain]{
+% \frametitle{Fig. 18-3: Fiscal Expansion Under a Fixed Exchange Rate}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.90\textwidth]{three.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% \frame{
+% \frametitle{Fiscal Policy and Fixed Exchange Rates in the Long Run}
+% \begin{itemize}
+% \item if $\frac{P^{*}}{P}\Downarrow \Rightarrow q \Downarrow \Rightarrow D\Downarrow , Y\Downarrow \Rightarrow$ DD curve shifts left
+% \item P tends to rise until employment, aggregate demand and output fall to their normal (potential or natural) levels. 
+% \end{itemize}
+% Central bank intervenes in the foreign exchange markets:
+% \begin{itemize}
+% \item AA curve shifts down (left) as prices rise
+% \item Nominal exchange rate is constant, the real one is lower.
+% \end{itemize}
+% }
+% 
+% \frame{
+% \frametitle{Devaluation \& Revaluation}
+% \begin{itemize}
+% \item \textbf{devaluation:} a unit of domestic currency is made less valuable, so that more units must be exchanged for 1 unit of foreign currency.
+% \item \textbf{revaluation:} a unit of domestic currency is made more valuable, so that fewer units need to be exchanged for 1 unit of foreign currency.
+% \end{itemize}
+% }
+% 
+% 
+% 
+% 
+% 
+% \frame[plain]{
+% \frametitle{Fig. 18-4: Effect of a Currency Devaluation}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.90\textwidth]{four.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% \Section{Chapter 18. Financial Crises and Capital Flight}
+% 
+% \frame{
+% \frametitle{Financial Crises and Capital Flight}
+% \textbf{Balance of payments crisis results:} a central bank does not have enough official international reserve assets to maintain a fixed exchange rate.
+% If investors may expect that the domestic currency will be devalued:
+% \begin{enumerate}
+% \item Domestic asset $\Downarrow$ and foreign asset $\Uparrow$
+% \item capital flight
+% \item central bank: $M^{s}\Downarrow \Rightarrow R\Uparrow$
+% \item $D \Downarrow, Y \Downarrow$ employment $\Downarrow$
+% \end{enumerate}
+% Expectations of devaluation can cause a devaluation: \textbf{self-fulfilling crisis}.
+% 
+% }
+% 
+% \frame[plain]{
+% \frametitle{Fig. 18-5: Capital Flight, the Money Supply, and the Interest Rate}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.90\textwidth]{five.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% \Section{Chapter 18. Interest Rate Differentials }
+% \frame{
+% \frametitle{Interest Rate Differentials}
+% We can consider two different types of risk:
+% \begin{enumerate}
+% \item \textbf{Default risk}
+% \item \textbf{Exchange rate risk}
+% \end{enumerate}
+% So the UIRP 
+% \begin{center}
+% $  R = R^{*}+ \frac{\left(E^{e} –-E\right)}{E}$
+% \end{center}
+% can be rewritten as
+% \begin{center}
+% $  R = R^{*}+ \frac{\left(E^{e} –-E\right)}{E}+\rho$
+% \end{center}
+% \begin{center}
+% $\Rightarrow$ foreign and domestic deposit are becoming imperfect substitutes 
+% \end{center}
+% The parameter $\rho$:
+% \begin{itemize}
+% \item is the risk premium
+% \item can be default or exchange risk
+% \end{itemize}
+% }
+% 
+% \frame[plain]{
+% \frametitle{Fig. 18-6: Effect of a Sterilized Central Bank Purchase of Foreign Assets Under Imperfect Asset Substitutability}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.90\textwidth]{imps.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% \frame{
+% \frametitle{When Exchange Rates Misbehave (1)}
+% \begin{itemize}
+% \item \textbf{Exchange rate crises} occur when a currency experiences a sudden decrease in value against another currency.
+% \begin{itemize}
+% \item Such crises are fairly common – 19 crises 1980-2002
+% \end{itemize}
+% \item Crises can have severe economic consequences.
+% \begin{itemize}
+% \item Government default
+% \item Financial and banking collapses
+% \item Severe contraction in output and decline in real wages
+% \end{itemize}
+% \item Politically embarrassing
+% \begin{itemize}
+% \item Countries experiencing crises often seek help from international development agencies, such as the International Monetary Fund (IMF).
+% \end{itemize}
+% \end{itemize}}
+% 
+% \frame[plain]{
+% \frametitle{When Exchange Rates Misbehave (2). Source: IMF, International Financial Statistics.
+% }
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.85\textwidth]{exratemis.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% \frame[plain]{
+% \frametitle{The Mexican Peso Crisis, 1994-–1995}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=1.00\textwidth]{seven.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% \frame[plain]{
+% \frametitle{Case Study: Argentina (2001)
+% }
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=0.85\textwidth]{argentina.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% \Section{Chapter 18. Types of Fixed Exchange Rate Systems}
+% \frame{
+% \frametitle{Types of Fixed Exchange Rate Systems}
+% \begin{enumerate}
+% \item\textbf{Reserve currency system:} one currency acts as official international reserves (Bretton Woods, 1944-1973)
+% \item \textbf{Gold standard:} gold acts as official international reserves that all countries use to make official international payments (1870-1914, 1918-1939)
+% \item \textbf{Gold exchange standard:} a system of official international reserves in both a group of currencies (with fixed prices of gold) and gold itself.
+% \item \textbf{Bimetallic standard:} the value of currency is based on both silver and gold.
+% \end{enumerate}
+% }
+% 
+% 
+% 
+% 
+% \Section{Chapter 19. The International Monetary System}
+% 
+% \frame{% how to print
+% \frametitle{}
+% \begin{center}
+% \textcolor{blue}{\Huge{\textbf{Chapter 18. The International Monetary System, 1870–-1973}}}
+% \end{center}
+% }
+% 
+% \Section{Chapter 19. Goals of macroeconomic policies}
+% \frame{
+% \frametitle{Goals of Macroeconomic Policies (1)}
+% \textbf{Internal balance}:
+% \begin{itemize}
+% \item Potential output
+% \item Price stability
+% \end{itemize}
+% \textbf{External balance}: "reasonable" current account
+% }
+% 
+% \frame{
+% \frametitle{Goals of Macroeconomic Policies (2)}
+% Suppose internal balance in the short run occurs when production at potential output or “full employment” equals aggregate demand:
+% \begin{center}
+% $Y_{f} = C\left(Y_{f} -– T\right) + I + G + CA\left(\frac{EP^{*}}{P}, Y_{f} -– T\right)$
+% \end{center}
+% An increase in government purchases (or a decrease in taxes) increases aggregate demand and output above its full employment level.
+% To restore internal balance in the short run, a revaluation (a fall in E) must occur
+% }
+% 
+% \frame{
+% \frametitle{Goals of Macroeconomic Policies (3)}
+% Suppose external balance in the short run occurs when the current account achieves some value X:
+% \begin{center}
+% $CA\left(\frac{EP^{*}}{P}, Y –- T\right) = X $
+% \end{center}
+% An increase in government purchases (or a decrease in taxes) increases aggregate demand, output and income, decreasing the current account.
+% To restore external balance in the short run, a devaluation (a rise in E) must occur.            
+% }
+% 
+% \frame[plain]{
+% \frametitle{Fig. 19-1: Fig. 19-1: The Policy Trilemma for Open Economies}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=1.00\textwidth]{trilemma.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% 
+% \frame[plain]{
+% \frametitle{Fig. 19-1: Internal Balance (II), External Balance (XX), and the "Four Zones of Economic Discomfort"}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=1.00\textwidth]{eight.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+% 
+% \frame[plain]{
+% \frametitle{Goals of Macroeconomic Policies (4)}
+% \begin{figure}
+% 	\centering
+% 		\includegraphics[width=1.00\textwidth]{nine.pdf}
+% 	\label{fig:11}
+% \end{figure}
+% }
+
+\end{document}
