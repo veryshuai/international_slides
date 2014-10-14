@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  13 OCT 2014 15:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  13 OCT 2014 17:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -742,7 +742,11 @@ Package pgf Warning: Missing width for image "logosmall" ("logo") in draft mode
 .
 (pgf)                Using 1cm instead on input line 30.
 
-(./fixed_exchange.aux)
+(./fixed_exchange.aux
+
+LaTeX Warning: Label `fig:11' multiply defined.
+
+)
 \openout1 = `fixed_exchange.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -939,171 +943,370 @@ LaTeX Font Warning: Font shape `T1/cmss/m/n' in size <4> not available
 
 ] [4
 
-] [5
-
-] [6
-
-] [7
-
-] [8
-
-] [9
-
-] [10
-
-] [11
-
-] [12
-
 ]
-<central_bank_balance.png, id=331, 1665.22125pt x 669.50125pt>
-File: central_bank_balance.png Graphic file (type png)
+<short_run_exchange.pdf, id=121, page=32, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-<use central_bank_balance.png>
-Package pdftex.def Info: central_bank_balance.png used on input line 200.
-(pdftex.def)             Requested size: 333.03835pt x 133.89787pt.
+<use short_run_exchange.pdf, page 32>
+Package pdftex.def Info: short_run_exchange.pdf, page32 used on input line 80.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [5
 
-Overfull \hbox (25.74847pt too wide) in paragraph at lines 200--200
-[][]  
- []
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=183, page=34, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-[13
+<use short_run_exchange.pdf, page 34>
+Package pdftex.def Info: short_run_exchange.pdf, page34 used on input line 81.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [6
 
- <./central_bank_balance.png>] [14
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=237, page=36, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-] [15
+<use short_run_exchange.pdf, page 36>
+Package pdftex.def Info: short_run_exchange.pdf, page36 used on input line 82.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [7
 
-] [16
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=300, page=40, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-] [17
+<use short_run_exchange.pdf, page 40>
+Package pdftex.def Info: short_run_exchange.pdf, page40 used on input line 83.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [8
 
-]
-<foreign_exchange_control.png, id=464, 759.83875pt x 967.615pt>
-File: foreign_exchange_control.png Graphic file (type png)
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=363, page=41, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-<use foreign_exchange_control.png>
-Package pdftex.def Info: foreign_exchange_control.png used on input line 264.
-(pdftex.def)             Requested size: 189.95921pt x 241.90315pt.
+<use short_run_exchange.pdf, page 41>
+Package pdftex.def Info: short_run_exchange.pdf, page41 used on input line 84.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [9
 
-Overfull \vbox (3.93129pt too high) detected at line 264
- []
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=420, page=45, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-[18
+<use short_run_exchange.pdf, page 45>
+Package pdftex.def Info: short_run_exchange.pdf, page45 used on input line 85.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [10
 
- <./foreign_exchange_control.png>] [19
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=452, page=46, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-]
-<ineffective_monetary.png, id=516, 821.0675pt x 800.9925pt>
-File: ineffective_monetary.png Graphic file (type png)
+<use short_run_exchange.pdf, page 46>
+Package pdftex.def Info: short_run_exchange.pdf, page46 used on input line 86.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [11
 
-<use ineffective_monetary.png>
-Package pdftex.def Info: ineffective_monetary.png used on input line 287.
-(pdftex.def)             Requested size: 205.26637pt x 200.24763pt.
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=503, page=48, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 48>
+Package pdftex.def Info: short_run_exchange.pdf, page48 used on input line 87.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [12
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=558, page=49, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 49>
+Package pdftex.def Info: short_run_exchange.pdf, page49 used on input line 88.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [13
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=590, page=50, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 50>
+Package pdftex.def Info: short_run_exchange.pdf, page50 used on input line 89.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [14
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=643, page=51, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 51>
+Package pdftex.def Info: short_run_exchange.pdf, page51 used on input line 90.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [15
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=673, page=52, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 52>
+Package pdftex.def Info: short_run_exchange.pdf, page52 used on input line 91.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [16
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=709, page=53, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 53>
+Package pdftex.def Info: short_run_exchange.pdf, page53 used on input line 92.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [17
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=739, page=54, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 54>
+Package pdftex.def Info: short_run_exchange.pdf, page54 used on input line 93.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [18
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=778, page=56, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 56>
+Package pdftex.def Info: short_run_exchange.pdf, page56 used on input line 94.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [19
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=810, page=58, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 58>
+Package pdftex.def Info: short_run_exchange.pdf, page58 used on input line 95.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [20
 
- <./ineffective_monetary.png>] [21
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=854, page=60, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-]
-<fiscal_expansion_fixed.png, id=567, 932.48375pt x 781.92125pt>
-File: fiscal_expansion_fixed.png Graphic file (type png)
+<use short_run_exchange.pdf, page 60>
+Package pdftex.def Info: short_run_exchange.pdf, page60 used on input line 96.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [21
 
-<use fiscal_expansion_fixed.png>
-Package pdftex.def Info: fiscal_expansion_fixed.png used on input line 306.
-(pdftex.def)             Requested size: 233.12036pt x 195.47983pt.
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=904, page=61, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 61>
+Package pdftex.def Info: short_run_exchange.pdf, page61 used on input line 97.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [22
 
- <./fiscal_expansion_fixed.png>] [23
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=935, page=62, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-]
-[24
+<use short_run_exchange.pdf, page 62>
+Package pdftex.def Info: short_run_exchange.pdf, page62 used on input line 98.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [23
 
-] [25
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=979, page=63, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-] [26
+<use short_run_exchange.pdf, page 63>
+Package pdftex.def Info: short_run_exchange.pdf, page63 used on input line 99.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [24
 
-] <devaluation.png, id=695, 850.17625pt x 774.895pt>
-File: devaluation.png Graphic file (type png)
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1009, page=64, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-<use devaluation.png>
-Package pdftex.def Info: devaluation.png used on input line 368.
-(pdftex.def)             Requested size: 212.54353pt x 193.72327pt.
+<use short_run_exchange.pdf, page 64>
+Package pdftex.def Info: short_run_exchange.pdf, page64 used on input line 100.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [25
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1055, page=65, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 65>
+Package pdftex.def Info: short_run_exchange.pdf, page65 used on input line 101.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [26
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1085, page=66, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 66>
+Package pdftex.def Info: short_run_exchange.pdf, page66 used on input line 102.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [27
 
- <./devaluation.png>] [28
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1115, page=69, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-] [29
+<use short_run_exchange.pdf, page 69>
+Package pdftex.def Info: short_run_exchange.pdf, page69 used on input line 103.
 
-]
-<money_supply_interest_attack.png, id=770, 723.70375pt x 934.49126pt>
-File: money_supply_interest_attack.png Graphic file (type png)
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [28
 
-<use money_supply_interest_attack.png>
-Package pdftex.def Info: money_supply_interest_attack.png used on input line 40
-6.
-(pdftex.def)             Requested size: 180.92549pt x 233.62224pt.
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1163, page=70, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 70>
+Package pdftex.def Info: short_run_exchange.pdf, page70 used on input line 104.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [29
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1199, page=73, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 73>
+Package pdftex.def Info: short_run_exchange.pdf, page73 used on input line 105.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [30
 
- <./money_supply_interest_attack.png>] [31
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1238, page=74, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-] [32
+<use short_run_exchange.pdf, page 74>
+Package pdftex.def Info: short_run_exchange.pdf, page74 used on input line 106.
 
-] <crises.png, id=848, 1099.10625pt x 768.8725pt>
-File: crises.png Graphic file (type png)
- <use crises.png>
-Package pdftex.def Info: crises.png used on input line 452.
-(pdftex.def)             Requested size: 274.77588pt x 192.21765pt.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [31
 
-[33
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1283, page=75, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
- <./crises.png>] <usdars.png, id=873, 1347.0325pt x 469.755pt>
-File: usdars.png Graphic file (type png)
+<use short_run_exchange.pdf, page 75>
+Package pdftex.def Info: short_run_exchange.pdf, page75 used on input line 107.
 
-<use usdars.png>
-Package pdftex.def Info: usdars.png used on input line 466.
-(pdftex.def)             Requested size: 323.2944pt x 112.7435pt.
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [32
 
-Overfull \hbox (16.00453pt too wide) in paragraph at lines 466--466
- [] 
- []
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1313, page=76, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-[34
+<use short_run_exchange.pdf, page 76>
+Package pdftex.def Info: short_run_exchange.pdf, page76 used on input line 108.
 
- <./usdars.png>] <swiss.png, id=899, 1249.66875pt x 756.8275pt>
-File: swiss.png Graphic file (type png)
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [33
 
-<use swiss.png>
-Package pdftex.def Info: swiss.png used on input line 474.
-(pdftex.def)             Requested size: 249.92932pt x 151.36281pt.
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1361, page=77, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 77>
+Package pdftex.def Info: short_run_exchange.pdf, page77 used on input line 109.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [34
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1391, page=78, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 78>
+Package pdftex.def Info: short_run_exchange.pdf, page78 used on input line 110.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
  [35
 
- <./swiss.png>] [36
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1429, page=79, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-] [37
+<use short_run_exchange.pdf, page 79>
+Package pdftex.def Info: short_run_exchange.pdf, page79 used on input line 111.
 
-] [38
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [36
 
-] [39
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1460, page=80, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
 
-] [40
+<use short_run_exchange.pdf, page 80>
+Package pdftex.def Info: short_run_exchange.pdf, page80 used on input line 112.
 
-] [41
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [37
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1499, page=81, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 81>
+Package pdftex.def Info: short_run_exchange.pdf, page81 used on input line 113.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [38
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1529, page=82, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 82>
+Package pdftex.def Info: short_run_exchange.pdf, page82 used on input line 114.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [39
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1571, page=85, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 85>
+Package pdftex.def Info: short_run_exchange.pdf, page85 used on input line 115.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [40
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1601, page=87, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 87>
+Package pdftex.def Info: short_run_exchange.pdf, page87 used on input line 116.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [41
+
+ <./short_run_exchange.pdf>]
+<short_run_exchange.pdf, id=1631, page=89, 364.19562pt x 273.14648pt>
+File: short_run_exchange.pdf Graphic file (type pdf)
+
+<use short_run_exchange.pdf, page 89>
+Package pdftex.def Info: short_run_exchange.pdf, page89 used on input line 117.
+
+(pdftex.def)             Requested size: 307.28987pt x 230.47095pt.
+ [42
+
+ <./short_run_exchange.pdf>] [43
 
 ]
-<steralized_exchange_rate.png, id=1077, 724.7075pt x 929.4725pt>
-File: steralized_exchange_rate.png Graphic file (type png)
-
-<use steralized_exchange_rate.png>
-Package pdftex.def Info: steralized_exchange_rate.png used on input line 575.
-(pdftex.def)             Requested size: 181.17642pt x 232.36755pt.
-
-Overfull \vbox (12.39569pt too high) detected at line 575
- []
-
-[42
-
- <./steralized_exchange_rate.png>] [43
-
-] [44
+[44
 
 ] [45
 
@@ -1115,6 +1318,199 @@ Overfull \vbox (12.39569pt too high) detected at line 575
 
 ] [49
 
+] [50
+
+]
+<central_bank_balance.png, id=1872, 1665.22125pt x 669.50125pt>
+File: central_bank_balance.png Graphic file (type png)
+
+<use central_bank_balance.png>
+Package pdftex.def Info: central_bank_balance.png used on input line 213.
+(pdftex.def)             Requested size: 333.03835pt x 133.89787pt.
+
+Overfull \hbox (25.74847pt too wide) in paragraph at lines 213--213
+[][]  
+ []
+
+[51
+
+ <./central_bank_balance.png>] [52
+
+] [53
+
+] [54
+
+] [55
+
+]
+<foreign_exchange_control.png, id=2003, 759.83875pt x 967.615pt>
+File: foreign_exchange_control.png Graphic file (type png)
+
+<use foreign_exchange_control.png>
+Package pdftex.def Info: foreign_exchange_control.png used on input line 277.
+(pdftex.def)             Requested size: 189.95921pt x 241.90315pt.
+
+Overfull \vbox (3.93129pt too high) detected at line 277
+ []
+
+[56
+
+ <./foreign_exchange_control.png>] [57
+
+]
+<ineffective_monetary.png, id=2054, 821.0675pt x 800.9925pt>
+File: ineffective_monetary.png Graphic file (type png)
+
+<use ineffective_monetary.png>
+Package pdftex.def Info: ineffective_monetary.png used on input line 300.
+(pdftex.def)             Requested size: 205.26637pt x 200.24763pt.
+ [58
+
+ <./ineffective_monetary.png>] [59
+
+]
+<fiscal_expansion_fixed.png, id=2104, 932.48375pt x 781.92125pt>
+File: fiscal_expansion_fixed.png Graphic file (type png)
+
+<use fiscal_expansion_fixed.png>
+Package pdftex.def Info: fiscal_expansion_fixed.png used on input line 319.
+(pdftex.def)             Requested size: 233.12036pt x 195.47983pt.
+ [60
+
+ <./fiscal_expansion_fixed.png>] [61
+
+]
+[62
+
+] [63
+
+] [64
+
+] <devaluation.png, id=2233, 850.17625pt x 774.895pt>
+File: devaluation.png Graphic file (type png)
+
+<use devaluation.png>
+Package pdftex.def Info: devaluation.png used on input line 381.
+(pdftex.def)             Requested size: 212.54353pt x 193.72327pt.
+ [65
+
+ <./devaluation.png>] [66
+
+] [67
+
+]
+<money_supply_interest_attack.png, id=2309, 723.70375pt x 934.49126pt>
+File: money_supply_interest_attack.png Graphic file (type png)
+
+<use money_supply_interest_attack.png>
+Package pdftex.def Info: money_supply_interest_attack.png used on input line 41
+9.
+(pdftex.def)             Requested size: 180.92549pt x 233.62224pt.
+ [68
+
+ <./money_supply_interest_attack.png>] [69
+
+] [70
+
+] <crises.png, id=2386, 1099.10625pt x 768.8725pt>
+File: crises.png Graphic file (type png)
+ <use crises.png>
+Package pdftex.def Info: crises.png used on input line 465.
+(pdftex.def)             Requested size: 274.77588pt x 192.21765pt.
+
+[71
+
+ <./crises.png>] <usdars.png, id=2411, 1347.0325pt x 469.755pt>
+File: usdars.png Graphic file (type png)
+
+<use usdars.png>
+Package pdftex.def Info: usdars.png used on input line 479.
+(pdftex.def)             Requested size: 323.2944pt x 112.7435pt.
+
+Overfull \hbox (16.00453pt too wide) in paragraph at lines 479--479
+ [] 
+ []
+
+[72
+
+ <./usdars.png>] <swiss.png, id=2437, 1249.66875pt x 756.8275pt>
+File: swiss.png Graphic file (type png)
+
+<use swiss.png>
+Package pdftex.def Info: swiss.png used on input line 487.
+(pdftex.def)             Requested size: 249.92932pt x 151.36281pt.
+ [73
+
+ <./swiss.png>] [74
+
+] [75
+
+] [76
+
+] [77
+
+] [78
+
+] [79
+
+]
+<steralized_exchange_rate.png, id=2616, 724.7075pt x 929.4725pt>
+File: steralized_exchange_rate.png Graphic file (type png)
+
+<use steralized_exchange_rate.png>
+Package pdftex.def Info: steralized_exchange_rate.png used on input line 588.
+(pdftex.def)             Requested size: 181.17642pt x 232.36755pt.
+
+Overfull \vbox (12.39569pt too high) detected at line 588
+ []
+
+[80
+
+ <./steralized_exchange_rate.png>] [81
+
+] [82
+
+] [83
+
+] [84
+
+] [85
+
+] [86
+
+] [87
+
+]
+[88
+
+] [89
+
+] <trilemma.png, id=2870, 1200.485pt x 934.49126pt>
+File: trilemma.png Graphic file (type png)
+ <use trilemma.png>
+Package pdftex.def Info: trilemma.png used on input line 721.
+(pdftex.def)             Requested size: 300.12051pt x 233.62224pt.
+
+[90
+
+ <./trilemma.png>]
+<economic_discomfort.png, id=2895, 1006.76125pt x 943.525pt>
+File: economic_discomfort.png Graphic file (type png)
+
+<use economic_discomfort.png>
+Package pdftex.def Info: economic_discomfort.png used on input line 730.
+(pdftex.def)             Requested size: 201.34868pt x 188.70164pt.
+pdfTeX warning (ext4): destination with the same identifier (name{fig:11}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.730 }
+        [91
+
+ <./economic_discomfort.png>] [92
+
+] [93
+
 ]
 \tf@nav=\write6
 \openout6 = `fixed_exchange.nav'.
@@ -1125,12 +1521,11 @@ Overfull \vbox (12.39569pt too high) detected at line 575
 \tf@snm=\write8
 \openout8 = `fixed_exchange.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 703.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 703.
-
-(./fixed_exchange.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 703.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 703.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 754.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 754.
+ (./fixed_exchange.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 754.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 754.
 Package rerunfilecheck Info: File `fixed_exchange.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1138,13 +1533,16 @@ Package rerunfilecheck Info: File `fixed_exchange.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 703.
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 754.
  ) 
 Here is how much of TeX's memory you used:
- 17785 strings out of 493304
- 317806 string characters out of 6139871
- 399580 words of memory out of 5000000
- 20711 multiletter control sequences out of 15000+600000
+ 17969 strings out of 493304
+ 322400 string characters out of 6139871
+ 399619 words of memory out of 5000000
+ 20844 multiletter control sequences out of 15000+600000
  29136 words of font info for 81 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,14n,53p,403b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1159,17 +1557,18 @@ ts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
 ols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi0600.pfb></usr/s
 hare/texmf/fonts/type1/public/cm-super/sfsi0800.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-fsi1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfss0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-ss1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/sha
-re/texmf/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1
-/public/cm-super/sfsx1095.pfb>
-Output written on fixed_exchange.pdf (49 pages, 1570471 bytes).
+e1/public/cm-super/sfsi1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
+fsi1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsi1440.pfb></usr/sh
+are/texmf/fonts/type1/public/cm-super/sfss0600.pfb></usr/share/texmf/fonts/type
+1/public/cm-super/sfss0800.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
+ss0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1000.pfb></usr/sha
+re/texmf/fonts/type1/public/cm-super/sfss1095.pfb></usr/share/texmf/fonts/type1
+/public/cm-super/sfss1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfs
+x1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1095.pfb>
+Output written on fixed_exchange.pdf (93 pages, 3802755 bytes).
 PDF statistics:
- 1368 PDF objects out of 1440 (max. 8388607)
- 1268 compressed objects within 13 object streams
- 91 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3057 PDF objects out of 3580 (max. 8388607)
+ 2838 compressed objects within 29 object streams
+ 139 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
